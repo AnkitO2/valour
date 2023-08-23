@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+}
+
+p {
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.icon {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.Web{
+    text-align: center;
+}
