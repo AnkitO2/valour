@@ -1,21 +1,26 @@
 import React from 'react'
 import './Footerbaar.css';
-import { Button, Row, Col, Card, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
+import {Row, Col, Card, CardBody, CardTitle, Container } from 'reactstrap';
 import { ArrowRight } from 'feather-icons-react/build/IconComponents';
 
 
 export const Footerbaar = () => {
     return (
-        <>
-            <Row className='bg-dark'>
+    
+        <Container fluid className='bg-dark'>
+            <Container>
+            <Row className='mt-3'>
                 <Col lg={3}>
-                    <h4 className='text-white d-flex justify-content-start mt-2'>Services</h4>
+                    <h4 className='text-white  d-flex justify-content-start mt-5'>Services</h4>
 
                     <div className='mt-5'>
-                        <div className='d-flex gap-3 d-flex justify-content-start'>
+                        <div className='text-center'>
+                        <div className='d-flex gap-3 '>
                             <ArrowRight className="icon" />
                             <p className=''>Web App Devlopment</p>
                         </div>
+                        </div>
+                       
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
                             <p className=''>Hosting</p>
@@ -23,152 +28,156 @@ export const Footerbaar = () => {
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start"'>Website Redesign</p>
+                            <p>Website Designing</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start"'>Web Devlopment</p>
+                            <p >Web Devlopment</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start"'>Website Designing</p>
+                            <p>Website Designing</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start"'>App Devlopment</p>
+                            <p>App Devlopment</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start"'>App Maintenance</p>
+                            <p>App Maintenance</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start"'>Digital Marketing</p>
+                            <p >Digital Marketing</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>E-Commerce Devlopment</p>
+                            <p>E-Commerce Devlopment</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>SEO</p>
+                            <p >SEO</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>SMO</p>
+                            <p>SMO</p>
                         </div>
 
 
                     </div>
                 </Col>
                 <Col lg={3}>
-                    < h4 className='text-white d-flex justify-content-start mt-2'>Solutions</h4>
+                    < h4 className='text-white  d-flex justify-content-start mt-5'>Solutions</h4>
                     <div className='mt-5'>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>News Portal Software</p>
+                            <p>News Portal Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Salon Management Software</p>
+                            <p >Salon Management Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Real State Software</p>
+                            <p>Real State Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Microfinance Software</p>
+                            <p>Microfinance Software</p>
                         </div>
                         <div className='d-flex  gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Accounting and Billing Software</p>
+                            <p>Accounting and Billing Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>ERP Software</p>
+                            <p>ERP Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Libray Management Software</p>
+                            <p>Libray Management Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>MLM Software</p>
+                            <p>MLM Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Crm Software</p>
+                            <p>Crm Software</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Parent Notification Software</p>
+                            <p>Parent Notification Software</p>
                         </div>
 
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>School Management Software </p>
+                            <p>School Management Software </p>
                         </div>
 
 
                     </div>
                 </Col>
                 <Col lg={3}>
-                    < h4 className='text-white d-flex justify-content-start mt-2'>Use Full Links</h4>
+                    < h4 className='text-white  d-flex justify-content-start mt-5'>Use Full Links</h4>
                     <div className='mt-5'>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
 
-                            <p className='d-flex justify-content-start'>Home</p>
+                            <p>Home</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>How We Work</p>
+                            <p>How We Work</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Technologies</p>
+                            <p>Technologies</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Portfolio</p>
+                            <p>Portfolio</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Career With Us</p>
+                            <p>Career With Us</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Blogs</p>
+                            <p>Blogs</p>
                         </div>
                         <div className='d-flex gap-3'>
                             <ArrowRight className="icon" />
-                            <p className='d-flex justify-content-start'>Free Quates</p>
+                            <p>Free Quates</p>
                         </div>
 
 
                     </div>
                 </Col>
                 <Col lg={3}>
-                    <h4 className='text-white d-flex justify-content-start mt-2'> Get in Touch with us</h4>
+                    <h4 className='text-white d-flex justify-content-start mt-5'> Get in Touch with us</h4>
                     <div className='mt-5'>
                         <Card
 
                         >
-                            <CardBody>
+                            <CardBody className='text-white bg-dark'>
                                 <CardTitle tag="p" className='d-flex justify-content-start'>
                                     Get in Touch with us
                                 </CardTitle>
                                 <h4 className='d-flex justify-content-start'>+91 9305963599</h4>
                                 <h4 className='d-flex justify-content-start'>+91 9335027149</h4>
-                                <h4 className='d-flex justify-content-start'>Email Id</h4>
-                                <h4 className='d-flex justify-content-start'>Linkdin</h4>
-                                <h4 className='d-flex justify-content-start'>Instagram</h4>
+                                <p className='d-flex justify-content-start'>emailvalour@rediffmal.com</p>
+                                <p className='d-flex justify-content-start'>2ankit9kumar@gmail.com</p>
+                                <p className='d-flex justify-content-start'>Free Consultation</p>
+                                <p className='d-flex justify-content-start'>Customer Rating</p>
+                                <p className='d-flex justify-content-start'>4.3/5 From Our Customers</p>
                             </CardBody>
                         </Card>
                     </div>
                 </Col>
             </Row>
-        </>
+            </Container>
+            </Container>
+    
     );
 }

@@ -13,7 +13,11 @@ p {
     background-color: whitesmoke;
     border-radius: 50%;
     font-weight: bold;
+    
 }
 .Web{
+    text-align: center;
+}
+.a{
     text-align: center;
 }
