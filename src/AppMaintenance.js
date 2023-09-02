@@ -1,12 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { CardBody, CardText, CardTitle } from "reactstrap";
 
 function AppMaintenance() {
     return (
         <Container>
             <Row>
                 <Col>
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:1024/h:575/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/app-maintenance-company-lucknow-orbish-infotech.png" alt="Error" />
+                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:600/h:575/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/app-maintenance-company-lucknow-orbish-infotech.png" alt="Error" />
                 </Col>
                 <Col>
                     <h2>
@@ -33,6 +34,50 @@ function AppMaintenance() {
                         them quickly and efficiently. This allows your users to have a seamless experience with
                         your app and reduces the chances of negative reviews and feedback.
                     </p>
+                </Col>
+            </Row>
+            <Row>
+                <h2>
+                    Orbish Infotech is a reliable app maintenance company that offers
+                    comprehensive app maintenance services to ensure the performance and
+                    stability of your mobile and web applications. Contact us to learn how we
+                    can help you with your app maintenance needs.
+                </h2>
+            </Row>
+            <Row>
+                <Col>
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h5">
+                                Bug Fixing
+                            </CardTitle>
+                            <CardText>
+                                Our team of experts uses advanced tools and techniques to identify and resolve any bugs in your application. This helps to ensure that your users have a seamless experience with your app.
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h5">
+                                Code Optimization
+                            </CardTitle>
+                            <CardText>
+                                We  identify areas that can be optimized for better performance and speed. This is particularly important for apps that have high traffic and require fast loading times.
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h5">Security Updates</CardTitle>
+                            <CardText>
+                                Our valour Infotech security experts identify and fix any potential security vulnerabilities to ensure that your app is secure and protected from potential threats.
+                            </CardText>
+                        </CardBody>
+                    </Card>
                 </Col>
             </Row>
         </Container>
