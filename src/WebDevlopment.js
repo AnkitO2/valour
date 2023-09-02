@@ -1,17 +1,17 @@
 import React from 'react'
-import { Col, Row, Button, Card, CardBody, CardTitle, CardText } from 'reactstrap'
+import { Col, Row, Button, Card, CardBody, CardTitle, CardText, Container } from 'reactstrap'
 
 export const WebDevlopment = () => {
     return (
-        <>
+        <Container>
             <Row>
                 <Col>
-                    <h6>
+                    <h2 className='text-center mt-3'>
                         We are a leading Best Web
                         Development Company in Lucknow
                         or best Website Development
                         Companies
-                    </h6>
+                    </h2>
                     <p>
                         valour Infotech is the best web development company in Lucknow, dedicated to
                         providing its clients with state-of-the-art website designing and development
@@ -30,18 +30,18 @@ export const WebDevlopment = () => {
                         your specific requirements at affordable cost.
                     </p>
                 </Col>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:458/h:357/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-company-in-lucknow.png' />
+                <Col className="mt-3 d-flex justify-content-center">
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:458/h:357/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-company-in-lucknow.png' alt='Error' />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:614/h:357/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknow-1.png' />
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:614/h:357/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknow-1.png' alt='Error' />
                 </Col>
                 <Col>
-                    <h6>Offering top-notch services for Website
+                    <h2 className='mt-5'>Offering top-notch services for Website
                         Development in Lucknow
-                    </h6>
+                    </h2>
                     <p>With a wealth of experience and expertise in the realm of web development, we
                         provide our clients with services that are both results-driven and feature-rich. In
                         today’s day and age, a proficient website is an absolute necessity for garnering
@@ -53,30 +53,30 @@ export const WebDevlopment = () => {
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <h6>
+            <Row className="bg-primary p-5">
+                <Col className="">
+                    <h2>
                         We have a ability to deliver projects on time and within budget and provide best web development
                         services in Lucknow. If you are looking for a reliable and professional web development company,
                         look no further than valour Infotech. Contact Now to know more about our software services and
                         how we can help take your business to the next level.
-                    </h6>
+                    </h2>
                     <Button
-                        color="primary"
+                        color="dark"
                         tag="input"
                         type="Enquire Now"
                         value="Submit"
                     />
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:438/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Website-development-orbish-infotech.png' />
+            <Row className="m-5 p-5">
+                <Col >
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:438/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Website-development-orbish-infotech.png' alt='Error' />
                 </Col>
-                <Col>
-                    <h6>Our Experience As A Web Development
+                <Col className="">
+                    <h2>Our Experience As A Web Development
                         Company In Lucknow.
-                    </h6>
+                    </h2>
                     <p>
                         We make websites for people who want to grow their business. Our team of experts in
                         Lucknow can make all kinds of websites. We love making special websites just for you!
@@ -93,9 +93,7 @@ export const WebDevlopment = () => {
             </Row>
             <Row>
                 <Col>
-                    <Card style={{
-                        width: '18rem'
-                    }}>
+                    <Card >
                         <CardBody>
                             <CardTitle>
                                 Custom web development
@@ -246,12 +244,12 @@ export const WebDevlopment = () => {
                     </p>
                 </Col>
                 <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:451/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/custom-web-design-company-websites.png' />
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:451/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/custom-web-design-company-websites.png' alt='Error' />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:470/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development.png' />
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:470/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development.png' alt='Error' />
                 </Col>
                 <Col>
                     <h6>Specialization</h6>
@@ -296,9 +294,9 @@ export const WebDevlopment = () => {
                     </ul>
                 </Col>
                 <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:411/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknowIndia.png' />
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:411/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknowIndia.png' alt='Error' />
                 </Col>
             </Row>
-        </>
+        </Container>
     );
 }

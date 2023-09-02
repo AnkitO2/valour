@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button, Card, CardBody, CardText, CardTitle, Col, Row } from 'reactstrap'
+import { Button, Card, CardBody, CardText, CardTitle, Col, Container, Row } from 'reactstrap'
 
-export const WebsiteDesigning = () => {
+function WebsiteDesigning (){
     return (
-        <>
+        <Container>
             <Row>
                 <Col>
                     <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:873/h:563/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-website-designing-company-in-lucknow-orbish-infotech.png' />
@@ -110,6 +110,7 @@ export const WebsiteDesigning = () => {
                     for your website design services in Lucknow. Let us help you establish a strong online presence with our unmatched web design services in Lucknow.
                 </p>
             </Row>
-        </>
+            </Container>
     );
 }
+export default WebsiteDesigning;

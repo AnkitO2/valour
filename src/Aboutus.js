@@ -42,7 +42,7 @@ const Aboutus = () => {
           <p>valour Infotech is a software company based in Lucknow, Uttar Pradesh,
             specializing in providing a wide range of software solutions to cater to
             diverse business needs. With a focus on delivering high-quality and
-            innovative software products, Orbish Infotech offers  solutions for software
+            innovative software products,valour Infotech offers  solutions for software
             development, Website designing, Web Development, App Development,
             Graphic Designing & Digital Marketing.
           </p>
@@ -86,12 +86,12 @@ const Aboutus = () => {
       <Row>
         <Col>
           <h3>Our Vission</h3>
-          <p>At Orbish Infotech, our vision is to become a global leader in software
+          <p>At valour Infotech, our vision is to become a global leader in software
             development, known for our exceptional quality of work, commitment to
             our clients, and innovative solutions that help businesses thrive.
           </p>
           <p>
-            Orbish Infotech believes in utilising the latest technologies and tools to
+            valour Infotech believes in utilising the latest technologies and tools to
             create customised software solutions that are reliable, secure, and
             scalable.
           </p>
@@ -112,7 +112,7 @@ const Aboutus = () => {
         </Col>
         <Col>
           <h1>Our Values</h1>
-          <p>Orbish Infotech Lucknow believes that our core values guide our
+          <p>Valour Infotech Lucknow believes that our core values guide our
             behaviour, decisions, and interactions with our clients and team
             members.
 
