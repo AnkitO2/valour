@@ -300,5 +300,5 @@ export const WebDevlopment = () => {
                 </Col>
             </Row>
         </>
-    )
+    );
 }

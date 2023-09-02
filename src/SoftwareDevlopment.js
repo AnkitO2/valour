@@ -179,5 +179,5 @@ export const SoftwareDevlopment = () => {
                 </p>
             </Row>
         </>
-    )
+    );
 }

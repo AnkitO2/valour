@@ -111,5 +111,5 @@ export const WebsiteDesigning = () => {
                 </p>
             </Row>
         </>
-    )
+    );
 }
