@@ -17,7 +17,9 @@ import './App.css'
 //import Seo from './Seo';
 //import Smo from './Smo';
 //import AccountingAndBilling from './Solutions/AccontingAndBilling';
-import MlmSoftware from './Solutions/MlmSoftware';
+//import MlmSoftware from './Solutions/MlmSoftware';
+//import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
+import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
 function App() {
 
     return (
@@ -38,9 +40,10 @@ function App() {
         <DigitalMarketing/>
         <Seo/>
         <Smo/>
-        <AccountingAndBilling/>*/}
+        <AccountingAndBilling/>
         <MlmSoftware/>
-
+     <MicrofinanceSoftware/>*/}
+    <EcommerseSoftwareSolution/>
         </div>
 
     );
