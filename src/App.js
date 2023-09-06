@@ -11,7 +11,9 @@ import './App.css'
 //import Webhosting from './Webhosting';
 //import WebAppDevlopment from './WebAppDevlopment';
 //import SoftwareTesting from './SoftwareTesting';
-import AppMaintenance from './AppMaintenance';
+//import AppMaintenance from './AppMaintenance';
+//import Ecommerse from './Ecommerse';
+import DigitalMarketing from './DigitalMarketing';
 function App() {
 
     return (
@@ -26,8 +28,10 @@ function App() {
                <WebsiteRedesign/>
                <Webhosting/>        
             <WebAppDevlopment />
-          <SoftwareTesting/>*/}
+          <SoftwareTesting/>
           <AppMaintenance/>
+        <Ecommerse/>*/}
+        <DigitalMarketing/>
         </div>
 
     );

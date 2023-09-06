@@ -1,6 +1,5 @@
-import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import { CardBody, CardText, CardTitle } from "reactstrap";
+import React from "react"
+import { Container, Row, Col, Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function AppMaintenance() {
     return (
@@ -75,6 +74,46 @@ function AppMaintenance() {
                             <CardTitle tag="h5">Security Updates</CardTitle>
                             <CardText>
                                 Our valour Infotech security experts identify and fix any potential security vulnerabilities to ensure that your app is secure and protected from potential threats.
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h5">
+                                Performance Tuning
+                            </CardTitle>
+                            <CardText>
+                                We continually monitor your app’s performance to identify any issues and optimize its performance to meet your business requirements.
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <CardBody>
+                            <CardTitle>
+                                Compatibility Testing
+                            </CardTitle>
+                            <CardText>
+                                We ensure that your app is compatible with the latest devices and operating systems to ensure that it continues to function smoothly.
+
+
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <CardBody>
+                            <CardTitle>
+                                Technical Support
+                            </CardTitle>
+                            <CardText>
+                                Our support team is always available to provide you with technical assistance and resolve any issues that you may encounter with your app.
                             </CardText>
                         </CardBody>
                     </Card>
