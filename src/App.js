@@ -13,7 +13,11 @@ import './App.css'
 //import SoftwareTesting from './SoftwareTesting';
 //import AppMaintenance from './AppMaintenance';
 //import Ecommerse from './Ecommerse';
-import DigitalMarketing from './DigitalMarketing';
+//import DigitalMarketing from './DigitalMarketing';
+//import Seo from './Seo';
+//import Smo from './Smo';
+//import AccountingAndBilling from './Solutions/AccontingAndBilling';
+import MlmSoftware from './Solutions/MlmSoftware';
 function App() {
 
     return (
@@ -30,8 +34,13 @@ function App() {
             <WebAppDevlopment />
           <SoftwareTesting/>
           <AppMaintenance/>
-        <Ecommerse/>*/}
+        <Ecommerse/>
         <DigitalMarketing/>
+        <Seo/>
+        <Smo/>
+        <AccountingAndBilling/>*/}
+        <MlmSoftware/>
+
         </div>
 
     );
