@@ -5,7 +5,7 @@ const Aboutus = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col lg={6}>
           <h2>About Ou - Valour Infotech</h2>
           <p>
             Valour Infotech is a software company founded in 2023 in Lucknow,

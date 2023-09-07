@@ -3,7 +3,7 @@ import './App.css'
 //import { Headerofvalour } from './Navbaar/Headerofvalour';
 //import { Scrollbaar } from './Home/Scrollbaar';
 //import { Footerbaar } from './Footer/Footerbaar';
-//import Aboutus from './About/Aboutus';
+import Aboutus from './About/Aboutus';
 //import Aboutwork from './About/Aboutwork';
 //import { WebDevlopment } from './Services/WebDevlopment';
 //import SoftwareDevlopment from './Services/SoftwareDevlopment';
@@ -33,7 +33,7 @@ function App() {
               <Aboutwork/>
               <Scrollbaar/>
               <Footerbaar/>
-              <Aboutus/> 
+              
               <WebDevlopment />
               <SoftwareDevlopment
               <WebsiteDesigning/>
@@ -54,7 +54,7 @@ function App() {
               <NewsPortalDevlopment/>
               <RealStateSoftware/>
               <Technologies/>*/}
-
+              <Aboutus/> 
     </div>
 
   );
