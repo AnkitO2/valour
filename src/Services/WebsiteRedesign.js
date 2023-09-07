@@ -6,7 +6,7 @@ function WebsiteRedesign() {
         <Container>
             <Row>
                 <Col className="d-flex justify-content-center">
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:878/h:576/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/website-redesign-company-orbish-infotech.png" alt="Error" />
+                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:576/h:576/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/website-redesign-company-orbish-infotech.png" alt="Error" />
                 </Col>
                 <Col>
                     <h2>

@@ -29,13 +29,13 @@ const Aboutus = () => {
         </Col>
         <Col>
           <div>
-            <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/how-orbish-infotech-work-software-field.webp' />
+            <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/how-orbish-infotech-work-software-field.webp' alt='Error' />
           </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:466/h:356/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/1-software-working-process.webp' />
+          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:466/h:356/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/1-software-working-process.webp' alt='Error' />
         </Col>
         <Col>
           <h1>#About Valour Infotech </h1>
@@ -57,7 +57,7 @@ const Aboutus = () => {
       </Row>
       <Row>
         <Col>
-          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:303/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-mission.webp' />
+          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:303/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-mission.webp' alt='Error' />
         </Col>
         <Col>
           <h1>Our Mission</h1>
@@ -103,12 +103,12 @@ const Aboutus = () => {
           </p>
         </Col>
         <Col>
-          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:370/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-vision.webp' />
+          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:370/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-vision.webp' alt='Error' />
         </Col>
       </Row>
       <Row>
         <Col>
-          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:331/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-values.png' />
+          <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:331/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-values.png' alt='Error' />
         </Col>
         <Col>
           <h1>Our Values</h1>

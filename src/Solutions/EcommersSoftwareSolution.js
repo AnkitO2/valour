@@ -35,7 +35,7 @@ function EcommerseSoftwareSolution() {
                         </p>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Col>
                         <Card>
                             <CardBody>
@@ -95,7 +95,10 @@ function EcommerseSoftwareSolution() {
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5"></CardTitle>
-                                <CardText></CardText>
+                                <CardText>
+                                User-friendly interfaces for easy navigation & smooth processing.
+
+                                </CardText>
                             </CardBody>
                         </Card>
                     </Col>
@@ -103,7 +106,96 @@ function EcommerseSoftwareSolution() {
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5"></CardTitle>
-                                <CardText></CardText>
+                                <CardText>
+                                Security features to protect your customers' data
+
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row> */}
+                <Row>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">Customized online store</CardTitle>
+                                <CardText>
+                                    With Orbish Infotech’s top ecommerce software solutions, you can create a customized online store that reflects your brand and values.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">SEO optimization</CardTitle>
+                                <CardText>
+                                    Orbish Infotech’s Ecommerce Development Company are designed with SEO in mind, helping your business rank higher in search engine results pages (SERPs)
+                                </CardText>
+                            </CardBody>
+                        </Card></Col>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">
+                                    Payment gateway integration
+                                </CardTitle>
+                                <CardText>
+                                    Best Ecommerce Website development company in Lucknow allow you to accept payments from a variety of payment gateways.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">Inventory management</CardTitle>
+                                <CardText>
+                                    Orbish Infotech’s Top Ecommerce Software Solutions, you can easily manage your inventory, orders, and customer data from a single platform.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">Shipping and logistics integration</CardTitle>
+                                <CardText>
+                                    Top 10 ecommerce software solutions  in Lucknow integrate with popular shipping and logistics providers, making it easy for you to manage your shipping
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">Mobile responsive design</CardTitle>
+                                <CardText>
+                                    Orbish Infotech’s ecommerce software solutions are designed with a mobile responsive design, ensuring that your online store is accessible and user-friendly on any device.
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">Multi-currency support</CardTitle>
+                                <CardText>
+                                    Orbish Infotech’s ecommerce software solutions support multiple currencies, making it easy for you to sell your products and services to customers around the world.
+
+
+                                </CardText>
+                            </CardBody>
+                        </Card></Col>
+                    <Col>
+                        <Card>
+                            <CardBody>
+                                <CardTitle tag="h5">Analytics and reporting</CardTitle>
+                                <CardText>
+                                    Orbish Infotech’s ecommerce software solutions come with analytics and reporting features, allowing you to track your sales, revenue, and customer behavior.
+                                </CardText>
                             </CardBody>
                         </Card>
                     </Col>

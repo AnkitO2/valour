@@ -1,12 +1,12 @@
 import React from 'react'
 import { Button, Card, CardBody, CardText, CardTitle, Col, Container, Row } from 'reactstrap'
 
-function WebsiteDesigning (){
+function WebsiteDesigning() {
     return (
         <Container>
             <Row>
                 <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:873/h:563/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-website-designing-company-in-lucknow-orbish-infotech.png' />
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:873/h:563/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-website-designing-company-in-lucknow-orbish-infotech.png' alt='Error' />
                 </Col>
                 <Col>
                     <h6>Best Web Designing Company in Lucknow</h6>
@@ -110,7 +110,7 @@ function WebsiteDesigning (){
                     for your website design services in Lucknow. Let us help you establish a strong online presence with our unmatched web design services in Lucknow.
                 </p>
             </Row>
-            </Container>
+        </Container>
     );
 }
 export default WebsiteDesigning;

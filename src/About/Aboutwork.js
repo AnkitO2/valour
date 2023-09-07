@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col, Card, CardBody, CardTitle, CardText, } from 'reactstrap'
 
-export const Aboutwork = () => {
+function Aboutwork() {
     return (
         <>
             <Row>
@@ -24,7 +24,7 @@ export const Aboutwork = () => {
                     <p>Our process features include the following points :</p>
                 </Col>
                 <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:768/h:565/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/work-process.webp' />
+                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:600/h:600/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/work-process.webp' alt='Error' />
                 </Col>
             </Row>
             <Row>
@@ -95,3 +95,4 @@ export const Aboutwork = () => {
         </>
     )
 }
+export default Aboutwork;
