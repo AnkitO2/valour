@@ -1,0 +1,15 @@
+
+p{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+h2{
+    font-weight: bold;
+}
+h5{
+    font-weight: bold;
+}
+.Image-Container{
+    display: flex;
+    justify-content: center;
+}

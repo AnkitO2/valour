@@ -3,8 +3,8 @@ import './App.css'
 //import { Headerofvalour } from './Navbaar/Headerofvalour';
 //import { Scrollbaar } from './Home/Scrollbaar';
 //import { Footerbaar } from './Footer/Footerbaar';
-import Aboutus from './About/Aboutus';
-//import Aboutwork from './About/Aboutwork';
+//import Aboutus from './About/Aboutus';
+import Aboutwork from './About/Aboutwork';
 //import { WebDevlopment } from './Services/WebDevlopment';
 //import SoftwareDevlopment from './Services/SoftwareDevlopment';
 //import WebsiteDesigning from './Services/WebsiteDesigning';
@@ -30,10 +30,10 @@ function App() {
   return (
     <div class='App'>
       {/* <Headerofvalour />
-              <Aboutwork/>
               <Scrollbaar/>
               <Footerbaar/>
-              
+              <Aboutus/>       
+
               <WebDevlopment />
               <SoftwareDevlopment
               <WebsiteDesigning/>
@@ -54,7 +54,7 @@ function App() {
               <NewsPortalDevlopment/>
               <RealStateSoftware/>
               <Technologies/>*/}
-              <Aboutus/> 
+              <Aboutwork/>       
     </div>
 
   );
