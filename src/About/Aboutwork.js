@@ -8,7 +8,7 @@ function Aboutwork() {
             <div className='mt-5'>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col lg={6} md={12} sm={12}>
                             <h4>Work Process or How we work</h4>
                             <p>Orbish Infotech is a software company that specialises in developing
                                 custom software solutions for businesses of all sizes. Our software
@@ -26,7 +26,7 @@ function Aboutwork() {
                             </p>
                             <p>Our process features include the following points :</p>
                         </Col>
-                        <Col>
+                        <Col lg={6} md={12} sm={12}>
                             <div className='d-flex justify-content-center'>
                                 <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:600/h:600/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/work-process.webp' alt='Error' />
                             </div>
@@ -34,14 +34,14 @@ function Aboutwork() {
                     </Row>
 
                     <Row className='mt-5'>
-                        <Col>
+                        <Col lg={3} md={6} sm={12}>
                             <Card
                                 style={{
-                                    width: '18rem'
+
                                 }}
                             >
                                 <div className='d-flex justify-content-center '>
-                                    <Monitor size="50" color="red" />
+                                    <Monitor size="50" color="green" />
                                 </div>
 
                                 <CardBody className='text-center'>
@@ -56,12 +56,12 @@ function Aboutwork() {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col lg={3} md={6} sm={12}>
                             <Card style={{
-                                width: '18rem'
+
                             }}>
                                 <div className='d-flex justify-content-center p-3'>
-                                    <Search size="50" color="red" />
+                                    <Search size="50" color="green" />
                                 </div>
 
                                 <CardBody className='text-center'>
@@ -74,12 +74,12 @@ function Aboutwork() {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col lg={3} md={6} sm={12}>
                             <Card style={{
-                                width: '18rem'
+
                             }} >
                                 <div className='d-flex justify-content-center p-3'>
-                                    <Grid  size="50" color="red"/>
+                                    <Grid size="50" color="green" />
 
                                 </div>
                                 <CardBody className='text-center'>
@@ -93,12 +93,12 @@ function Aboutwork() {
 
                             </Card>
                         </Col>
-                        <Col>
+                        <Col lg={3} md={6} sm={12}>
                             <Card style={{
-                                width: '18rem'
+
                             }}>
                                 <div className='d-flex justify-content-center p-3'>
-                                    <Smartphone size="50" color="red" />
+                                    <Smartphone size="50" color="green" />
                                 </div>
                                 <CardBody className='text-center'>
                                     <CardTitle tag="h5">

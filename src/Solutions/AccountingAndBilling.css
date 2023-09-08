@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-weight:bold ;
+    font-family: sans-serif;
+}
+.Card-Container{
+    border: 20px;
+}
+.Images{
+    width: 1000px;
+}
+.Card-Color{
+    padding: 50px;
+    
+}

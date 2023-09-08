@@ -4,7 +4,7 @@ import './App.css'
 //import { Scrollbaar } from './Home/Scrollbaar';
 //import { Footerbaar } from './Footer/Footerbaar';
 //import Aboutus from './About/Aboutus';
-import Aboutwork from './About/Aboutwork';
+//import Aboutwork from './About/Aboutwork';
 //import { WebDevlopment } from './Services/WebDevlopment';
 //import SoftwareDevlopment from './Services/SoftwareDevlopment';
 //import WebsiteDesigning from './Services/WebsiteDesigning';
@@ -18,7 +18,7 @@ import Aboutwork from './About/Aboutwork';
 //import DigitalMarketing from './Services/DigitalMarketing';
 //import Seo from './Services/Seo';
 //import Smo from './Services/Smo';
-//import AccountingAndBilling from './Solutions/AccontingAndBilling';
+import AccountingAndBilling from './Solutions/AccontingAndBilling';
 //import MlmSoftware from './Solutions/MlmSoftware';
 //import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
 //import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
@@ -33,7 +33,7 @@ function App() {
               <Scrollbaar/>
               <Footerbaar/>
               <Aboutus/>       
-
+              <Aboutwork/>  
               <WebDevlopment />
               <SoftwareDevlopment
               <WebsiteDesigning/>
@@ -54,7 +54,8 @@ function App() {
               <NewsPortalDevlopment/>
               <RealStateSoftware/>
               <Technologies/>*/}
-              <Aboutwork/>       
+                         
+
     </div>
 
   );

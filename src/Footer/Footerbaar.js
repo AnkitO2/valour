@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footerbaar.css";
-import { Row, Col, Container } from "reactstrap";
-import { ArrowRight } from "feather-icons-react/build/IconComponents";
+import { Row, Col, Container, Card, CardBody, CardTitle, CardText } from "reactstrap";
+import { ArrowRight, Mail } from "feather-icons-react/build/IconComponents";
 
 export const Footerbaar = () => {
   return (
     <Container fluid className="bg-dark">
       <Container>
         <Row className="mt-3">
-          <Col lg={3}>
+          <Col lg={3} md={6} sm={12}>
             <h4 className="text-white  d-flex justify-content-start mt-5">
               Services
             </h4>
@@ -63,7 +63,7 @@ export const Footerbaar = () => {
               </div>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={3} md={6} sm={12}>
             <h4 className="text-white  d-flex justify-content-start mt-5">
               Solutions
             </h4>
@@ -115,7 +115,7 @@ export const Footerbaar = () => {
               </div>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={3} md={6} sm={12}>
             <h4 className="text-white  d-flex justify-content-start mt-5">
               Use Full Links
             </h4>
@@ -150,6 +150,31 @@ export const Footerbaar = () => {
                 <p>Free Quates</p>
               </div>
             </div>
+          </Col>
+          <Col lg={3} md={6} sm={12}>
+            <h4 className="text-white  d-flex justify-content-start mt-5">
+              Get in touch with us
+            </h4>
+            <Card className="bg-dark text-white mt-5">
+              <CardBody>
+                <CardTitle>
+                  Get in touch with us
+                </CardTitle>
+                <CardText>
+                  <h3>+91-6307362799</h3>
+                  <h3>+91-9305963599</h3>
+                  <h3>+91-9335027149</h3>
+                  <div className="d-flex">
+                    <Mail />
+                    emailvalour@rediffmail.com
+                  </div>
+                  <pre>
+                    Free Consultation
+                  </pre>
+                  <pre>Customers Rating</pre>
+                </CardText>
+              </CardBody>
+            </Card>
           </Col>
         </Row>
       </Container>

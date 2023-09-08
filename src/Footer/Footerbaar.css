@@ -5,7 +5,7 @@
 p {
     font-size: medium;
     font-weight: bold;
-    color: aliceblue;
+    color: rgb(136, 132, 132);
 }
 
 .icon {
@@ -20,4 +20,7 @@ p {
 }
 .a{
     text-align: center;
+}
+p:hover{
+    color:whitesmoke;
 }
