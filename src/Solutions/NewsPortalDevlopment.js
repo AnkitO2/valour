@@ -5,14 +5,14 @@ function NewsPortalDevlopment() {
     return (
         <>
             <Container>
-                <Row>
-                    <Col>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
                         <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/News-portal-development-company-in-lucknow.jpg" alt="Error" />
                     </Col>
 
-                    <Col>
-                        <h2>News Portal Development Company Lucknow or</h2>
-                        <h2>News Portal Development Companies Lucknow. </h2>
+                    <Col lg={6} md={6} sm={12} >
+                        <h2 className="fw-bold">News Portal Development Company Lucknow or
+                        News Portal Development Companies Lucknow. </h2>
                         <p>
                             Are you looking to establish a strong online presence for your news
                             organization? Look no further! Our news portal development services are
@@ -37,9 +37,9 @@ function NewsPortalDevlopment() {
                         </p>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <h2>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold">
                             Why Orbish Infotech as a Best Custom software
                             development
                         </h2>
@@ -62,12 +62,15 @@ function NewsPortalDevlopment() {
                             experience.
                         </p>
                     </Col>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:512/h:360/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Custom-software-development-services-in-lucknow.png" alt="" />
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Custom-software-development-services-in-lucknow.png" alt="" />
+
+                        </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="mt-5">
+                    <Col lg={4} md={6} sm={12}>
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5">Custom software solutions</CardTitle>
@@ -77,7 +80,7 @@ function NewsPortalDevlopment() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={6} sm={12}>
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5">
@@ -89,7 +92,7 @@ function NewsPortalDevlopment() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={6} sm={12}>
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5">
@@ -103,8 +106,8 @@ function NewsPortalDevlopment() {
                     </Col>
 
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="mt-5">
+                    <Col lg={4} md={6} sm={12}>
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5">Mobile application development</CardTitle>
@@ -115,7 +118,7 @@ function NewsPortalDevlopment() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={6} sm={12}>
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5">
@@ -127,7 +130,7 @@ function NewsPortalDevlopment() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={6} sm={12}>
                         <Card>
                             <CardBody>
                                 <CardTitle tag="h5">

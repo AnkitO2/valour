@@ -21,8 +21,8 @@ import './App.css'
 //import AccountingAndBilling from './Solutions/AccontingAndBilling';
 //import MlmSoftware from './Solutions/MlmSoftware';
 //import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
-import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
-//import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
+//import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
+import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 //import RealStateSoftware from './Solutions/RealStateSoftware';
 //import Technologies from './Resources/Technologies';
 function App() {
@@ -50,13 +50,12 @@ function App() {
               <AccountingAndBilling/>
                <MlmSoftware/> 
               <MicrofinanceSoftware/>
-
-              <NewsPortalDevlopment/>
+              <EcommerseSoftwareSolution/>
+             
               <RealStateSoftware/>
               <Technologies/>*/}
         
-        <EcommerseSoftwareSolution/>
-
+        <NewsPortalDevlopment/>
     </div>
 
   );
