@@ -18,10 +18,10 @@ import './App.css'
 //import DigitalMarketing from './Services/DigitalMarketing';
 //import Seo from './Services/Seo';
 //import Smo from './Services/Smo';
-import AccountingAndBilling from './Solutions/AccontingAndBilling';
+//import AccountingAndBilling from './Solutions/AccontingAndBilling';
 //import MlmSoftware from './Solutions/MlmSoftware';
 //import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
-//import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
+import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
 //import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 //import RealStateSoftware from './Solutions/RealStateSoftware';
 //import Technologies from './Resources/Technologies';
@@ -48,13 +48,14 @@ function App() {
               <Seo/>
               <Smo/>
               <AccountingAndBilling/>
-              <MlmSoftware/>
+               <MlmSoftware/> 
               <MicrofinanceSoftware/>
-              <EcommerseSoftwareSolution/>
+
               <NewsPortalDevlopment/>
               <RealStateSoftware/>
               <Technologies/>*/}
-                         
+        
+        <EcommerseSoftwareSolution/>
 
     </div>
 

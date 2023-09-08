@@ -5,12 +5,12 @@ function EcommerseSoftwareSolution() {
     return (
         <>
             <Container>
-                <Row>
-                    <Col>
+                <Row className="mt-5">
+                    <Col lg={6} md={12} sm={12}>
                         <img src="https://ml85xkxbvpuq.i.optimole.com/w:600/h:600/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-ecommerce-software-company-1.png" alt="Error" />
                     </Col>
-                    <Col>
-                        <h2>Ecommerce Software Development Company – valour Infotech
+                    <Col lg={6} md={12} sm={12}>
+                        <h2 className="fw-bold">Ecommerce Software Development Company – valour Infotech
                         </h2>
                         <p>Looking for the best ecommerce software company in Lucknow? Look no further than
                             Orbish Infotech ! .One of the leading eCommerce development firms, Orbish Infotech
@@ -114,30 +114,30 @@ function EcommerseSoftwareSolution() {
                         </Card>
                     </Col>
                 </Row> */}
-                <Row>
-                    <Col>
-                        <Card>
+                <Row className="mt-5">
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center">
                             <CardBody>
-                                <CardTitle tag="h5">Customized online store</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Customized online store</CardTitle>
                                 <CardText>
-                                    With Orbish Infotech’s top ecommerce software solutions, you can create a customized online store that reflects your brand and values.
+                                    With valour Infotech’s top ecommerce software solutions, you can create a customized online store that reflects your brand and values.
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card>
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center">
                             <CardBody>
-                                <CardTitle tag="h5">SEO optimization</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">SEO optimization</CardTitle>
                                 <CardText>
-                                    Orbish Infotech’s Ecommerce Development Company are designed with SEO in mind, helping your business rank higher in search engine results pages (SERPs)
+                                    valour Infotech’s Ecommerce Development Company are designed with SEO in mind, helping your business rank higher in search engine results pages (SERPs)
                                 </CardText>
                             </CardBody>
                         </Card></Col>
-                    <Col>
-                        <Card>
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center">
                             <CardBody>
-                                <CardTitle tag="h5">
+                                <CardTitle tag="h5" className="fw-bold">
                                     Payment gateway integration
                                 </CardTitle>
                                 <CardText>
@@ -146,55 +146,55 @@ function EcommerseSoftwareSolution() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card>
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center">
                             <CardBody>
-                                <CardTitle tag="h5">Inventory management</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Inventory management</CardTitle>
                                 <CardText>
-                                    Orbish Infotech’s Top Ecommerce Software Solutions, you can easily manage your inventory, orders, and customer data from a single platform.
+                                    valour  Infotech’s Top Ecommerce Software Solutions, you can easily manage your inventory, orders, and customer data from a single platform.
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <Card>
+                <Row className="mt-5">
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center">
                             <CardBody>
-                                <CardTitle tag="h5">Shipping and logistics integration</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Shipping and logistics integration</CardTitle>
                                 <CardText>
                                     Top 10 ecommerce software solutions  in Lucknow integrate with popular shipping and logistics providers, making it easy for you to manage your shipping
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card>
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center ">
                             <CardBody>
-                                <CardTitle tag="h5">Mobile responsive design</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Mobile responsive design</CardTitle>
                                 <CardText>
-                                    Orbish Infotech’s ecommerce software solutions are designed with a mobile responsive design, ensuring that your online store is accessible and user-friendly on any device.
+                                    valour Infotech’s ecommerce software solutions are designed with a mobile responsive design, ensuring that your online store is accessible and user-friendly on any device.
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card>
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-center">
                             <CardBody>
-                                <CardTitle tag="h5">Multi-currency support</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Multi-currency support</CardTitle>
                                 <CardText>
-                                    Orbish Infotech’s ecommerce software solutions support multiple currencies, making it easy for you to sell your products and services to customers around the world.
+                                    valour Infotech’s ecommerce software solutions support multiple currencies, making it easy for you to sell your products and services to customers around the world.
 
 
                                 </CardText>
                             </CardBody>
                         </Card></Col>
-                    <Col>
-                        <Card>
+                    <Col lg={3} md={6} sm={12}>
+                        <Card className="text-cente ">
                             <CardBody>
-                                <CardTitle tag="h5">Analytics and reporting</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Analytics and reporting</CardTitle>
                                 <CardText>
-                                    Orbish Infotech’s ecommerce software solutions come with analytics and reporting features, allowing you to track your sales, revenue, and customer behavior.
+                                    valour Infotech’s ecommerce software solutions come with analytics and reporting features, allowing you to track your sales, revenue, and customer behavior.
                                 </CardText>
                             </CardBody>
                         </Card>

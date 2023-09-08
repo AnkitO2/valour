@@ -5,22 +5,25 @@ function MicrofinanceSoftware() {
     return (
         <>
             <Container>
-                <Row>
-                    <Col>
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:550/h:550/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-microfinance-software-company-reasonable-price.png"alt="Error"/>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-microfinance-software-company-reasonable-price.png" alt="Error" />
+
+                        </div>
                     </Col>
-                    <Col>
-                        <h2>
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold text-center">
                             Best Microfinance Software Company in
-                            Lucknow | Orbish Infotech
+                            Lucknow | valour Infotech
                         </h2>
-                        <p>Orbish Infotech is a top-rated microfinance software company in Lucknow that offers
+                        <p>valour Infotech is a top-rated microfinance software company in Lucknow that offers
                             a range of microfinance software solutions to help businesses manage their
                             microfinance operations effectively. Our microfinance software is designed to provide
                             comprehensive support to microfinance institutions, banks, and non-banking financial
                             institutions.
                         </p>
-                        <p>At Orbish Infotech, we understand the unique challenges that microfinance businesses
+                        <p>At valour Infotech, we understand the unique challenges that microfinance businesses
                             face, and we have tailored our software solutions to address those challenges. Our
                             microfinance software in Lucknow comes with a range of features that enable
                             businesses to manage their microfinance operations effectively.
@@ -32,9 +35,9 @@ function MicrofinanceSoftware() {
                         </p>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <h2>As a Best Microfinance Software Company in
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold text-center">As a Best Microfinance Software Company in
                             Lucknow, we provide Microfinance Software at a
                             reasonable cost
                         </h2>
@@ -66,35 +69,38 @@ function MicrofinanceSoftware() {
                         </p>
                         <p>People also search for – Best MLM Software Company in Lucknow</p>
                     </Col>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:502/h:618/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/microfinance-software-at-reasonable-cost-lucknow-2.png" alt="Error" />
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/microfinance-software-at-reasonable-cost-lucknow-2.png" alt="Error" />
+
+                        </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="mt-5">
+                    <Col lg={4} md={4} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Improved Efficiency</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Improved Efficiency</CardTitle>
                                 <CardText>
                                     Our microfinance software solutions are designed to automate many manual processes involved in microfinance operations, reducing the time and effort required for processing, which improves efficiency.
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={4} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Better Customer Management</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Better Customer Management</CardTitle>
                                 <CardText>
                                     Our microfinance software comes with a customer management module that enables businesses to manage their customer data, track their transactions, and maintain a record.
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={4} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Increased Accuracy
+                                <CardTitle tag="h5" className="fw-bold">Increased Accuracy
                                 </CardTitle>
                                 <CardText>
                                     Our microfinance software solutions use data validation, automation, and other features that ensure data is entered correctly and processed accurately, improving accuracy in microfinance operations.
@@ -105,31 +111,31 @@ function MicrofinanceSoftware() {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="mt-5" >
+                    <Col lg={4} md={4} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Cost Savings</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Cost Savings</CardTitle>
                                 <CardText>
                                     Our microfinance software solutions can help businesses to reduce costs by eliminating the need for manual processes, reducing errors, and improving efficiency, resulting in significant cost savings over time.
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={4} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Enhanced Reporting</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Enhanced Reporting</CardTitle>
                                 <CardText>
                                     Our microfinance software comes with an accounting module that enables businesses to generate financial reports quickly and easily. This feature helps businesses to make informed financial decisions based on accurate data
                                 </CardText>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={4} md={4} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Scalability</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Scalability</CardTitle>
                                 <CardText>
                                     Our microfinance software solutions are customizable, which means they can be tailored to meet the specific needs of businesses in the microfinance industry, whether they are small, medium, or large.
                                 </CardText>

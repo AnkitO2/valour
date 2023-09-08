@@ -5,9 +5,9 @@ function MlmSoftware() {
     return (
         <>
             <Container>
-                <Row>
-                    <Col>
-                        <h2>Best Multi-Level Marketing (MLM) Software</h2>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold">Best Multi-Level Marketing (MLM) Software</h2>
                         <p>
                             Multi-level marketing (MLM) software helps guide sales companies and
                             distributors throughout the sales and marketing process––providing
@@ -26,16 +26,21 @@ function MlmSoftware() {
                             Multi-level Marketing (MLM) category, a product must:
                         </p>
                     </Col>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:647/h:653/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-lucknow.webp" alt="Error" />
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-lucknow.webp" alt="Error" />
+
+                        </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:498/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/top-10-mlm-software-company-lucknow.png" alt="" />
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/top-10-mlm-software-company-lucknow.png" alt="" />
+                        </div>
                     </Col>
-                    <Col>
-                        <h2>Orbish Infotech : MLM Software
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold">valour Infotech : MLM Software
                             Company Lucknow
                         </h2>
                         <p>At Orbish Infotech, we understand the importance of customization and
@@ -59,9 +64,9 @@ function MlmSoftware() {
                     </Col>
 
                 </Row>
-                <Row>
-                    <Col>
-                        <h2>Network Marketing Software</h2>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold">Network Marketing Software</h2>
                         <p>
                             Orbish Infotech is the leading provider of advanced network marketing software
                             solutions in Lucknow.
@@ -86,14 +91,16 @@ function MlmSoftware() {
                         </p>
                     </Col>
                     <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:524/h:518/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/MLM-Integration-company-lucknow.png" alt="Error" />
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/MLM-Integration-company-lucknow.png" alt="Error" />
+                        </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <Card>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <Card >
                             <CardBody>
-                                <CardTitle tag="h5">Customizable Dashboard</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Customizable Dashboard</CardTitle>
                                 <CardText>
                                     Our MLM software comes with a customizable dashboard that allows users to
                                     track their sales, commissions, and downline activities.
@@ -102,10 +109,10 @@ function MlmSoftware() {
                         </Card>
 
                     </Col>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">E-wallet Integration</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">E-wallet Integration</CardTitle>
                                 <CardText>
                                     Our software integrates with e-wallets, enabling users to manage their
                                     financial transactions seamlessly.
@@ -114,11 +121,11 @@ function MlmSoftware() {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="mt-3">
+                    <Col lg={6} md={6} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Inventory Management </CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Inventory Management </CardTitle>
                                 <CardText>
                                     Our software also comes with inventory management features that enable
                                     businesses to manage their product inventory and track their stock levels.
@@ -126,10 +133,10 @@ function MlmSoftware() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card>
                             <CardBody>
-                                <CardTitle tag="h5">Multiple Compensation Plans</CardTitle>
+                                <CardTitle tag="h5" className="fw-bold">Multiple Compensation Plans</CardTitle>
                                 <CardText>
                                     Our software supports multiple compensation plans, including binary, matrix
                                     uni-level, and others.
@@ -138,9 +145,9 @@ function MlmSoftware() {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <h2>MLM Software Company in Lucknow</h2>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold">MLM Software Company in Lucknow</h2>
                         <p>
                             As an MLM software company Lucknow, we provide comprehensive
                             solutions to clients in various locations. Whether you’re in Varanasi, Patna,
@@ -156,16 +163,19 @@ function MlmSoftware() {
                             including binary, matrix, uni-level, generation, and more.
                         </p>
                     </Col>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:610/h:428/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-company-in-lucknow.png" alt="Error" />
+                    <Col lg={6} md={6} sm={12}>
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-company-in-lucknow.png" alt="Error" />
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:436/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-in-lucknow.png" alt="Error" />
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-in-lucknow.png" alt="Error" />
+
+                        </div>
                     </Col>
-                    <Col>
-                        <h2>MLM Software Developers in
+                    <Col lg={6} md={6} sm={12}>
+                        <h2 className="fw-bold">MLM Software Developers in
                             Lucknow
 
                         </h2>
@@ -191,8 +201,8 @@ function MlmSoftware() {
                         </p>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="mt-5">
+                    <Col lg={6} md={6} sm={12}>
                         <h2>Why Choose Orbish Infotech as a
                             Best MLM Software Company ?
                         </h2>
@@ -210,16 +220,19 @@ function MlmSoftware() {
                             services and providing exceptional support to our clients.
                         </p>
                     </Col>
-                    <Col>
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:551/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-developers-lucknow.png" alt="Error" />
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-developers-lucknow.png" alt="Error" />
+
+                        </div>
                     </Col>
                 </Row>
             </Container>
-            <Row>
-                <Col>
+            <Row className="mt-5">
+                <Col lg={4} md={6} sm={12}>
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">Binary MLM Software</CardTitle>
+                            <CardTitle tag="h5" className="fw-bold">Binary MLM Software</CardTitle>
                             <CardText>
                                 This type of software supports the binary compensation plan, where distributors have two frontline positions and can build two legs in their downline.
 
@@ -228,20 +241,20 @@ function MlmSoftware() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={6} sm={12}>
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">Matrix MLM Software</CardTitle>
+                            <CardTitle tag="h5" className="fw-bold">Matrix MLM Software</CardTitle>
                             <CardText>
                                 Matrix MLM software facilitates the matrix compensation plan, where distributors have a limited number of positions in their downline, typically organized in a grid-like structure.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={6} sm={12}>
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">Uni-Level MLM Software</CardTitle>
+                            <CardTitle tag="h5" className="fw-bold">Uni-Level MLM Software</CardTitle>
                             <CardText>
                                 Uni-level MLM software is designed for uni-level compensation plans, where distributors can recruit an unlimited number of frontline members, and commissions are paid based on levels.
 
@@ -251,31 +264,31 @@ function MlmSoftware() {
                     </Card>
                 </Col>
             </Row>
-            <Row>
-                <Col>
+            <Row className="mt-5">
+                <Col lg={4} md={12} sm={12}>
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">Stair-Step MLM Software </CardTitle>
+                            <CardTitle tag="h5" className="fw-bold">Stair-Step MLM Software </CardTitle>
                             <CardText>
                                 Stair-step MLM software is used for stair-step breakaway compensation plans, where distributors can progress through various ranks and earn higher commissions.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={12} sm={12}>
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">Forced Matrix Plan Software</CardTitle>
+                            <CardTitle tag="h5" className="fw-bold">Forced Matrix Plan Software</CardTitle>
                             <CardText>
                                 Forced matrix MLM software supports the forced matrix compensation plan, where distributors have a fixed number of positions in their downline
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={12} sm={12}>
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">Board Plan Software</CardTitle>
+                            <CardTitle tag="h5" className="fw-bold">Board Plan Software</CardTitle>
                             <CardText>
                                 Board plan MLM software is designed for board or revolving matrix compensation plans, where distributors work to fill a specific number of positions
                             </CardText>

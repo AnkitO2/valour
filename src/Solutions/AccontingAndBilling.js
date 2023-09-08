@@ -196,7 +196,7 @@ function AccountingAndBilling() {
                     tailored to meet the unique needs of businesses in need of accounting and billing software. Here are the reasons why we stand out as the best.
                 </p>
                 <Row>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card className="Card-Color">
                             <CardBody>
                                 <CardTitle tag="h5">Expertise and Experience:</CardTitle>
@@ -206,7 +206,7 @@ function AccountingAndBilling() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card className="Card-Color">
                             <CardTitle tag="h5">Customized Solutions:</CardTitle>
                             <CardText>
@@ -216,7 +216,7 @@ function AccountingAndBilling() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card className="Card-Color">
                             <CardBody>
                                 <CardTitle tag="h5">Cutting-edge Technology:</CardTitle>
@@ -226,7 +226,7 @@ function AccountingAndBilling() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card className="Card-Color">
                             <CardBody>
                                 <CardTitle tag="h5">User-friendly Interfaces:</CardTitle>
@@ -238,7 +238,7 @@ function AccountingAndBilling() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card className="Card-Color">
                             <CardBody>
                                 <CardTitle tag="h5">Data Security and Privacy:
@@ -249,7 +249,7 @@ function AccountingAndBilling() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <Card className="Card-Color">
                             <CardBody>
                                 <CardTitle tag="h5">Timely Delivery and Support:</CardTitle>
