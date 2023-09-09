@@ -4,12 +4,14 @@ import { Button, Card, CardBody, CardText, CardTitle, Col, Container, Row } from
 function WebsiteDesigning() {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:873/h:563/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-website-designing-company-in-lucknow-orbish-infotech.png' alt='Error' />
+            <Row className='mt-5'>
+                <Col lg={6} md={6} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:700/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-website-designing-company-in-lucknow-orbish-infotech.png' alt='Error' />
+                    </div>
                 </Col>
-                <Col>
-                    <h6>Best Web Designing Company in Lucknow</h6>
+                <Col lg={6} md={6} sm={12}>
+                    <h2 className='fw-bold'>Best Web Designing Company in Lucknow</h2>
                     <p>
                         At valour Infotech, we understand the importance of a well-designed website for
                         businesses of all sizes. A website is often the first point of contact between a business
@@ -33,40 +35,40 @@ function WebsiteDesigning() {
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <h6>
+            {/* <Row>
+                <h2>
                     Looking for the best web designing company in Lucknow? Look no further than
                     Orbish Infotech. Our experienced team of web designers provides end-to-end web
                     designing solutions that are tailored to meet the unique needs of your business.
-                </h6>
+                </h2>
                 <Button>Enquire Now</Button>
-            </Row>
-            <Row>
-                <Col>
-                    <Card>
+            </Row> */}
+            <Row className='mt-5'>
+                <Col lg={6} md={6} sm={12}>
+                    <Card className='p-2'>
                         <CardBody>
-                            <CardTitle>Custom web designing</CardTitle>
+                            <CardTitle tag="h5">Custom web designing</CardTitle>
                             <CardText>
                                 We provide custom web designing solutions that are tailored to meet the specific needs of our clients. Our team works closely with clients to understand their requirements and create websites that deliver exceptional user experience.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={6} md={6} sm={12}>
+                    <Card className='p-2'>
                         <CardBody>
-                            <CardTitle>Responsive web designing</CardTitle>
+                            <CardTitle tag="h5">Responsive web designing</CardTitle>
                             <CardText>
                                 We create responsive websites that are optimized for various devices, platforms, and browsers. Our responsive web designing solutions are designed to enhance user engagement and drive business growth.
                             </CardText>
                         </CardBody>
                     </Card></Col>
             </Row>
-            <Row>
-                <Col>
-                    <Card>
+            <Row className='mt-3'>
+                <Col lg={6} md={6} sm={12}>
+                    <Card className='p-2'>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 E-commerce web designing
                             </CardTitle>
                             <CardText>
@@ -75,10 +77,10 @@ function WebsiteDesigning() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={6} md={6} sm={12}>
+                    <Card className='p-2'>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Website redesigning
                             </CardTitle>
                             <CardText>
@@ -88,27 +90,30 @@ function WebsiteDesigning() {
                     </Card>
                 </Col>
             </Row>
-            <Row>
-                <h6>Why Orbish Infotech?</h6>
-                <p>At Orbish Infotech, we understand that a well-designed website is crucial for your online presence and business success. That’s why our website developer
-                    in Lucknow employs the latest technologies and industry best practices to ensure that your website stands out from the competition.
-                </p>
-                <p>
-                    In addition to website design, we also offer graphic design services in Lucknow. Our experienced graphic designer in Lucknow can create captivating logos,
-                    banners, and other visuals that enhance your brand identity and leave a lasting impact on your audience.
-                </p>
-                <p>
-                    As a reputable website design company in Lucknow, we prioritize client satisfaction and deliver projects within agreed timelines. Our commitment to
-                    excellence has earned us the reputation of being the best website designing company in Lucknow.
-                </p>
-                <p>
-                    Contact us today to inquire about our web designing course fees in Lucknow.
-                </p>
-                <p>
-                    When it comes to website designing in Lucknow, Orbish Infotech is your trusted partner. We are expertise in website design, web development, and graphic
-                    design makes us the go-to choice for all your web design needs in Lucknow. Experience the difference between professional website design and contact us
-                    for your website design services in Lucknow. Let us help you establish a strong online presence with our unmatched web design services in Lucknow.
-                </p>
+            <Row className='mt-5'>
+                <Col>
+
+                    <h4 className='fw-bold text-center'>Why valour Infotech?</h4>
+                    <p>At valour Infotech, we understand that a well-designed website is crucial for your online presence and business success. That’s why our website developer
+                        in Lucknow employs the latest technologies and industry best practices to ensure that your website stands out from the competition.
+                    </p>
+                    <p>
+                        In addition to website design, we also offer graphic design services in Lucknow. Our experienced graphic designer in Lucknow can create captivating logos,
+                        banners, and other visuals that enhance your brand identity and leave a lasting impact on your audience.
+                    </p>
+                    <p>
+                        As a reputable website design company in Lucknow, we prioritize client satisfaction and deliver projects within agreed timelines. Our commitment to
+                        excellence has earned us the reputation of being the best website designing company in Lucknow.
+                    </p>
+                    <p>
+                        Contact us today to inquire about our web designing course fees in Lucknow.
+                    </p>
+                    <p>
+                        When it comes to website designing in Lucknow, valour Infotech is your trusted partner. We are expertise in website design, web development, and graphic
+                        design makes us the go-to choice for all your web design needs in Lucknow. Experience the difference between professional website design and contact us
+                        for your website design services in Lucknow. Let us help you establish a strong online presence with our unmatched web design services in Lucknow.
+                    </p>
+                </Col>
             </Row>
         </Container>
     );

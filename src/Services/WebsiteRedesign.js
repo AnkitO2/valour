@@ -4,12 +4,15 @@ import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from
 function WebsiteRedesign() {
     return (
         <Container>
-            <Row>
-                <Col className="d-flex justify-content-center">
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:576/h:576/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/website-redesign-company-orbish-infotech.png" alt="Error" />
+            <Row className="mt-5">
+                <Col lg={6} md={6} sm={12}>
+                    <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/website-redesign-company-orbish-infotech.png" alt="Error" />
+
+                    </div>
                 </Col>
-                <Col>
-                    <h2>
+                <Col lg={6} md={6} sm={12}>
+                    <h2 className="text-center">
                         Website Redesigning Services by valour
                         Infotech
                     </h2>
@@ -36,15 +39,17 @@ function WebsiteRedesign() {
                     </p>
                 </Col>
             </Row>
-            <div className="bg-primary">
+            <div className="bg-primary col-12 mt-5">
                 <h2 className="text-center text-white p-3">If you're ready to transform your website, contact us today to learn more about our website redesigning
                     services. Let's work together to create a website that will drive results and enhance your brand's online
                     presence.
                 </h2>
-                <Button>Enquire Now</Button>
+                <div className="d-flex justify-content-center">
+                    <Button className="d-flex justify-content-center">Enquire Now</Button>
+                </div>
             </div>
-            <Row>
-                <Col>
+            <Row className="mt-5">
+                <Col lg="6" md="12" sm="12">
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Consultation</CardTitle>
@@ -54,7 +59,7 @@ function WebsiteRedesign() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg="6" md="12" sm="12">
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Design</CardTitle>
@@ -63,8 +68,8 @@ function WebsiteRedesign() {
                     </Card>
                 </Col>
             </Row>
-            <Row>
-                <Col>
+            <Row className="mt-5">
+                <Col lg="6" md="12" sm="12">
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Development</CardTitle>
@@ -74,10 +79,10 @@ function WebsiteRedesign() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg="6" md="12" sm="12">
                     <Card>
                         <CardBody>
-                            <CardTitle>Testing</CardTitle>
+                            <CardTitle tag="h5">Testing</CardTitle>
                             <CardText>
                                 Before the launch, we’ll thoroughly test your new website for performance, functionality, and compatibility across all devices and browsers.
                             </CardText>

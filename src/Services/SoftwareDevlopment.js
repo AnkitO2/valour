@@ -1,4 +1,4 @@
-import { Aperture } from 'feather-icons-react/build/IconComponents';
+import { Aperture, BarChart2, Check, Command, Smartphone } from 'feather-icons-react/build/IconComponents';
 import Globe from 'feather-icons-react/build/IconComponents/Globe';
 import React from 'react'
 import { Row, Col, CardText, CardBody, Card, Container } from 'reactstrap';
@@ -7,11 +7,14 @@ import { Row, Col, CardText, CardBody, Card, Container } from 'reactstrap';
 function SoftwareDevlopment() {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:700/h:700/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/Best-Software-Company-in-Lucknow.png' alt='Error' />
+            <Row className='mt-5'>
+                <Col lg={6} md={12} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:700/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/Best-Software-Company-in-Lucknow.png' alt='Error' />
+
+                    </div>
                 </Col>
-                <Col>
+                <Col lg={6} md={12} sm={12}>
                     <h2>Best Software Development
                         Company in Lucknow
                     </h2>
@@ -27,6 +30,7 @@ function SoftwareDevlopment() {
                         Recognized as one of the top 10 software companies in Lucknow, they
                         combine expertise, innovation, and customer satisfaction to drive your
                         success. Regarding software development in Lucknow, valour Infotech
+
                         stands out as one of the leading companies in the industry. With a
                         proven track record of delivering high-quality software solutions, we
                         have earned a reputation as a top 10 best software development
@@ -44,11 +48,9 @@ function SoftwareDevlopment() {
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:512/h:360/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Custom-software-development-services-in-lucknow.png' alt='Error' />
-                </Col>
-                <Col>
+            <Row className='mt-5'>
+
+                <Col lg={6} md={12} sm={12}>
                     <h2>Why valour Infotech as a Best Custom software
                         development
                     </h2>
@@ -72,12 +74,21 @@ function SoftwareDevlopment() {
                         experience.
                     </p>
                 </Col>
+                <Col lg={6} md={12} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Custom-software-development-services-in-lucknow.png' alt='Error' />
+
+                    </div>
+                </Col>
             </Row>
-            <Row>
-                <Col>
-                    <Card className="d-flex justify-content-center text-center align-items-center">
-                        <Aperture />
-                        <CardBody>
+            <Row className='mt-5'>
+                <Col lg={4} md={4} sm={12}>
+                    <Card >
+                        <div className='d-flex justify-content-center'>
+                            <Aperture size="50" />
+                        </div>
+
+                        <CardBody className='text-center'>
                             <h4> Custom software solutions</h4>
                             <CardText>
                                 We specialize in creating custom software solutions tailored to meet the unique needs of our clients. Our expert team of developers works closely with clients to understand their business objectives, requirements, and challenges, ensuring that the software we develop aligns with their goals and delivers maximum value.
@@ -85,10 +96,13 @@ function SoftwareDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card className="d-flex justify-content-center text-center align-items-center">
-                        <Globe />
-                        <CardBody>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="">
+                        <div className='d-flex justify-content-center'>
+                            <Globe size={50} />
+                        </div>
+
+                        <CardBody className='text-center'>
 
                             <h4>Expert development team</h4>
                             <CardText>
@@ -97,10 +111,13 @@ function SoftwareDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card className="d-flex justify-content-center text-center">
-                        <i className='fa-duotone  fa-keybaord'></i>
-                        <CardBody>
+                <Col lg={4} md={4} sm={12}>
+                    <Card>
+                        <div className='d-flex justify-content-center'>
+                            <Command size="50" />
+                        </div>
+
+                        <CardBody className='text-center'>
                             <h4>Responsive web applications</h4>
                             <CardText>
                                 We create responsive and scalable web applications that are optimized for various devices, platforms, and browsers. Our web applications are designed to enhance user engagement and drive business growth, with a focus on delivering exceptional user experience. Our web applications are designed to enhance user engagement and drive business growth.
@@ -110,9 +127,12 @@ function SoftwareDevlopment() {
                 </Col>
             </Row>
             <Row className="mt-3">
-                <Col>
-                    <Card className="d-flex justify-content-center text-center">
-                        <CardBody>
+                <Col lg={4} md={4} sm={12}>
+                    <Card >
+                        <div className='d-flex justify-content-center'>
+                            <Smartphone size={50} />
+                        </div>
+                        <CardBody className='text-center'>
                             <h4>
                                 Mobile application development
                             </h4>
@@ -122,9 +142,12 @@ function SoftwareDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card className="d-flex justify-content-center text-center">
-                        <CardBody>
+                <Col lg={4} md={4} sm={12}>
+                    <Card >
+                        <div className='d-flex justify-content-center'>
+                            <BarChart2 size={50} />
+                        </div>
+                        <CardBody className='text-center'>
                             <h4>
                                 Enterprise-grade software
                                 solutions
@@ -135,9 +158,12 @@ function SoftwareDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card className="d-flex justify-content-center text-center">
-                        <CardBody>
+                <Col lg={4} md={4} sm={12}>
+                    <Card>
+                        <div className='d-flex justify-content-center'>
+                            <Check size={50} />
+                        </div>
+                        <CardBody className='text-center'>
                             <h4>
                                 Comprehensive software
                                 development process
@@ -149,7 +175,7 @@ function SoftwareDevlopment() {
                     </Card>
                 </Col>
             </Row>
-            <Row>
+            <Row className='mt-5'>
                 <h2 className='text-center'>Are you looking for the best software company in Lucknow?</h2>
                 <p>Look no further than Orbish Infotech. As one of the top software development firms in Lucknow, we are known for our excellence in delivering cutting-edge
                     software solutions. With a strong presence in the city, valour Infotech is your trusted partner for all your software needs.
@@ -167,24 +193,24 @@ function SoftwareDevlopment() {
             </Row>
             <Row>
                 <Col className="">
-                <h2 className='text-center'>Why Choose Orbish Infotech as the Best Software Company?</h2>
-                <p>At valour Infotech, client satisfaction is our top priority. We understand that every business has unique requirements, and we tailor our services
-                    accordingly. Whether you are a startup or an established enterprise, we have the expertise to cater to your specific needs. Our comprehensive software
-                    development services cover everything from conceptualization and design to development, testing, and support.
-                </p>
-                <p>
-                    As one of the best software companies in Lucknow, we offer a wide range of services to meet your diverse software needs. Our team of experienced
-                    developers specializes in web and mobile app development, software consulting, software testing, and more. We have successfully completed numerous
-                    projects for clients in Lucknow and beyond, helping them achieve their business goals.
-                </p>
-                <p>
-                    Regarding IT companies in Lucknow, Orbish Infotech stands out as a leader. Our dedication to excellence, commitment to innovation, and customer-centric
-                    approach make us the top choice for software development in Lucknow. Join hands with us and experience the transformative power of technology for your
-                    business.
-                </p>
-                <p>Contact us today to discuss your software development requirements and discover why Orbish Infotech is the best software development company in
-                    Lucknow.
-                </p>
+                    <h2 className='text-center'>Why Choose Orbish Infotech as the Best Software Company?</h2>
+                    <p>At valour Infotech, client satisfaction is our top priority. We understand that every business has unique requirements, and we tailor our services
+                        accordingly. Whether you are a startup or an established enterprise, we have the expertise to cater to your specific needs. Our comprehensive software
+                        development services cover everything from conceptualization and design to development, testing, and support.
+                    </p>
+                    <p>
+                        As one of the best software companies in Lucknow, we offer a wide range of services to meet your diverse software needs. Our team of experienced
+                        developers specializes in web and mobile app development, software consulting, software testing, and more. We have successfully completed numerous
+                        projects for clients in Lucknow and beyond, helping them achieve their business goals.
+                    </p>
+                    <p>
+                        Regarding IT companies in Lucknow, Orbish Infotech stands out as a leader. Our dedication to excellence, commitment to innovation, and customer-centric
+                        approach make us the top choice for software development in Lucknow. Join hands with us and experience the transformative power of technology for your
+                        business.
+                    </p>
+                    <p>Contact us today to discuss your software development requirements and discover why Orbish Infotech is the best software development company in
+                        Lucknow.
+                    </p>
                 </Col>
             </Row>
         </Container>

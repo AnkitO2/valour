@@ -1,17 +1,26 @@
-import React from "react";
-import { Container, Row, Col, Button, Card, CardBody, CardText } from "reactstrap";
 
+import CheckSquare from "feather-icons-react/build/IconComponents/CheckSquare";
+import Search from "feather-icons-react/build/IconComponents/Search";
+import Smartphone from "feather-icons-react/build/IconComponents/Smartphone";
+import Tool from "feather-icons-react/build/IconComponents/Tool";
+import UserCheck from "feather-icons-react/build/IconComponents/UserCheck";
+import React from "react";
+import { Container, Row, Col, Card, CardBody, CardText } from "reactstrap";
+import './AppDevlopment.css';
 function AppDevlopment() {
     return (
         <Container>
-            <Row className="m-5 p-5">
-                <Col className="d-flex justify-content-center">
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:400/h:400/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-app-development-company-in-lucknow-orbish-infotech.png" alt="Error" />
+            <Row className="mt-5">
+                <Col lg={6} md={12} sm={12}>
+                    <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/best-app-development-company-in-lucknow-orbish-infotech.png" alt="Error" />
+
+                    </div>
                 </Col>
-                <Col>
-                    <h2 className="text-center">Best App Development company Orbish Infotech</h2>
+                <Col lg={6} md={12} sm={12}>
+                    <h2 className="text-center">Best App Development company valour Infotech</h2>
                     <p>
-                        At Orbish Infotech, we specialize in creating custom mobile apps that solve complex
+                        At valour Infotech, we specialize in creating custom mobile apps that solve complex
                         business challenges. Our team of experienced developers, designers, and project
                         managers work closely with our clients to understand their specific requirements and
                         deliver solutions that exceed their expectations.
@@ -28,29 +37,26 @@ function AppDevlopment() {
                     </p>
                 </Col>
             </Row>
-            <Row className="bg-primary p-5 m-5 ">
+            {/* <Row className="bg-primary mt-5 ">
                 <Col lg={8} >
                     <h2 className="text-white text-center">
                         If you're looking for a reliable and experienced app
-                        development company, Orbish Infotech is the perfect choice.
+                        development company, valour Infotech is the perfect choice.
                         Contact us today to learn more about our custom app
                         development services and how we can help your business grow.
                     </h2>
                     <Button className="">Enquire Now</Button>
                 </Col>
                 <Col lg={4}></Col>
-            </Row>
-            <Row className="p-5 m-5">
-                <Col>
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:494/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Cross-Platform-Mobile-App-Development-iso-top.png" alt="Error" />
-                </Col>
-                <Col>
-                    <h2>
+            </Row> */}
+            <Row className="mt-5">
+                <Col lg={6} md={6} sm={12}>
+                    <h2 className="text-center">
                         Custom App Development Services That Help
                         Your Business Thrive
                     </h2>
                     <p>In today's digital age, having a mobile app is no longer a luxury but a necessity for
-                        businesses looking to stay ahead of the competition. At Orbish Infotech, we understand
+                        businesses looking to stay ahead of the competition. At valour Infotech, we understand
                         the importance of having an app that meets your specific business needs and delivers
                         value to your customers. That's why we offer expert custom app development services
                         that help your business thrive.
@@ -71,63 +77,81 @@ function AppDevlopment() {
 
                     </p>
                 </Col>
+                <Col lg={6} md={6} sm={12}>
+                    <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:494/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Cross-Platform-Mobile-App-Development-iso-top.png" alt="Error" />
+                    </div>
+                </Col>
             </Row>
-            <Row>
-                <Col lg={4}>
-                    <Card>
-                        <h2 className="text-center mt-3">Custom app development</h2>
+            <Row className="mt-5">
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="border border-5 rounded-4">
+                        <div className="d-flex justify-content-center mt-4">
+                            <Smartphone size={50} />
+                        </div>
+                        <h4 className="text-center">Custom app development</h4>
                         <CardBody>
-                            <CardText>
+                            <CardText className="text-center">
                                 valour Infotech specializes in providing custom app development services that are tailored to meet the unique needs of businesses. They have a team of experienced developers, designers, and project managers who work closely with clients to deliver high-quality solutions.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col lg={4}>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="border border-5 rounded-4">
+                        <div className="d-flex justify-content-center mt-4">
+                            <CheckSquare size={50} />
+                        </div>
                         <CardBody>
-                            <h2 className="text-center mt-3">Expertise in multiple technologies</h2>
-                            <CardText>
+                            <h4 className="text-center">Expertise in multiple technologies</h4>
+                            <CardText className="text-center">
                                 valour Infotech best app developmet has expertise in various programming languages such as Java, Kotlin, Swift, and React Native. This enables them to build apps that are fast, secure, and scalable, and can run on both iOS and Android platforms.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="border border-5 rounded-4 ">
+                        <div className="d-flex justify-content-center mt-4">
+                            <Search size={50} />
+                        </div>
                         <CardBody>
-                            <h2 className="text-center mt-3">Agile development process</h2>
-                            <CardText>
+                            <h4 className="text-center ">Agile development process</h4>
+                            <CardText className="text-center">
                                 valour Infotech follows an agile development process, which is designed to be flexible and responsive to changing business needs and market trends. This ensures that clients receive timely delivery of high-quality apps that meet their specific requirements.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
             </Row>
-            <Row >
-                <Col lg={4}>
-                    <Card>
+            <Row className="mt-5">
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="border border-5 rounded-4 ">
+                        <div className="d-flex justify-content-center mt-4">
+                            <Tool size={50} />
+                        </div>
                         <CardBody>
-                            <h2 className="text-center mt-3">Maintenance and support</h2>
-                            <CardText>
+                            <h4 className="text-center ">Maintenance and support</h4>
+                            <CardText className="text-center">
                                 valour Infotech provides post-launch maintenance and support services to ensure that the apps remain up-to-date and run smoothly on all platforms. This helps clients to focus on their core business while Orbish Infotech takes care of the technical aspects of their app.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col lg={4}>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="border border-5 rounded-4 Card-Border">
+                        <div className="d-flex justify-content-center mt-4">
+                            <UserCheck size={50} />
+                        </div>
                         <CardBody>
-                            <h2 className="text-center mt-3">Customer-centric approach</h2>
-                            <CardText>
+                            <h4 className="text-center ">Customer-centric approach</h4>
+                            <CardText className="text-center">
                                 valour Infotech takes a customer-centric approach to app development and works closely with clients throughout the process to ensure that their needs are being met. They believe in building long-lasting relationships with clients and providing excellent customer service.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                
-                <Col lg={4}>
-                </Col>
+
             </Row>
         </Container>
     );

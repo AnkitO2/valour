@@ -1,12 +1,13 @@
 import React from 'react'
 import { Col, Row, Button, Card, CardBody, CardTitle, CardText, Container } from 'reactstrap'
-
+import "./AppDevlopment.css"
+import { ArrowDownCircle, Book, BookOpen, Code, CreditCard, Layout, Users } from 'feather-icons-react/build/IconComponents';
 export const WebDevlopment = () => {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <h2 className='text-center mt-3'>
+            <Row className='mt-5'>
+                <Col lg={6} md={12} sm={12}>
+                    <h2>
                         We are a leading Best Web
                         Development Company in Lucknow
                         or best Website Development
@@ -30,16 +31,22 @@ export const WebDevlopment = () => {
                         your specific requirements at affordable cost.
                     </p>
                 </Col>
-                <Col className="mt-3 d-flex justify-content-center">
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:458/h:357/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-company-in-lucknow.png' alt='Error' />
+                <Col lg={6} md={12} sm={12} >
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-company-in-lucknow.png' alt='Error' />
+
+                    </div>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:614/h:357/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknow-1.png' alt='Error' />
+            <Row className='mt-5'>
+                <Col lg={6} md={12} sm={12} >
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknow-1.png' alt='Error' />
+
+                    </div>
                 </Col>
-                <Col>
-                    <h2 className='mt-5'>Offering top-notch services for Website
+                <Col lg={6} md={12} sm={12} >
+                    <h2>Offering top-notch services for Website
                         Development in Lucknow
                     </h2>
                     <p>With a wealth of experience and expertise in the realm of web development, we
@@ -53,27 +60,33 @@ export const WebDevlopment = () => {
                     </p>
                 </Col>
             </Row>
-            <Row className="bg-primary p-5">
-                <Col className="">
-                    <h2>
+            <Row className="bg-primary mt-5 p-5">
+                <Col lg={12} md={12} sm={12}>
+                    <h2 className='text-center'>
                         We have a ability to deliver projects on time and within budget and provide best web development
                         services in Lucknow. If you are looking for a reliable and professional web development company,
                         look no further than valour Infotech. Contact Now to know more about our software services and
                         how we can help take your business to the next level.
                     </h2>
-                    <Button
-                        color="dark"
-                        tag="input"
-                        type="Enquire Now"
-                        value="Submit"
-                    />
+                    <div className='d-flex justify-content-center'>
+                        <Button
+                            color="dark"
+                            tag="input"
+                            type="Enquire Now"
+                            value="Submit"
+                        />
+                    </div>
+
                 </Col>
             </Row>
-            <Row className="m-5 p-5">
-                <Col >
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:438/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Website-development-orbish-infotech.png' alt='Error' />
+            <Row className="mt-5">
+                <Col lg={6} md={6} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:438/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Website-development-orbish-infotech.png' alt='Error' />
+
+                    </div>
                 </Col>
-                <Col className="">
+                <Col lg={6} md={6} sm={12}>
                     <h2>Our Experience As A Web Development
                         Company In Lucknow.
                     </h2>
@@ -91,11 +104,14 @@ export const WebDevlopment = () => {
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <Card >
+            <Row className='mt-5'>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className='text-center'>
+                        <div className='d-flex justify-content-center'>
+                            <Code size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Custom web development
                             </CardTitle>
                             <CardText>
@@ -107,10 +123,13 @@ export const WebDevlopment = () => {
 
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className='text-center'>
+                        <div className='d-flex justify-content-center'>
+                            <Layout size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Mobile-friendly web design
                             </CardTitle>
                             <CardText>
@@ -119,10 +138,13 @@ export const WebDevlopment = () => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className='text-center'>
+                        <div className='d-flex justify-content-center'>
+                            <ArrowDownCircle size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 E-commerce development services
                             </CardTitle>
                             <CardText>
@@ -132,11 +154,14 @@ export const WebDevlopment = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <Card>
+            <Row className='mt-5'>
+                <Col lg={4} md={12} sm={12}>
+                    <Card >
+                        <div className='d-flex justify-content-center'>
+                            <CreditCard size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag='h5'>
                                 Content management systems
                                 (CMS)
                             </CardTitle>
@@ -146,20 +171,27 @@ export const WebDevlopment = () => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={12} sm={12}>
+
                     <Card>
+                        <div className='d-flex justify-content-center'>
+                            <BookOpen size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle> Search engine optimization (SEO)</CardTitle>
+                            <CardTitle tag="h5"> Search engine optimization (SEO)</CardTitle>
                             <CardText>
                                 valour team of experts uses the latest SEO techniques to ensure that your website ranks high on search engine results pages (SERPs), which drives more traffic to your website. Orbish work closely with our clients to understand their needs, requirements, and preferences, and develop custom web applications.
                             </CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={12} sm={12}>
                     <Card>
+                        <div className='d-flex justify-content-center'>
+                            <Book size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>User experience (UX) design</CardTitle>
+                            <CardTitle tag="h5">User experience (UX) design</CardTitle>
                             <CardText>
                                 valour design websites with user experience in mind, ensuring that users can easily navigate the site and find the information they need quickly. Orbish Infotech pride ourselves on our attention to detail and our ability to deliver projects on time and within budget. We help you establish a strong digital presence and credibility.
                             </CardText>
@@ -167,11 +199,14 @@ export const WebDevlopment = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row>
-                <Col>
+            <Row className='mt-5'>
+                <Col lg={4} md={4} sm={12}>
                     <Card>
+                        <div className='d-flex justify-content-center'>
+                            <Users size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Integration with third-party
                                 applications
                             </CardTitle>
@@ -181,10 +216,13 @@ export const WebDevlopment = () => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={12}>
                     <Card>
+                        <div className='d-flex justify-content-center'>
+                            <BookOpen size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Ongoing support and maintenance
                             </CardTitle>
                             <CardText>
@@ -193,34 +231,34 @@ export const WebDevlopment = () => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col></Col>
+
             </Row>
-            <Row>
-                <Col>
+            {/* <Row className='mt-5'>
+                <Col lg={4} md={4} sm={12}>
                     <Button>Custom Website Devlopment</Button>
                     <Button>Custom Website Designing</Button>
                     <Button>Static Website Development</Button>
                     <Button>Static Website Designing</Button>
                     <Button>Dynamic Website Designing</Button>
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={12}>
                     <Button>Dynamic Website Development</Button>
                     <Button>Website Re-Designing & Development</Button>
                     <Button>Ecommerce Website Development</Button>
                     <Button>Ecommerce Website Designing</Button>
                     <Button>Enterprise Website Development</Button>
                 </Col>
-                <Col>
+                <Col lg={4} md={4} sm={12}>
                     <Button>Corporate Website Development</Button>
                     <Button>Corporate Website Designing</Button>
                     <Button>Website Designing & Development Support</Button>
                 </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h6>Looking for the Best Web Development
+            </Row> */}
+            <Row className='mt-5'>
+                <Col lg={6} md={6} sm={12}>
+                    <h5>Looking for the Best Web Development
                         Company?
-                    </h6>
+                    </h5>
                     <p>Look no further than valour Infotech. valour Infotech, as a leading web development
                         company in Lucknow, we offer top-notch web development services to clients in
                         Lucknow, Noida, and all other areas of Uttar Pradesh. Whether you’re in Lucknow,
@@ -243,16 +281,22 @@ export const WebDevlopment = () => {
                         provider, we have served clients in the USA, UK, and Dubai.
                     </p>
                 </Col>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:451/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/custom-web-design-company-websites.png' alt='Error' />
+                <Col lg={6} md={6} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:451/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/custom-web-design-company-websites.png' alt='Error' />
+
+                    </div>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:470/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development.png' alt='Error' />
+            <Row className='mt-5'>
+                <Col lg={6} md={6} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development.png' alt='Error' />
+
+                    </div>
                 </Col>
-                <Col>
-                    <h6>Specialization</h6>
+                <Col lg={6} md={6} sm={12}>
+                    <h5>Specialization</h5>
                     <p>At valour Infotech, we specialize in creating responsive and visually appealing websites. Our
                         web development services include designing and developing custom websites, creating
                         corporate websites, and providing business web development solutions. valour Infotech
@@ -270,12 +314,13 @@ export const WebDevlopment = () => {
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <h6>
-                    Why Choose Orbish Infotech As a Website Development company in
-                    Lucknow?
-                </h6>
-                <Col>
+            <Row className='mt-5'>
+
+                <Col lg={6} md={6} sm={12}>
+                    <h5>
+                        Why Choose Orbish Infotech As a Website Development company in
+                        Lucknow?
+                    </h5>
                     <p>
                         valour Infotech, A trusted web development company in Lucknow has
                         experience in Designing, Developing & Managing :- E-Commerce Websites,
@@ -293,8 +338,10 @@ export const WebDevlopment = () => {
                         <li>Clean Code & Valid Mark-up</li>
                     </ul>
                 </Col>
-                <Col>
-                    <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:570/h:411/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknowIndia.png' alt='Error' />
+                <Col lg={6} md={6} sm={12}>
+                    <div className='d-flex justify-content-center'>
+                        <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknowIndia.png' alt='Error' />
+                    </div>
                 </Col>
             </Row>
         </Container>

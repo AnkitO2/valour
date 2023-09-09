@@ -12,7 +12,7 @@ function NewsPortalDevlopment() {
 
                     <Col lg={6} md={6} sm={12} >
                         <h2 className="fw-bold">News Portal Development Company Lucknow or
-                        News Portal Development Companies Lucknow. </h2>
+                            News Portal Development Companies Lucknow. </h2>
                         <p>
                             Are you looking to establish a strong online presence for your news
                             organization? Look no further! Our news portal development services are
@@ -40,10 +40,10 @@ function NewsPortalDevlopment() {
                 <Row className="mt-5">
                     <Col lg={6} md={6} sm={12}>
                         <h2 className="fw-bold">
-                            Why Orbish Infotech as a Best Custom software
+                            Why valour Infotech as a Best Custom software
                             development
                         </h2>
-                        <p>Software development is at the core of our business at Orbish Infotech. We specialize
+                        <p>Software development is at the core of our business at valour Infotech. We specialize
                             in developing custom software solutions that help businesses streamline their
                             operations, increase efficiency, and drive growth. Our experienced team of developers
                             leverages the latest tools and technologies to create software solutions that are
@@ -64,7 +64,7 @@ function NewsPortalDevlopment() {
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <div className="d-flex justify-content-center">
-                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Custom-software-development-services-in-lucknow.png" alt="" />
+                            <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Custom-software-development-services-in-lucknow.png" alt="" />
 
                         </div>
                     </Col>
@@ -144,12 +144,12 @@ function NewsPortalDevlopment() {
                     </Col>
 
                 </Row>
-                <Row>
-                    <Col className="text-center">
-                        <h2>Are you looking for the best software company in Lucknow?</h2>
+                <Row className="mt-5">
+                    <Col lg={12} md={12} sm={12} className="">
+                        <h2 className="fw-bolder text-center">Are you looking for the best software company in Lucknow?</h2>
                         <p>
-                            Look no further than Orbish Infotech. As one of the top software development firms in Lucknow, we are known for our excellence in delivering cutting-edge
-                            software solutions. With a strong presence in the city, Orbish Infotech is your trusted partner for all your software needs.
+                            Look no further than valour Infotech. As one of the top software development firms in Lucknow, we are known for our excellence in delivering cutting-edge
+                            software solutions. With a strong presence in the city, valour Infotech is your trusted partner for all your software needs.
                         </p>
                         <p>
                             Our team of skilled software developers and engineers is dedicated to providing the highest quality services. As a top software development company in
@@ -161,9 +161,9 @@ function NewsPortalDevlopment() {
                             Lucknow, constantly exploring the latest technologies and utilizing the best development practices. Our goal is to develop software that not only meets but
                             exceeds your expectations. We offer software services in Gomti Nagar, Vikas Nagar, Hazratganj, etc. a prime area in Lucknow.
                         </p>
-                        <h2>Why Choose Orbish Infotech as the Best Software Company?</h2>
+                        <h2 className="fw-bolder text-center">Why Choose Orbish Infotech as the Best Software Company?</h2>
                         <p>
-                            At Orbish Infotech, client satisfaction is our top priority. We understand that every business has unique requirements, and we tailor our services
+                            At valour Infotech, client satisfaction is our top priority. We understand that every business has unique requirements, and we tailor our services
                             accordingly. Whether you are a startup or an established enterprise, we have the expertise to cater to your specific needs. Our comprehensive software
                             development services cover everything from conceptualization and design to development, testing, and support.
                         </p>
@@ -173,12 +173,12 @@ function NewsPortalDevlopment() {
                             projects for clients in Lucknow and beyond, helping them achieve their business goals.
                         </p>
                         <p>
-                            Regarding IT companies in Lucknow, Orbish Infotech stands out as a leader. Our dedication to excellence, commitment to innovation, and customer-centric
+                            Regarding IT companies in Lucknow, valour Infotech stands out as a leader. Our dedication to excellence, commitment to innovation, and customer-centric
                             approach make us the top choice for software development in Lucknow. Join hands with us and experience the transformative power of technology for your
                             business.
                         </p>
                         <p>
-                            Contact us today to discuss your software development requirements and discover why Orbish Infotech is the best software development company in
+                            Contact us today to discuss your software development requirements and discover why valour Infotech is the best software development company in
                             Lucknow.
                         </p>
                     </Col>

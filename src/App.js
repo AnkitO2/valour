@@ -10,7 +10,7 @@ import './App.css'
 //import WebsiteDesigning from './Services/WebsiteDesigning';
 //import AppDevlopment from './Services/AppDevlopment';
 //import WebsiteRedesign from './Services/WebsiteRedesign';
-//import Webhosting from './Services/Webhosting';
+import Webhosting from './Services/Webhosting';
 //import WebAppDevlopment from './Services/WebAppDevlopment';
 //import SoftwareTesting from './Services/SoftwareTesting';
 //import AppMaintenance from './Services/AppMaintenance';
@@ -22,7 +22,7 @@ import './App.css'
 //import MlmSoftware from './Solutions/MlmSoftware';
 //import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
 //import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
-import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
+//import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 //import RealStateSoftware from './Solutions/RealStateSoftware';
 //import Technologies from './Resources/Technologies';
 function App() {
@@ -34,13 +34,13 @@ function App() {
               <Footerbaar/>
               <Aboutus/>       
               <Aboutwork/>  
-              <WebDevlopment />
-              <SoftwareDevlopment
-              <WebsiteDesigning/>
               <AppDevlopment />
-              <WebsiteRedesign/>              
-              <Webhosting/>                  
-              <WebAppDevlopment />               
+              <WebDevlopment /> 
+              <SoftwareDevlopment/>
+              <WebsiteDesigning/>
+              <WebsiteRedesign/>    
+                              
+              <WebAppDevlopment />           
               <SoftwareTesting/>           
               <AppMaintenance/>
               <Ecommerse/>
@@ -48,14 +48,14 @@ function App() {
               <Seo/>
               <Smo/>
               <AccountingAndBilling/>
-               <MlmSoftware/> 
+              <MlmSoftware/> 
               <MicrofinanceSoftware/>
               <EcommerseSoftwareSolution/>
-             
-              <RealStateSoftware/>
+              <NewsPortalDevlopment/>
+              <RealStateSoftware/> 
               <Technologies/>*/}
         
-        <NewsPortalDevlopment/>
+        <Webhosting/> 
     </div>
 
   );
