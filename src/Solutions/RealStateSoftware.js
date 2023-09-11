@@ -6,7 +6,7 @@ function RealStateSoftware() {
         <>
             <Container>
                 <Row className="mt-5">
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <h3>
                             Best Real Estate Software
                             Company in Lucknow
@@ -32,7 +32,7 @@ function RealStateSoftware() {
                             sector.
                         </p>
                     </Col>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/real-estate-software-development-company-in-lucknow.png" alt="Error" />
 

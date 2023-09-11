@@ -1,20 +1,29 @@
+import { User } from "feather-icons-react/build/IconComponents";
+import CheckSquare from "feather-icons-react/build/IconComponents/CheckSquare";
+import HardDrive from "feather-icons-react/build/IconComponents/HardDrive";
+import RefreshCw from "feather-icons-react/build/IconComponents/RefreshCw";
+import Tool from "feather-icons-react/build/IconComponents/Tool";
 import React from "react"
+import "./AppMaintenance.css";
 import { Container, Row, Col, Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function AppMaintenance() {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:600/h:575/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/app-maintenance-company-lucknow-orbish-infotech.png" alt="Error" />
+            <Row className="mt-5">
+                <Col lg={6} md={12} sm={12}>
+                    <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/app-maintenance-company-lucknow-orbish-infotech.png" alt="Error" />
+
+                    </div>
                 </Col>
-                <Col>
+                <Col lg={6} md={12} sm={12}>
                     <h2>
                         Mobile app maintenance service  | valour
                         Infotech
                     </h2>
                     <p>
-                        At Orbish Infotech, we understand that maintaining your mobile and web applications
+                        At valour Infotech, we understand that maintaining your mobile and web applications
                         is crucial for ensuring their performance and stability. That’s why we offer reliable app
                         maintenance services to our clients. Our app maintenance services cover a wide range
                         of tasks, including bug fixing, code optimization, security updates, and more.
@@ -35,17 +44,22 @@ function AppMaintenance() {
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <h2>
-                    Orbish Infotech is a reliable app maintenance company that offers
-                    comprehensive app maintenance services to ensure the performance and
-                    stability of your mobile and web applications. Contact us to learn how we
-                    can help you with your app maintenance needs.
-                </h2>
+            <Row className="text-center">
+                <Col lg={12} md={12} sm={12}>
+                    <h2 className="text-center">
+                        valour Infotech is a reliable app maintenance company that offers
+                        comprehensive app maintenance services to ensure the performance and
+                        stability of your mobile and web applications. Contact us to learn how we
+                        can help you with your app maintenance needs.
+                    </h2>
+                </Col>
             </Row>
-            <Row>
-                <Col>
-                    <Card>
+            <Row className="mt-5">
+                <Col lg={4} md={12} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+                        <div className="d-flex justify-content-center">
+                            <CheckSquare size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Bug Fixing
@@ -56,8 +70,11 @@ function AppMaintenance() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+                        <div className="d-flex justify-content-center">
+                            <RefreshCw size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Code Optimization
@@ -68,8 +85,11 @@ function AppMaintenance() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+                        <div className="d-flex justify-content-center">
+                            <HardDrive size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">Security Updates</CardTitle>
                             <CardText>
@@ -79,9 +99,14 @@ function AppMaintenance() {
                     </Card>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                    <Card>
+            <Row className="mt-5">
+                <Col lg={4} md={12} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+
+                        <div className="d-flex justify-content-center">
+                            <Tool size={50} />
+
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Performance Tuning
@@ -92,10 +117,13 @@ function AppMaintenance() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+                        <div className="d-flex justify-content-center">
+                            <RefreshCw size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Compatibility Testing
                             </CardTitle>
                             <CardText>
@@ -106,10 +134,13 @@ function AppMaintenance() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={12} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+                        <div className="d-flex justify-content-center">
+                            <User size={50} />
+                        </div>
                         <CardBody>
-                            <CardTitle>
+                            <CardTitle tag="h5">
                                 Technical Support
                             </CardTitle>
                             <CardText>

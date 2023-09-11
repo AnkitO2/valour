@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'
-//import { Headerofvalour } from './Navbaar/Headerofvalour';
+//import WebAppDevlopment from './Services/WebAppDevlopment';
+import Headerofvalour from './Navbaar/Headerofvalour';
 //import { Scrollbaar } from './Home/Scrollbaar';
 //import { Footerbaar } from './Footer/Footerbaar';
 //import Aboutus from './About/Aboutus';
@@ -10,7 +11,7 @@ import './App.css'
 //import WebsiteDesigning from './Services/WebsiteDesigning';
 //import AppDevlopment from './Services/AppDevlopment';
 //import WebsiteRedesign from './Services/WebsiteRedesign';
-import Webhosting from './Services/Webhosting';
+//import Webhosting from './Services/Webhosting';
 //import WebAppDevlopment from './Services/WebAppDevlopment';
 //import SoftwareTesting from './Services/SoftwareTesting';
 //import AppMaintenance from './Services/AppMaintenance';
@@ -25,11 +26,12 @@ import Webhosting from './Services/Webhosting';
 //import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 //import RealStateSoftware from './Solutions/RealStateSoftware';
 //import Technologies from './Resources/Technologies';
+//import Training from './Training/Training';
 function App() {
 
   return (
     <div class='App'>
-      {/* <Headerofvalour />
+      {/* 
               <Scrollbaar/>
               <Footerbaar/>
               <Aboutus/>       
@@ -39,9 +41,9 @@ function App() {
               <SoftwareDevlopment/>
               <WebsiteDesigning/>
               <WebsiteRedesign/>    
-                              
+              <Webhosting/>               
               <WebAppDevlopment />           
-              <SoftwareTesting/>           
+              <SoftwareTesting/>    
               <AppMaintenance/>
               <Ecommerse/>
               <DigitalMarketing/>
@@ -53,9 +55,9 @@ function App() {
               <EcommerseSoftwareSolution/>
               <NewsPortalDevlopment/>
               <RealStateSoftware/> 
-              <Technologies/>*/}
-        
-        <Webhosting/> 
+              <Technologies/>
+              <Training/>*/}
+            <Headerofvalour/>
     </div>
 
   );

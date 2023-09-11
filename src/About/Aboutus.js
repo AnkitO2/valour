@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-
+import "./Aboutus.css"
 const Aboutus = () => {
   return (
     <Container className="mt-3 p-2">

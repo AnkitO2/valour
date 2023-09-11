@@ -1,7 +1,7 @@
 import { Grid, Monitor, Search, Smartphone } from 'feather-icons-react/build/IconComponents';
 import React from 'react'
 import { Row, Col, Card, CardBody, CardTitle, CardText, Container, } from 'reactstrap'
-
+import "./Aboutwork.css"
 function Aboutwork() {
     return (
         <>

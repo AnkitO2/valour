@@ -1,16 +1,20 @@
+import { Cloud, Copy, CreditCard, Edit, Globe } from "feather-icons-react/build/IconComponents";
 import React from "react";
 import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 function WebAppDevlopment() {
     return (
         <Container>
-            <Row className="p-5 mt-5">
-                <Col>
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:720/h:405/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/web-app-development-company-lucknow-orbish-infotech.png" alt="Error" />
+            <Row className=" mt-5">
+                <Col lg={6} md={6} sm={12}>
+                    <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/web-app-development-company-lucknow-orbish-infotech.png" alt="Error" />
+
+                    </div>
                 </Col>
-                <Col>
+                <Col lg={6} md={6} sm={12}>
                     <h2>Custom Web App Development Services by
-                        Orbish Infotech
+                        valour Infotech
                     </h2>
                     <p>
                         valour Infotech is a leading software development company specializing in custom
@@ -30,16 +34,22 @@ function WebAppDevlopment() {
                 </Col>
             </Row>
             <Row>
-                <h2>
+                <h2 className="text-center">
                     We are committed to delivering custom web app development services that meet your
                     business needs and exceed your expectations. Contact us today to discuss your custom web
                     app development project with our experts.
                 </h2>
-                <Button>Enquire Now</Button>
+                <div className="d-flex justify-content-center">
+                    <Button>Enquire Now</Button>
+
+                </div>
             </Row>
-            <Row className="p-5 mt-5">
-                <Col>
-                    <Card>
+            <Row className=" mt-5">
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="text-center rounded-4 border-5 ">
+                        <div className="d-flex justify-content-center">
+                            <Edit size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">Web App Strategy & Consulting
                             </CardTitle>
@@ -47,16 +57,22 @@ function WebAppDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="text-center border-5 rounded-4">
+                        <div className="d-flex justify-content-center" >
+                            <CreditCard size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">UI/UX Design</CardTitle>
-                            <CardText>Orbish Infotech design custom user interfaces (UI) and user experience (UX) to create intuitive and engaging web applications that are easy to use.</CardText>
+                            <CardText>valour Infotech design custom user interfaces (UI) and user experience (UX) to create intuitive and engaging web applications that are easy to use.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="text-center  rounded-4 border-5">
+                        <div className="d-flex justify-content-center">
+                            <Copy size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">Front-End Development</CardTitle>
                             <CardText>Our front-end developers use the latest web technologies to develop responsive and scalable web apps that work seamlessly across different devices and platforms.
@@ -66,9 +82,12 @@ function WebAppDevlopment() {
                     </Card>
                 </Col>
             </Row>
-            <Row className="p-5">
-                <Col>
-                    <Card>
+            <Row className="mt-5">
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="text-center  rounded-4 border-5">
+                        <div className="d-flex justify-content-center">
+                            <Globe size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">Back-End Development
                             </CardTitle>
@@ -78,8 +97,11 @@ function WebAppDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="text-center  rounded-4 border-5">
+                        <div className="d-flex justify-content-center">
+                            <Cloud size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">Database Design and Development</CardTitle>
                             <CardText>
@@ -88,8 +110,11 @@ function WebAppDevlopment() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col lg={4} md={4} sm={12}>
+                    <Card className="text-center  rounded-4 border-5">
+                        <div className="d-flex justify-content-center">
+                            <CreditCard size={50} />
+                        </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Integration with Third-Party

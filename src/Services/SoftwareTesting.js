@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
-
+import "./SoftwareTesting.css";
 
 function SoftwareTesting() {
     return (
         <Container>
-            <Row className="mt-5 p-1">
-                <Col>
-                    <h2>Software testing solutions | Orbish Infotech</h2>
+            <Row className="mt-5">
+                <Col lg={6} md={12} sm={12}>
+                    <h2>Software testing solutions | valour Infotech</h2>
                     <p>
                         At valour Infotech, we understand the importance of software testing in ensuring the
                         quality and reliability of your software. That’s why we offer comprehensive software
@@ -29,18 +29,24 @@ function SoftwareTesting() {
                         clients to deliver high-quality software faster and with greater efficiency.
                     </p>
                 </Col>
-                <Col className="d-flex justify-content-center">
-                    <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/software-testing-company-lucknow-orbish-infotech.png" alt="Error" />
+                <Col lg={6} md={12} sm={12}>
+                    <div className="d-flex justify-content-center">
+                        <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/software-testing-company-lucknow-orbish-infotech.png" alt="Error" />
+
+                    </div>
                 </Col>
             </Row>
-            <Row className="bg-primary">
-                <h2>
+            <Row className="bg-primary mt-5">
+                <h2 className="text-center">
                     valour Infotech is a reliable software testing company that offers
                     comprehensive testing solutions and services to ensure the quality and
                     reliability of your software. Contact us to learn how we can help you
                     end-to-end testing services and consulting.
                 </h2>
-                <Button className="bg-dark text-white">Enquire Now</Button>
+                <div className="d-flex justify-content-center">
+                    <Button className="bg-dark text-white">Enquire Now</Button>
+
+                </div>
             </Row>
         </Container>
     );

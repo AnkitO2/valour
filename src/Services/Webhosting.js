@@ -1,5 +1,6 @@
-import { Globe, PlusCircle, RefreshCw } from "feather-icons-react/build/IconComponents";
+import { FileText, Globe, Monitor, PlusCircle, RefreshCw, Tool } from "feather-icons-react/build/IconComponents";
 import React from "react";
+import "./Webhosting.css";
 import { Button, Card, CardBody, CardText, CardTitle, Container, Row, Col } from "reactstrap";
 function Webhosting() {
     return (
@@ -41,12 +42,15 @@ function Webhosting() {
                         to learn more about our web hosting services and how we can help you
                         take your website to the next level.
                     </h2>
-                    <Button>Enquire Now</Button>
+                    <div className="d-flex justify-content-center">
+                        <Button >Enquire Now</Button>
+
+                    </div>
                 </div>
             </>
             <Row className="p-2 mt-5">
                 <Col lg={4} md={4} sm={12}>
-                    <Card>
+                    <Card className="border border-5">
                         <div className="d-flex justify-content-center">
                             <RefreshCw size={50} />
                         </div>
@@ -59,7 +63,7 @@ function Webhosting() {
                     </Card>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
-                    <Card>
+                    <Card className="border border-5">
                         <div className="d-flex justify-content-center">
                             <PlusCircle size={50} />
                         </div>
@@ -73,7 +77,7 @@ function Webhosting() {
                     </Card>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
-                    <Card>
+                    <Card className="border border-5">
                         <div className="d-flex justify-content-center">
                             <Globe size={50} />
                         </div>
@@ -86,9 +90,9 @@ function Webhosting() {
             </Row>
             <Row className="p-2 mt-1">
                 <Col lg={4} md={4} sm={12}>
-                    <Card>
+                    <Card className="border border-5">
                         <div className="d-flex justify-content-center">
-
+                            <Monitor size={50} />
                         </div>
                         <CardBody className="text-center">
                             <CardTitle tag="h5">Flexibility</CardTitle>
@@ -99,7 +103,10 @@ function Webhosting() {
                     </Card>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
-                    <Card>
+                    <Card className="border border-5">
+                        <div className="d-flex justify-content-center">
+                            <Tool size={50} />
+                        </div>
                         <CardBody className="text-center">
                             <CardTitle tag="h5">Technical support</CardTitle>
                             <CardText>Technical issues can arise at any time, so it's important to choose a web hosting provider with responsive and knowledgeable technical support. 24/7 support via phone, email, or live chat.</CardText>
@@ -107,7 +114,10 @@ function Webhosting() {
                     </Card>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
-                    <Card>
+                    <Card className="border border-5">
+                        <div className="d-flex justify-content-center">
+                            <FileText size={50} />
+                        </div>
                         <CardBody className="text-center">
                             <CardTitle tag="h5">Bandwidth and storage</CardTitle>
                             <CardText>

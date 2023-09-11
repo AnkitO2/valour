@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Carousel, CarouselControl, CarouselIndicators, CarouselCaption, CarouselItem, Col, Row } from 'reactstrap';
-import './Scrollbaar.css'
+import './Scrollbaar.css';
 const items = [
     {
         src: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1550&h=600',

@@ -50,7 +50,7 @@ function AppDevlopment() {
                 <Col lg={4}></Col>
             </Row> */}
             <Row className="mt-5">
-                <Col lg={6} md={6} sm={12}>
+                <Col lg={6} md={12} sm={12}>
                     <h2 className="text-center">
                         Custom App Development Services That Help
                         Your Business Thrive
@@ -73,11 +73,9 @@ function AppDevlopment() {
                         respond quickly to changing business needs and market trends. We also provide post-
                         launch maintenance and support services to ensure that your app stays up-to-date and
                         runs smoothly on all platforms.
-
-
                     </p>
                 </Col>
-                <Col lg={6} md={6} sm={12}>
+                <Col lg={6} md={12} sm={12}>
                     <div className="d-flex justify-content-center">
                         <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:494/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/Cross-Platform-Mobile-App-Development-iso-top.png" alt="Error" />
                     </div>
