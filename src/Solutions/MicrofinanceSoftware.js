@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardBody, CardText, CardTitle, Container, Row, Col } from "reactstrap";
-
+import "./MicrofinanceSoftware.css"
 function MicrofinanceSoftware() {
     return (
         <>

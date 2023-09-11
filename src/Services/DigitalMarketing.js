@@ -5,6 +5,7 @@ import MousePointer from "feather-icons-react/build/IconComponents/MousePointer"
 import User from "feather-icons-react/build/IconComponents/User";
 import UserCheck from "feather-icons-react/build/IconComponents/UserCheck";
 import React from "react";
+import "./DigitalMarketing.css"
 import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 function DigitalMarketing() {

@@ -4,7 +4,7 @@ import MousePointer from "feather-icons-react/build/IconComponents/MousePointer"
 import Search from "feather-icons-react/build/IconComponents/Search";
 import React from "react";
 import { Button, Card, CardBody, CardText, CardTitle, Container, Row, Col } from "reactstrap";
-
+import "./Seo.css";
 function Seo() {
     return (
         <>

@@ -2,7 +2,7 @@ import { Aperture, BarChart2, Check, Command, Smartphone } from 'feather-icons-r
 import Globe from 'feather-icons-react/build/IconComponents/Globe';
 import React from 'react'
 import { Row, Col, CardText, CardBody, Card, Container } from 'reactstrap';
-
+import "./SoftwareDevlopment.css"
 
 function SoftwareDevlopment() {
     return (

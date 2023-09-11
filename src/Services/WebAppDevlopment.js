@@ -1,7 +1,7 @@
 import { Cloud, Copy, CreditCard, Edit, Globe } from "feather-icons-react/build/IconComponents";
 import React from "react";
 import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from "reactstrap";
-
+import "./WebAppDevlopment";
 function WebAppDevlopment() {
     return (
         <Container>
