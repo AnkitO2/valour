@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 //import WebAppDevlopment from './Services/WebAppDevlopment';
-import Headerofvalour from './Navbaar/Headerofvalour';
-//import { Scrollbaar } from './Home/Scrollbaar';
-//import { Footerbaar } from './Footer/Footerbaar';
+//import Headerofvalour from './Navbaar/Headerofvalour';
+import { Scrollbaar } from './Home/Scrollbaar';
+import { Footerbaar } from './Footer/Footerbaar';
 //import Aboutus from './About/Aboutus';
 //import Aboutwork from './About/Aboutwork';
 //import { WebDevlopment } from './Services/WebDevlopment';
@@ -56,8 +57,19 @@ function App() {
               <NewsPortalDevlopment/>
               <RealStateSoftware/> 
               <Technologies/>
-              <Training/>*/}
-            <Headerofvalour/>
+              <Training/>
+               <Headerofvalour/>*/}
+
+
+      <Router>
+        <Routes>
+          <Route path='/' element={<Scrollbaar />} />
+
+        </Routes>
+        <Routes>
+          <Route path='/' element={<Footerbaar />} />
+        </Routes>
+      </Router>
     </div>
 
   );

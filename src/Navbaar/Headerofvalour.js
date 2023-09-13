@@ -1,24 +1,87 @@
-import React, { useState } from 'react';
+import React from "react";
 import "./Headerofvalour.css"
-import {
-  Navbar,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from 'reactstrap';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+
+
 
 function Headerofvalour() {
 
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
+
   return (
     <>
-      {/* < nav class="navbar">
+      <Router>
+        <div >
+          <nav className="d-flex">
+            <ul>
+              <li>
+                <Link to="/"> Home </Link>
+              </li>
+              <li>
+                <Link to="/"> About </Link>
+              </li>
+              <li>
+                <Link to="/"> Services </Link>
+              </li>
+              <li>
+                <Link to="/">Products</Link>
+              </li>
+              <li>
+                <Link to="/"> Training And Placement </Link>
+              </li>
+              <li>
+                <Link to="/">Careers  </Link>
+              </li>
+              <li>
+                <Link to="/">Contacts  </Link>
+              </li>
+              <li>
+                <Link to="/">Blogs  </Link>
+              </li>
+              <li>
+                <Link to="/">Pay Now  </Link>
+              </li>
+            </ul>
+
+          </nav>
+        </div>
+        <Routes>
+          <Route path="/Home">
+
+          </Route>
+        </Routes>
+        <Routes>
+          <Route path="/About">
+
+          </Route>
+        </Routes>
+        <Routes>
+          <Route path="/Service">
+
+          </Route>
+        </Routes>
+        <Routes>
+          <Route path="/Solution">
+
+          </Route>
+        </Routes>
+        <Routes>
+          <Route>
+
+          </Route>
+        </Routes>
+        <Routes>
+          <Route>
+
+          </Route>
+
+        </Routes>
+
+
+
+      </Router>
+
+
+      {/* < Nav class="navbar">
         <div class="logo">
 
         </div>
@@ -38,54 +101,11 @@ function Headerofvalour() {
           <div class="line"></div>
           <div class="line"></div>
         </div>
-      </nav>
+      </Nav> */}
 
       <script src="script.js">
-      </script> */}
+      </script>
 
-      <div className='Container'>
-        <Navbar>
-          {/* <NavbarBrand href="/">reactstrap</NavbarBrand> */}
-          {/* <NavbarToggler onClick={toggle} /> */}
-
-          <Nav className="me-auto" navbar>
-            <NavItem>
-              <NavLink href="/Home/">
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
-              </NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Services
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Solutions
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Web Devlopment</DropdownItem>
-                <DropdownItem>App Devlopment</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-          <NavbarText>Simple Text</NavbarText>
-
-        </Navbar>
-      </div>
 
 
 
