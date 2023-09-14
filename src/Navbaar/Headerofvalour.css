@@ -73,3 +73,16 @@
     }
 
 } */
+
+.NavLink:hover {
+    color: red;
+}
+
+.Navbar-Content {
+    font-weight: bolder;
+    font-family: sans-serif;
+
+}
+.Navbar-Content:hover{
+    color: red;
+}

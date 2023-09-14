@@ -1,6 +1,6 @@
 import { PieChart, BarChart, Edit, Globe, Grid, Repeat } from "feather-icons-react/build/IconComponents";
 import React from "react";
-import "./AccountAndBilling.css"
+
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 function AccountingAndBilling() {

@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 //import WebAppDevlopment from './Services/WebAppDevlopment';
-//import Headerofvalour from './Navbaar/Headerofvalour';
-import { Scrollbaar } from './Home/Scrollbaar';
-import { Footerbaar } from './Footer/Footerbaar';
-//import Aboutus from './About/Aboutus';
+import Headerofvalour from './Navbaar/Headerofvalour';
+//import { Scrollbaar } from './Home/Scrollbaar';
+
+import Aboutus from './About/Aboutus';
 //import Aboutwork from './About/Aboutwork';
 //import { WebDevlopment } from './Services/WebDevlopment';
 //import SoftwareDevlopment from './Services/SoftwareDevlopment';
@@ -31,9 +31,10 @@ import { Footerbaar } from './Footer/Footerbaar';
 function App() {
 
   return (
-    <div class='App'>
-      {/* 
-              <Scrollbaar/>
+    <Router>
+      <div class='App'>
+        {/* 
+                  <Scrollbaar />
               <Footerbaar/>
               <Aboutus/>       
               <Aboutwork/>  
@@ -58,20 +59,15 @@ function App() {
               <RealStateSoftware/> 
               <Technologies/>
               <Training/>
-               <Headerofvalour/>*/}
+               */}
+        <Headerofvalour />
 
-
-      <Router>
         <Routes>
-          <Route path='/' element={<Scrollbaar />} />
-
+          <Route path="/" index element={<Aboutus />}>
+          </Route>
         </Routes>
-        <Routes>
-          <Route path='/' element={<Footerbaar />} />
-        </Routes>
-      </Router>
-    </div>
-
+      </div>
+    </Router>
   );
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
-import "./EcommersSoftwareSolution.css";
 function EcommerseSoftwareSolution() {
     return (
         <>
@@ -13,7 +12,7 @@ function EcommerseSoftwareSolution() {
                         <h2 className="fw-bold">Ecommerce Software Development Company – valour Infotech
                         </h2>
                         <p>Looking for the best ecommerce software company in Lucknow? Look no further than
-                            Orbish Infotech ! .One of the leading eCommerce development firms, Orbish Infotech
+                            valour Infotech ! .One of the leading eCommerce development firms, Orbish Infotech
                             has a perceptive and analytical approach to meet your company’s needs. We provide
                             the greatest options for expanding your business at a reasonable price, starting with
                             theme customization and ending with maintenance, all while keeping in mind your
@@ -185,7 +184,7 @@ function EcommerseSoftwareSolution() {
                                 <CardText>
                                     valour Infotech’s ecommerce software solutions support multiple currencies, making it easy for you to sell your products and services to customers around the world.
 
-                          
+
                                 </CardText>
                             </CardBody>
                         </Card></Col>

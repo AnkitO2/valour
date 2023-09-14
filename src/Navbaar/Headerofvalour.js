@@ -1,110 +1,86 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Headerofvalour.css"
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-
+import { NavLink, Navbar, NavbarBrand, NavItem, Nav, Row, Col, Popover, PopoverHeader, PopoverBody, Button, } from "reactstrap";
 
 
 function Headerofvalour() {
+  const [popoverOpen, setPopoverOpen] = useState(false);
+  const togglePopover = () => {
+    setPopoverOpen(!popoverOpen);
+  };
 
 
   return (
     <>
-      <Router>
-        <div >
-          <nav className="d-flex">
-            <ul>
-              <li>
-                <Link to="/"> Home </Link>
-              </li>
-              <li>
-                <Link to="/"> About </Link>
-              </li>
-              <li>
-                <Link to="/"> Services </Link>
-              </li>
-              <li>
-                <Link to="/">Products</Link>
-              </li>
-              <li>
-                <Link to="/"> Training And Placement </Link>
-              </li>
-              <li>
-                <Link to="/">Careers  </Link>
-              </li>
-              <li>
-                <Link to="/">Contacts  </Link>
-              </li>
-              <li>
-                <Link to="/">Blogs  </Link>
-              </li>
-              <li>
-                <Link to="/">Pay Now  </Link>
-              </li>
-            </ul>
+      <Row>
+        <Navbar color="light" light expand="md">
 
-          </nav>
-        </div>
-        <Routes>
-          <Route path="/Home">
+          <Col lg={3} md={4} sm={12} >
+            <NavbarBrand href="" >Logo Lagao</NavbarBrand>
+          </Col>
 
-          </Route>
-        </Routes>
-        <Routes>
-          <Route path="/About">
+          <Col lg={9} md={8} sm={12}>
+            <Nav className="ml-auto d-flex justify-content-center justify-content-between" navbar >
+              <NavItem className="Navbar-Content">
+                <NavLink href="/home">Home
 
-          </Route>
-        </Routes>
-        <Routes>
-          <Route path="/Service">
+                </NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <Button id="popoverButton" onClick={togglePopover}>
+                  About
+                </Button>
+                <Popover
+                  placement="bottom"
+                  isOpen={popoverOpen}
+                  target="popoverButton"
+                  toggle={togglePopover}
+                >
+                  <PopoverHeader>About</PopoverHeader>
+                  <PopoverBody>
+                    <NavLink href="/" >Who we are</NavLink>
+                    <br />
+                    <NavLink href="/">How we work</NavLink>
+                  </PopoverBody>
+                </Popover>
 
-          </Route>
-        </Routes>
-        <Routes>
-          <Route path="/Solution">
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/service">Service</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/solution">Solution</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Resources">Resources</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Training & Placement">Training & Placement</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/career">Careers</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/contact">Contact</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Blog">Blog</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Pay Now">Pay Now</NavLink>
+              </NavItem>
+            </Nav>
+          </Col>
 
-          </Route>
-        </Routes>
-        <Routes>
-          <Route>
+        </Navbar>
 
-          </Route>
-        </Routes>
-        <Routes>
-          <Route>
-
-          </Route>
-
-        </Routes>
+      </Row>
 
 
 
-      </Router>
 
 
-      {/* < Nav class="navbar">
-        <div class="logo">
 
-        </div>
-        <ul class="nav-links">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">PRODUCTS</a></li>
-          <li><a href="#">TRAINING AND PLACEMENT</a></li>
-          <li><a href="#">CAREERS</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li id='pay-now'><a href="#" >PAY NOW</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </Nav> */}
-
-      <script src="script.js">
-      </script>
 
 
 
