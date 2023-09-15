@@ -6,7 +6,8 @@ import Headerofvalour from './Navbaar/Headerofvalour';
 //import { Scrollbaar } from './Home/Scrollbaar';
 
 import Aboutus from './About/Aboutus';
-//import Aboutwork from './About/Aboutwork';
+import Aboutwork from './About/Aboutwork';
+import { Footerbaar } from './Footer/Footerbaar';
 //import { WebDevlopment } from './Services/WebDevlopment';
 //import SoftwareDevlopment from './Services/SoftwareDevlopment';
 //import WebsiteDesigning from './Services/WebsiteDesigning';
@@ -34,7 +35,7 @@ function App() {
     <Router>
       <div class='App'>
         {/* 
-                  <Scrollbaar />
+               <Scrollbaar />
               <Footerbaar/>
               <Aboutus/>       
               <Aboutwork/>  
@@ -63,9 +64,11 @@ function App() {
         <Headerofvalour />
 
         <Routes>
-          <Route path="/" index element={<Aboutus />}>
-          </Route>
+          <Route path="/aboutus" index element={<Aboutus />}/>
+          <Route path="/aboutwork" index element={<Aboutwork/>}/>
+          <Route path='/'/>
         </Routes>
+
       </div>
     </Router>
   );
