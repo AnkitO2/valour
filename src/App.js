@@ -8,6 +8,7 @@ import { Scrollbaar } from './Home/Scrollbaar';
 /*********Content of About List********* */
 import Aboutus from './About/Aboutus';
 import Aboutwork from './About/Aboutwork';
+
 /*******Content of Service List*******/
 import { WebDevlopment } from './Services/WebDevlopment';
 import SoftwareDevlopment from './Services/SoftwareDevlopment';
@@ -29,15 +30,19 @@ import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
 import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
 import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 import RealStateSoftware from './Solutions/RealStateSoftware';
+import { Footerbaar } from './Footer/Footerbaar';
 
-//import Training from './Training/Training';
 function App() {
 
   return (
     <Router>
       <div class='App'>
         {/* 
+
               <Scrollbaar />
+
+               <Scrollbaar />
+
               <Footerbaar/>
               <Aboutus/>       
               <Aboutwork/>  
@@ -66,6 +71,7 @@ function App() {
         <Headerofvalour />
 
         <Routes>
+
           <Route path='/home' element={<Scrollbaar />} />
           <Route path='/footerbaar' element={<Footerbaar />} />
           <Route path="/aboutus" index element={<Aboutus />} />
@@ -89,9 +95,10 @@ function App() {
           <Route path='/EcommerseSoftwareSolution' element={<EcommerseSoftwareSolution />} />
           <Route path='/NewsPortalDevlopment' element={<NewsPortalDevlopment />} />
           <Route path='/RealStateSoftware' element={<RealStateSoftware />} />
-        </Routes>
-      </div>
-    </Router>
+        </Routes >
+
+      </div >
+    </Router >
   );
 }
 
