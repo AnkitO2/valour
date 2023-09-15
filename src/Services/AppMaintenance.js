@@ -22,13 +22,13 @@ function AppMaintenance() {
                         Mobile app maintenance service  | valour
                         Infotech
                     </h2>
-                    <p>
+                    <p className="text-light-emphasis">
                         At valour Infotech, we understand that maintaining your mobile and web applications
                         is crucial for ensuring their performance and stability. That’s why we offer reliable app
                         maintenance services to our clients. Our app maintenance services cover a wide range
                         of tasks, including bug fixing, code optimization, security updates, and more.
                     </p>
-                    <p>
+                    <p className="text-light-emphasis">
                         Our experienced team of app maintenance experts has extensive knowledge of various
                         platforms and technologies, including iOS, Android, web, and hybrid apps. We follow
                         best practices in app maintenance to ensure that your applications continue to function
@@ -36,7 +36,7 @@ function AppMaintenance() {
                         specific requirements and ensure that your apps remain up-to-date with the latest
                         technologies and trends.
                     </p>
-                    <p>
+                    <p className="text-light-emphasis">
                         Bug fixing is one of our core offerings, which helps to identify and resolve any issues
                         with your application. We use advanced tools and techniques to identify bugs and fix
                         them quickly and efficiently. This allows your users to have a seamless experience with
@@ -57,14 +57,14 @@ function AppMaintenance() {
             <Row className="mt-5">
                 <Col lg={4} md={12} sm={12}>
                     <Card className="text-center border-5 rounded-4">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <CheckSquare size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Bug Fixing
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our team of experts uses advanced tools and techniques to identify and resolve any bugs in your application. This helps to ensure that your users have a seamless experience with your app.
                             </CardText>
                         </CardBody>
@@ -72,14 +72,14 @@ function AppMaintenance() {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card className="text-center border-5 rounded-4">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <RefreshCw size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Code Optimization
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 We  identify areas that can be optimized for better performance and speed. This is particularly important for apps that have high traffic and require fast loading times.
                             </CardText>
                         </CardBody>
@@ -87,12 +87,12 @@ function AppMaintenance() {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card className="text-center border-5 rounded-4">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <HardDrive size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">Security Updates</CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our valour Infotech security experts identify and fix any potential security vulnerabilities to ensure that your app is secure and protected from potential threats.
                             </CardText>
                         </CardBody>
@@ -103,7 +103,7 @@ function AppMaintenance() {
                 <Col lg={4} md={12} sm={12}>
                     <Card className="text-center border-5 rounded-4">
 
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <Tool size={50} />
 
                         </div>
@@ -111,7 +111,7 @@ function AppMaintenance() {
                             <CardTitle tag="h5">
                                 Performance Tuning
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 We continually monitor your app’s performance to identify any issues and optimize its performance to meet your business requirements.
                             </CardText>
                         </CardBody>
@@ -119,14 +119,14 @@ function AppMaintenance() {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card className="text-center border-5 rounded-4">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <RefreshCw size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Compatibility Testing
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 We ensure that your app is compatible with the latest devices and operating systems to ensure that it continues to function smoothly.
 
 
@@ -136,14 +136,14 @@ function AppMaintenance() {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card className="text-center border-5 rounded-4">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <User size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Technical Support
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our support team is always available to provide you with technical assistance and resolve any issues that you may encounter with your app.
                             </CardText>
                         </CardBody>

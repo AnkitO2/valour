@@ -13,7 +13,7 @@ export const WebDevlopment = () => {
                         or best Website Development
                         Companies
                     </h2>
-                    <p>
+                    <p className='text-light-emphasis'>
                         valour Infotech is the best web development company in Lucknow, dedicated to
                         providing its clients with state-of-the-art website designing and development
                         services in Lucknow. Our mission is to empower businesses with innovative
@@ -23,7 +23,7 @@ export const WebDevlopment = () => {
                         enterprise. Our cost-efficient services and bespoke solutions position us as the top
                         web developer in Lucknow.
                     </p>
-                    <p>
+                    <p className='text-light-emphasis'>
                         valour Infotech is a leading web development company that specializes in
                         creating innovative and customized websites for businesses of all sizes. valour
                         team of skilled developers and designers have years of experience in the field, and
@@ -49,7 +49,7 @@ export const WebDevlopment = () => {
                     <h2>Offering top-notch services for Website
                         Development in Lucknow
                     </h2>
-                    <p>With a wealth of experience and expertise in the realm of web development, we
+                    <p className='text-light-emphasis'>With a wealth of experience and expertise in the realm of web development, we
                         provide our clients with services that are both results-driven and feature-rich. In
                         today’s day and age, a proficient website is an absolute necessity for garnering
                         attention and attracting clients. By partnering with a premier web development
@@ -90,13 +90,13 @@ export const WebDevlopment = () => {
                     <h2>Our Experience As A Web Development
                         Company In Lucknow.
                     </h2>
-                    <p>
+                    <p className='text-light-emphasis'>
                         We make websites for people who want to grow their business. Our team of experts in
                         Lucknow can make all kinds of websites. We love making special websites just for you!
                         We use special tools to make your website work really well. Some of the tools we use
                         are called WordPress, .NET/MVC, PHP.
                     </p>
-                    <p>
+                    <p className='text-light-emphasis'>
                         valour Infotech is a cool company that makes really awesome websites in Lucknow.
                         They have been doing it for more than 10 years and they know all about making
                         websites that are easy to use and look great. If you choose them to make your website,
@@ -107,14 +107,14 @@ export const WebDevlopment = () => {
             <Row className='mt-5'>
                 <Col lg={4} md={12} sm={12}>
                     <Card className='text-center'>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <Code size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Custom web development
                             </CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour Infotech provide customized web development solutions that are tailored to meet the specific needs of our clients. Orbish team works closely with clients to understand their requirements and develop web applications that deliver exceptional user experience.
 
 
@@ -125,14 +125,14 @@ export const WebDevlopment = () => {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card className='text-center'>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <Layout size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Mobile-friendly web design
                             </CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour team of developers creates websites that are optimized for mobile devices. Orbish understand the importance of mobile-friendly design in today's digital landscape and ensure that your website looks great on all devices and perforrm best .
                             </CardText>
                         </CardBody>
@@ -140,14 +140,14 @@ export const WebDevlopment = () => {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card className='text-center'>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <ArrowDownCircle size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 E-commerce development services
                             </CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour  provide end-to-end e-commerce development solutions that help businesses create online stores that are secure, easy to navigate, and engaging for customers. Orbish Infotech are the best E-commerce development services provider.
                             </CardText>
                         </CardBody>
@@ -157,7 +157,7 @@ export const WebDevlopment = () => {
             <Row className='mt-5'>
                 <Col lg={4} md={12} sm={12}>
                     <Card >
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <CreditCard size={50} />
                         </div>
                         <CardBody>
@@ -165,7 +165,7 @@ export const WebDevlopment = () => {
                                 Content management systems
                                 (CMS)
                             </CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour CMS solutions provide clients with an easy way to manage their website's content without requiring any technical expertise. Orbish use the latest technologies and programming languages to ensure that your custom web application is modern, secure, and easy to use.
                             </CardText>
                         </CardBody>
@@ -174,12 +174,12 @@ export const WebDevlopment = () => {
                 <Col lg={4} md={12} sm={12}>
 
                     <Card>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <BookOpen size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5"> Search engine optimization (SEO)</CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour team of experts uses the latest SEO techniques to ensure that your website ranks high on search engine results pages (SERPs), which drives more traffic to your website. Orbish work closely with our clients to understand their needs, requirements, and preferences, and develop custom web applications.
                             </CardText>
                         </CardBody>
@@ -187,12 +187,12 @@ export const WebDevlopment = () => {
                 </Col>
                 <Col lg={4} md={12} sm={12}>
                     <Card>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <Book size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">User experience (UX) design</CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour design websites with user experience in mind, ensuring that users can easily navigate the site and find the information they need quickly. Orbish Infotech pride ourselves on our attention to detail and our ability to deliver projects on time and within budget. We help you establish a strong digital presence and credibility.
                             </CardText>
                         </CardBody>
@@ -202,7 +202,7 @@ export const WebDevlopment = () => {
             <Row className='mt-5'>
                 <Col lg={4} md={4} sm={12}>
                     <Card>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <Users size={50} />
                         </div>
                         <CardBody>
@@ -210,7 +210,7 @@ export const WebDevlopment = () => {
                                 Integration with third-party
                                 applications
                             </CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour Infotech best web development company integrate third-party applications into your website, such as payment gateways, social media platforms, and other software solutions that enhance the functionality of your website.
                             </CardText>
                         </CardBody>
@@ -218,14 +218,14 @@ export const WebDevlopment = () => {
                 </Col>
                 <Col lg={4} md={4} sm={12}>
                     <Card>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center p-3'>
                             <BookOpen size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">
                                 Ongoing support and maintenance
                             </CardTitle>
-                            <CardText>
+                            <CardText className='text-light-emphasis'>
                                 valour Infotech provide ongoing support and maintenance to ensure that your website is always up-to-date and running smoothly. Orbish Infotech also provide training and documentation to help you and your team get the most out of your website.
                             </CardText>
                         </CardBody>
@@ -259,7 +259,7 @@ export const WebDevlopment = () => {
                     <h5>Looking for the Best Web Development
                         Company?
                     </h5>
-                    <p>Look no further than valour Infotech. valour Infotech, as a leading web development
+                    <p className='text-light-emphasis'>Look no further than valour Infotech. valour Infotech, as a leading web development
                         company in Lucknow, we offer top-notch web development services to clients in
                         Lucknow, Noida, and all other areas of Uttar Pradesh. Whether you’re in Lucknow,
                         Noida, or searching for a “web development company near me,” valour Infotech is your
@@ -267,14 +267,14 @@ export const WebDevlopment = () => {
                         stunning and user-friendly websites that meet your specific needs and requirements at
                         cheapest cost .
                     </p>
-                    <p>
+                    <p className='text-light-emphasis'>
                         Our expertise extends beyond Lucknow and Noida. If you’re in Varanasi, Patna.
                         Gorakhpur, Delhi, Bangalore, Kanpur, or anywhere else, we can provide you with
                         exceptional web development services at affordable cost. Our portfolio includes
                         successful projects from various locations, showcasing our ability to deliver outstanding
                         results regardless of location.
                     </p>
-                    <p>
+                    <p className='text-light-emphasis'>
                         valour Infotech not only offering web development services in cities like Bareilly, Pune,
                         Ghaziabad, Agra, Varanasi, Delhi, and Gorakhpur, we also cater to international clients.
                         As a reputed web development company and top 10 best web development service
@@ -297,17 +297,17 @@ export const WebDevlopment = () => {
                 </Col>
                 <Col lg={6} md={6} sm={12}>
                     <h5>Specialization</h5>
-                    <p>At valour Infotech, we specialize in creating responsive and visually appealing websites. Our
+                    <p className='text-light-emphasis'>At valour Infotech, we specialize in creating responsive and visually appealing websites. Our
                         web development services include designing and developing custom websites, creating
                         corporate websites, and providing business web development solutions. valour Infotech
                         Lucknow also offer e-commerce web development services for businesses looking to establish
                         an online presence and drive sales.
                     </p>
-                    <p>As a trusted web development company, we provide professional services with a focus on us
+                    <p className='text-light-emphasis'>As a trusted web development company, we provide professional services with a focus on us
                         experience, performance, and security. Our team is skilled in technologies like WordPress,
                         .net/MVC, React and more.
                     </p>
-                    <p>
+                    <p className='text-light-emphasis'>
                         Don’t settle for subpar web development. Choose Orbish Infotech as your web development
                         company and experience the difference. Contact us today and let us help you create a
                         stunning website that elevates your business and online presence.
@@ -321,7 +321,7 @@ export const WebDevlopment = () => {
                         Why Choose Orbish Infotech As a Website Development company in
                         Lucknow?
                     </h5>
-                    <p>
+                    <p className='text-light-emphasis'>
                         valour Infotech, A trusted web development company in Lucknow has
                         experience in Designing, Developing & Managing :- E-Commerce Websites,
                         Dynamic Websites, Static Websites. We provide all the essential Features

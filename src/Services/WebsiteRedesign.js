@@ -16,21 +16,21 @@ function WebsiteRedesign() {
                         Website Redesigning Services by valour
                         Infotech
                     </h2>
-                    <p>
+                    <p className="text-light-emphasis">
                         At valour Infotech, we understand the importance of having a visually appealing and
                         user-friendly website. A well-designed website not only helps in enhancing your brand
                         image but also plays a crucial role in driving traffic and generating leads. If you feel that
                         your website is outdated, unresponsive or not delivering the desired results, it's time for
                         a revamp.
                     </p>
-                    <p>
+                    <p className="text-light-emphasis">
                         Our website redesigning services are aimed at giving your website a fresh new look and
                         feel, while also improving its functionality, navigation, and user experience. Whether
                         you need a complete website overhaul or just a few tweaks, our expert designers and
                         developers will work closely with you to understand your requirements and deliver a
                         solution that meets your goals.
                     </p>
-                    <p>
+                    <p className="text-light-emphasis">
                         Our website redesigning services are aimed at giving your website a fresh new look and
                         feel, while also improving its functionality, navigation, and user experience. Whether
                         you need a complete website overhaul or just a few tweaks, our expert designers and
@@ -53,7 +53,7 @@ function WebsiteRedesign() {
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Consultation</CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our team will begin by understanding your business, target audience, and website goals. We’ll also assess your current website’s strengths and weaknesses and provide you with an analysis report.
                             </CardText>
                         </CardBody>
@@ -63,7 +63,7 @@ function WebsiteRedesign() {
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Design</CardTitle>
-                            <CardText>Our team of creative designers will create wireframes and prototypes that align with your vision and branding. We’ll ensure that your new website is visually appealing, user-friendly, and optimized for all devices.</CardText>
+                            <CardText className="text-light-emphasis">Our team of creative designers will create wireframes and prototypes that align with your vision and branding. We’ll ensure that your new website is visually appealing, user-friendly, and optimized for all devices.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
@@ -73,7 +73,7 @@ function WebsiteRedesign() {
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Development</CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our team of experienced developers will bring your new website to life, ensuring that it’s fast, secure, and easy to manage. We’ll also ensure that it’s SEO-friendly and meets all the latest web standards and guidelines.
                             </CardText>
                         </CardBody>
@@ -83,7 +83,7 @@ function WebsiteRedesign() {
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">Testing</CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Before the launch, we’ll thoroughly test your new website for performance, functionality, and compatibility across all devices and browsers.
                             </CardText>
                         </CardBody>

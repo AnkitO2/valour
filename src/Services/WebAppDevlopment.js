@@ -16,14 +16,14 @@ function WebAppDevlopment() {
                     <h2>Custom Web App Development Services by
                         valour Infotech
                     </h2>
-                    <p>
+                    <p className="text-light-emphasis">
                         valour Infotech is a leading software development company specializing in custom
                         web app development services. We have years of experience building custom web
                         applications for a diverse range of clients across different industries. Our team of
                         experienced developers can help you create custom web apps that are tailored to your
                         specific business needs and requirements.
                     </p>
-                    <p>
+                    <p className="text-light-emphasis">
                         Our custom web app development process is designed to be agile, iterative, and
                         collaborative. We work closely with our clients to understand their business goals,
                         target audience, and technical requirements to create custom web apps that meet their
@@ -47,35 +47,35 @@ function WebAppDevlopment() {
             <Row className=" mt-5">
                 <Col lg={4} md={4} sm={12}>
                     <Card className="text-center rounded-4 border-5 ">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <Edit size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">Web App Strategy & Consulting
                             </CardTitle>
-                            <CardText>Our experienced consultants will work with you to understand your business needs and goals, and help you develop a custom web app strategy that aligns with your objectives.</CardText>
+                            <CardText className="text-light-emphasis">Our experienced consultants will work with you to understand your business needs and goals, and help you develop a custom web app strategy that aligns with your objectives.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
                     <Card className="text-center border-5 rounded-4">
-                        <div className="d-flex justify-content-center" >
+                        <div className="d-flex justify-content-center mt-2" >
                             <CreditCard size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">UI/UX Design</CardTitle>
-                            <CardText>valour Infotech design custom user interfaces (UI) and user experience (UX) to create intuitive and engaging web applications that are easy to use.</CardText>
+                            <CardText className="text-light-emphasis">valour Infotech design custom user interfaces (UI) and user experience (UX) to create intuitive and engaging web applications that are easy to use.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
                 <Col lg={4} md={4} sm={12}>
                     <Card className="text-center  rounded-4 border-5">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <Copy size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">Front-End Development</CardTitle>
-                            <CardText>Our front-end developers use the latest web technologies to develop responsive and scalable web apps that work seamlessly across different devices and platforms.
+                            <CardText className="text-light-emphasis">Our front-end developers use the latest web technologies to develop responsive and scalable web apps that work seamlessly across different devices and platforms.
 
                             </CardText>
                         </CardBody>
@@ -85,13 +85,13 @@ function WebAppDevlopment() {
             <Row className="mt-5">
                 <Col lg={4} md={4} sm={12}>
                     <Card className="text-center  rounded-4 border-5">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <Globe size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">Back-End Development
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our back-end developers specialize in building custom web app backends using popular programming languages, such as Node.js, Ruby on Rails, and Python.
                             </CardText>
                         </CardBody>
@@ -99,12 +99,12 @@ function WebAppDevlopment() {
                 </Col>
                 <Col lg={4} md={4} sm={12}>
                     <Card className="text-center  rounded-4 border-5">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <Cloud size={50} />
                         </div>
                         <CardBody>
                             <CardTitle tag="h5">Database Design and Development</CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 Our database architects can design and develop custom databases to meet your web app’s specific data storage and retrieval needs. We are committed to delivering custom web app development services.
                             </CardText>
                         </CardBody>
@@ -112,7 +112,7 @@ function WebAppDevlopment() {
                 </Col>
                 <Col lg={4} md={4} sm={12}>
                     <Card className="text-center  rounded-4 border-5">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mt-2">
                             <CreditCard size={50} />
                         </div>
                         <CardBody>
@@ -120,7 +120,7 @@ function WebAppDevlopment() {
                                 Integration with Third-Party
                                 Systems
                             </CardTitle>
-                            <CardText>
+                            <CardText className="text-light-emphasis">
                                 We can integrate your web app with third-party systems, such as CRMs, ERPs, and Payment Gateways, to enhance its functionality and streamline your business operations.
                             </CardText>
                         </CardBody>

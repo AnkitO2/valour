@@ -10,7 +10,7 @@ function Aboutwork() {
                     <Row>
                         <Col lg={6} md={12} sm={12}>
                             <h4>Work Process or How we work</h4>
-                            <p>Orbish Infotech is a software company that specialises in developing
+                            <p className='text-dark-emphasis'>Orbish Infotech is a software company that specialises in developing
                                 custom software solutions for businesses of all sizes. Our software
                                 development process is intended to convey great programming that
                                 meets the remarkable requirements of our clients. We follow a
@@ -19,12 +19,12 @@ function Aboutwork() {
                                 approach in how we work, ensuring that our clients’ needs and
                                 objectives are at the forefront of our software development process.
                             </p>
-                            <p>Orbish Infotech committed to delivering customised software solutions
+                            <p className='text-dark-emphasis'>Orbish Infotech committed to delivering customised software solutions
                                 that meet our client’s expectations. Our software  development process
                                 is made to be transparent, collaborative, and efficient so that clients
                                 must be confident that software would deliver on time.
                             </p>
-                            <p>Our process features include the following points :</p>
+                            <p className='text-dark-emphasis'>Our process features include the following points :</p>
                         </Col>
                         <Col lg={6} md={12} sm={12}>
                             <div className='d-flex justify-content-center'>
@@ -40,7 +40,7 @@ function Aboutwork() {
 
                                 }}
                             >
-                                <div className='d-flex justify-content-center '>
+                                <div className='d-flex justify-content-center p-3'>
                                     <Monitor size="50" color="green" />
                                 </div>
 
@@ -49,7 +49,7 @@ function Aboutwork() {
                                         Client Requirment
                                     </CardTitle>
 
-                                    <CardText>
+                                    <CardText className='text-dark-emphasis'>
                                         We work intimately with our clients to figure out their business objectives and prerequisites. This assists us with creating programming arrangements that are customized to their particular necessities.
                                     </CardText>
 
@@ -68,7 +68,7 @@ function Aboutwork() {
                                     <CardTitle tag="h5">
                                         Planning and design
                                     </CardTitle>
-                                    <CardText>
+                                    <CardText className='text-dark-emphasis'>
                                         We utilize various apparatuses and strategies to plan and plan programming arrangements. This incorporates wireframes, mockups, and models that permit our clients to picture the product.
                                     </CardText>
                                 </CardBody>
@@ -86,7 +86,7 @@ function Aboutwork() {
                                     <CardTitle tag="h5">
                                         Development
                                     </CardTitle>
-                                    <CardText>
+                                    <CardText className='text-dark-emphasis'>
                                         Orbish Infotech team of experienced developers offer cost-efficient customized software development services with our solutions uniquely fitting your needs in your business reqirements.
                                     </CardText>
                                 </CardBody>
@@ -104,7 +104,7 @@ function Aboutwork() {
                                     <CardTitle tag="h5">
                                         Quality Assurance
                                     </CardTitle>
-                                    <CardText>
+                                    <CardText className='text-dark-emphasis'>
                                         Quality assurance aims to deliver the highest standards of customer service and maintain these standards by continuous evaluation of agents and resolution processes. Our services meets client's requirements.
                                     </CardText>
                                 </CardBody>

@@ -16,7 +16,7 @@ function Smo() {
                             “Maximize Your Social Media Reach with valour
                             Infotech – Best SMO Company in Lucknow
                         </h2>
-                        <p>At valour Infotech, we believe in creating exceptional social media marketing strategies
+                        <p className=" text-light-emphasis">At valour Infotech, we believe in creating exceptional social media marketing strategies
                             that help businesses maximize their reach and grow their online presence. Our team of
                             experts specializes in creating customized solutions that cater to the unique needs of
                             each client, ensuring that they get the best results possible
@@ -53,7 +53,7 @@ function Smo() {
                         <Card >
                             <CardBody className="text-center">
                                 <CardTitle tag="h5">Experienced Team</CardTitle>
-                                <CardText>Our team of experts has years of experience in social media marketing and stays up-to-date with the latest trends and technologies.</CardText>
+                                <CardText className=" text-light-emphasis">Our team of experts has years of experience in social media marketing and stays up-to-date with the latest trends and technologies.</CardText>
                             </CardBody>
                         </Card>
                     </Col>
@@ -61,7 +61,7 @@ function Smo() {
                         <Card>
                             <CardBody className="text-center">
                                 <CardTitle tag="h5">Customized Solutions</CardTitle>
-                                <CardText>
+                                <CardText className=" text-light-emphasis">
                                     We understand that every business is unique, which is why we create customized solutions tailored to the specific needs of each client.
                                 </CardText>
                             </CardBody>
@@ -71,7 +71,7 @@ function Smo() {
                         <Card>
                             <CardBody className="text-center">
                                 <CardTitle tag="h5">Results-Driven Approach</CardTitle>
-                                <CardText>
+                                <CardText className=" text-light-emphasis">
                                     We focus on delivering results and strive to exceed our clients’ expectations.
                                 </CardText>
                             </CardBody>
@@ -81,7 +81,7 @@ function Smo() {
                         <Card>
                             <CardBody className="text-center">
                                 <CardTitle tag="h5">Affordable Prices</CardTitle>
-                                <CardText>
+                                <CardText className=" text-light-emphasis">
                                     We offer our services at competitive prices without compromising on quality
                                 </CardText>
                             </CardBody>

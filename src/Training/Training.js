@@ -10,7 +10,7 @@ function Training() {
                 <Row className="mt-5">
                     <Col lg={8} md={12} sm={12}>
                         <h2 className="text-primary"> Training the way you want </h2>
-                        <p>
+                        <p className="text-light-emphasis">
                             Valour Infotech Training and certifications offers you the ability to earn credentials to
                             demonstrate your expertise. It is designed to validate your skills and capability to perform role-
                             related tasks and activities at a specified level of competence.
@@ -39,7 +39,7 @@ function Training() {
                             the certification or specialty exam.
 
                         </h4>
-                        <p>
+                        <p className="text-light-emphasis">
                             In this era of globalization and free trade, India has to be as competitive as any other country in the world in
                             the areas of technology, quality, cost and service. As such the Software Companies are forced to adopt
                             modern technology and concepts in order to be competitive globally.

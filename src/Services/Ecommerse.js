@@ -17,14 +17,14 @@ function Ecommerse() {
                             Custom e-commerce store development | valour
                             Infotech
                         </h2>
-                        <p>
+                        <p className="text-light-emphasis">
                             In today’s digital age, having a strong online presence is essential for the success of any
                             e-commerce business. At valour Infotech, we offer expert software development
                             services to help you build your dream e-commerce store. Our experienced team of
                             developers has a proven track record of delivering high-quality e-commerce solutions
                             that are tailored to meet the unique needs of each of our clients.
                         </p>
-                        <p>
+                        <p className="text-light-emphasis">
                             We understand that each e-commerce business has different requirements and
                             objectives, which is why we offer customized software development services to ensure
                             that your e-commerce store stands out from the competition. Our team of developers
@@ -52,7 +52,7 @@ function Ecommerse() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5">Custom E-commerce Store Development</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We build custom e-commerce stores that are tailored to meet the unique needs of your business, including design, functionality . </CardText>
                             </CardBody>
                         </Card>
@@ -61,7 +61,7 @@ function Ecommerse() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5">E-commerce Website Design</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We design beautiful and responsive e-commerce websites that are optimized for a seamless user experience.
                                 </CardText>
                             </CardBody>
@@ -71,7 +71,7 @@ function Ecommerse() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5">Payment Gateway Integration</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We integrate payment gateways into your e-commerce store, making it easy for your customers to make purchases online.
                                 </CardText>
                             </CardBody>
@@ -83,7 +83,7 @@ function Ecommerse() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5">Mobile App Development</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We develop mobile apps for your e-commerce store, allowing your customers to browse and purchase products on-the-go.
                                 </CardText>
                             </CardBody>
@@ -93,7 +93,7 @@ function Ecommerse() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5">E-commerce SEO</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We optimize your e-commerce store for search engines, making it easier for potential customers to find your products and services online.
                                 </CardText>
                             </CardBody>

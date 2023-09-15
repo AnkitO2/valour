@@ -18,29 +18,29 @@ function Seo() {
                     </Col>
                     <Col lg={6} md={12} sm={12}>
                         <h2>SEO company in Lucknow | valour Infotech</h2>
-                        <p>Our SEO services are designed to help you achieve higher rankings in search engine
+                        <p className="text-light-emphasis">Our SEO services are designed to help you achieve higher rankings in search engine
                             results pages (SERPs) and attract more organic traffic to your website.
                         </p>
-                        <p>
+                        <p className="text-light-emphasis">
                             If you’re looking for an SEO company in Lucknow, you’ve come to the right place. At
                             valour Infotech, we specialize in providing customized SEO solutions to businesses of
                             all sizes and industries. Our team of experts has years of experience working with
                             businesses in Lucknow and beyond, helping them achieve their online marketing goals
                             and grow their business
                         </p>
-                        <p>
+                        <p className="text-light-emphasis">
                             We conduct thorough keyword research to identify the most relevant and profitable
                             keywords for your business. This helps us optimize your website’s content and metadata
                             to rank higher in search engine results pages and attract more organic traffic to your
                             website.
                         </p>
-                        <p>
+                        <p className="text-light-emphasis">
                             We optimize your website’s on-page elements, such as title tags, meta descriptions,
                             header tags, and content, to improve your website’s relevancy and authority in the eyes
                             of search engines. This helps to improve your website’s visibility and rankings in search
                             results pages.
                         </p>
-                        <p>
+                        <p className="text-light-emphasis">
                             We believe in building long-term relationships with our clients based on trust and
                             transparency. We work closely with you to understand your business, your goals, and
                             your target audience, and we provide regular updates and communication to ensure
@@ -63,12 +63,12 @@ function Seo() {
                 <Row className="mt-5">
                     <Col lg={4} md={12} sm={12}>
                         <Card className="text-center border-5 rounded-4">
-                            <div className="d-flex justify-content-center">
+                            <div className="d-flex justify-content-center mt-2">
                                 <MousePointer size="50" />
                             </div>
                             <CardBody>
                                 <CardTitle tag="h5">Keyword Research</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We conduct thorough keyword research to identify the most relevant and profitable keywords for your business. This helps us optimize your website’s content and metadata to rank higher in search engine results pages and attract more organic traffic to your website.
 
 
@@ -78,12 +78,12 @@ function Seo() {
                     </Col>
                     <Col lg={4} md={12} sm={12}>
                         <Card className="text-center border-5 rounded-4">
-                            <div className="d-flex justify-content-center">
+                            <div className="d-flex justify-content-center mt-2">
                                 <Search size="50" />
                             </div>
                             <CardBody>
                                 <CardTitle tag="h5">On-page Optimization</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We optimize your website’s on-page elements, such as title tags, meta descriptions, header tags, and content, to improve your website’s relevancy and authority in the eyes of search engines. This helps to improve your website’s visibility and rankings in search results pages.
 
 
@@ -93,12 +93,12 @@ function Seo() {
                     </Col>
                     <Col lg={4} md={12} sm={12}>
                         <Card className="text-center border-5 rounded-4">
-                            <div className="d-flex justify-content-center">
+                            <div className="d-flex justify-content-center mt-2">
                                 <Edit size="50" />
                             </div>
                             <CardBody>
                                 <CardTitle tag="h5">Off-page Optimization</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We also optimize your website’s off-page elements, such as backlinks, social media signals, and citations, to increase your website’s authority and credibility. This helps to improve your website’s rankings in search results pages and attract more traffic to your website.
                                 </CardText>
                             </CardBody>
@@ -108,12 +108,12 @@ function Seo() {
                 <Row className="mt-5">
                     <Col lg={4} md={12} sm={12}>
                         <Card className="text-center border-5 rounded-4 gap-2">
-                            <div className="d-flex justify-content-center">
+                            <div className="d-flex justify-content-center mt-2">
                                 <Search size="50" />
                             </div>
                             <CardBody>
                                 <CardTitle tag="h5">Local SEO</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We specialize in providing local SEO services to businesses that are looking to improve their visibility in their local market. We optimize your website’s content and metadata for local keywords and create local business listings to improve your visibility in local search results pages.
                                 </CardText>
                             </CardBody>
@@ -121,12 +121,12 @@ function Seo() {
                     </Col>
                     <Col lg={4} md={12} sm={12}>
                         <Card className="text-center border-5 rounded-4 gap-2">
-                            <div className="d-flex justify-content-center">
+                            <div className="d-flex justify-content-center mt-2">
                                 <Navigation size={50} />
                             </div>
                             <CardBody>
                                 <CardTitle tag="h5">Analytics and Reporting</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     We provide regular analytics and reporting to track your progress and ROI. We use data-driven insights to make informed decisions about your SEO campaigns and adjust our strategies as needed to ensure that you’re achieving your online marketing goals.
                                 </CardText>
                             </CardBody>

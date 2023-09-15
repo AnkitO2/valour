@@ -11,6 +11,7 @@ const items = [
     {
         src: 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29mdHdhcmUlMjBDb21wYW55fGVufDB8fDB8fHww&auto=format&fit=crop&w=1550&h=600',
         key: 2,
+
     },
     {
         src: 'https://images.unsplash.com/photo-1573167507387-6b4b98cb7c13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNvZnR3YXJlJTIwQ29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1550&h=600',

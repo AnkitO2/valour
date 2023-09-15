@@ -11,7 +11,7 @@ function EcommerseSoftwareSolution() {
                     <Col lg={6} md={12} sm={12}>
                         <h2 className="fw-bold">Ecommerce Software Development Company – valour Infotech
                         </h2>
-                        <p>Looking for the best ecommerce software company in Lucknow? Look no further than
+                        <p className="text-light-emphasis">Looking for the best ecommerce software company in Lucknow? Look no further than
                             valour Infotech ! .One of the leading eCommerce development firms, Orbish Infotech
                             has a perceptive and analytical approach to meet your company’s needs. We provide
                             the greatest options for expanding your business at a reasonable price, starting with
@@ -20,7 +20,7 @@ function EcommerseSoftwareSolution() {
                             top-notch solutions to businesses of all sizes in Lucknow, Uttar Pradesh.
                         </p>
                         <h2>Best eCommerce Software Company in Lucknow</h2>
-                        <p>
+                        <p className="text-light-emphasis">
                             Our best ecommerce software is designed to help you streamline your online
                             operations, increase your sales, and reach more customers. valour Infotech is in Top 10
                             Best eCommerce Software Company in Lucknow & Best top 10 ecommerce
@@ -28,7 +28,7 @@ function EcommerseSoftwareSolution() {
                             payment gateways, and customizable designs, our software can help you build the
                             online store of your dreams.
                         </p>
-                        <p>
+                        <p className="text-light-emphasis">
                             But don’t just take our word for it. Here are the top 10 reasons why valour Infotech is
                             the best ecommerce software company in Lucknow:
                         </p>
@@ -118,7 +118,7 @@ function EcommerseSoftwareSolution() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">Customized online store</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     With valour Infotech’s top ecommerce software solutions, you can create a customized online store that reflects your brand and values.
                                 </CardText>
                             </CardBody>
@@ -128,7 +128,7 @@ function EcommerseSoftwareSolution() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">SEO optimization</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     valour Infotech’s Ecommerce Development Company are designed with SEO in mind, helping your business rank higher in search engine results pages (SERPs)
                                 </CardText>
                             </CardBody>
@@ -139,7 +139,7 @@ function EcommerseSoftwareSolution() {
                                 <CardTitle tag="h5" className="fw-bold">
                                     Payment gateway integration
                                 </CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     Best Ecommerce Website development company in Lucknow allow you to accept payments from a variety of payment gateways.
                                 </CardText>
                             </CardBody>
@@ -149,7 +149,7 @@ function EcommerseSoftwareSolution() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">Inventory management</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     valour  Infotech’s Top Ecommerce Software Solutions, you can easily manage your inventory, orders, and customer data from a single platform.
                                 </CardText>
                             </CardBody>
@@ -161,7 +161,7 @@ function EcommerseSoftwareSolution() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">Shipping and logistics integration</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     Top 10 ecommerce software solutions  in Lucknow integrate with popular shipping and logistics providers, making it easy for you to manage your shipping
                                 </CardText>
                             </CardBody>
@@ -171,7 +171,7 @@ function EcommerseSoftwareSolution() {
                         <Card className="text-center ">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">Mobile responsive design</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     valour Infotech’s ecommerce software solutions are designed with a mobile responsive design, ensuring that your online store is accessible and user-friendly on any device.
                                 </CardText>
                             </CardBody>
@@ -181,7 +181,7 @@ function EcommerseSoftwareSolution() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">Multi-currency support</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     valour Infotech’s ecommerce software solutions support multiple currencies, making it easy for you to sell your products and services to customers around the world.
 
 
@@ -189,10 +189,10 @@ function EcommerseSoftwareSolution() {
                             </CardBody>
                         </Card></Col>
                     <Col lg={3} md={6} sm={12}>
-                        <Card className="text-cente ">
+                        <Card className="text-cente">
                             <CardBody>
                                 <CardTitle tag="h5" className="fw-bold">Analytics and reporting</CardTitle>
-                                <CardText>
+                                <CardText className="text-light-emphasis">
                                     valour Infotech’s ecommerce software solutions come with analytics and reporting features, allowing you to track your sales, revenue, and customer behavior.
                                 </CardText>
                             </CardBody>
