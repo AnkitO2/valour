@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Headerofvalour from './Navbaar/Headerofvalour';
-import { Footerbaar } from './Footer/Footerbaar';
 /*****Content of Home Page*****/
 import { Scrollbaar } from './Home/Scrollbaar';
 /*********Content of About List********* */

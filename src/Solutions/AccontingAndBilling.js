@@ -259,7 +259,6 @@ function AccountingAndBilling() {
                             </CardBody>
                         </Card>
                     </Col>
-
                 </Row>
             </Container>
         </>

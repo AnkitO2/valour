@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Headerofvalour.css"
-// import { NavLink, Navbar, NavbarBrand, NavItem, Nav, Row, Col, Popover, PopoverBody, Button, } from "reactstrap";
 import {
   NavLink,
   Navbar,
@@ -10,12 +9,12 @@ import {
   Row,
   Col,
   Popover,
-  PopoverHeader,
   PopoverBody,
   Button,
 } from "reactstrap";
 
 function Headerofvalour() {
+
   const [popoverOpen, setPopoverOpen] = useState(false);
   const togglePopover = () => {
     setPopoverOpen(!popoverOpen);
@@ -24,7 +23,7 @@ function Headerofvalour() {
   // const [home, setHome] = useState(true);
   // const togglehome = () => {
   //   setHome(!home);
-  // }
+  // };
   const [serviceOpen, setServiceOpen] = useState(false);
   const taoggleService = () => {
     setServiceOpen(!serviceOpen);
@@ -35,17 +34,16 @@ function Headerofvalour() {
   };
 
   return (
-    <>
-      <Row>
+      <>
 
-        <Navbar color="light" light expand="md" >
+      <Row>
+        <Navbar color = "light" light expand = "md">
 
           <Col lg={3} md={4} sm={12} >
-            <NavbarBrand href="" >
+            <NavbarBrand href="/" >
               <img src="" alt="Error" />
             </NavbarBrand>
           </Col>
-
           <Col lg={9} md={8} sm={12}>
             <Nav className="ml-auto d-flex justify-content-center justify-content-between text-center" navbar >
               <NavItem className="Navbar-Content">
@@ -58,19 +56,8 @@ function Headerofvalour() {
                 {/* <br />
                 <NavLink href="/footerbaar">
                 </NavLink> */}
-                <Navbar color="light" light expand="md">
-                  <Col lg={3} md={4} sm={12}>
-                    <NavbarBrand href="">Logo Lagao</NavbarBrand>
-                  </Col>
-
-                  <Col lg={9} md={8} sm={12}>
-                    <Nav
-                      className="ml-auto d-flex justify-content-center justify-content-between"
-                      navbar
-                    >
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/home">Home</NavLink>
-                      </NavItem>
+             
+                 </NavItem>  
                       <NavItem className="Navbar-Content">
                         <Button id="popoverButton" onClick={togglePopover} color="white">
                           About
@@ -83,11 +70,7 @@ function Headerofvalour() {
                         >
 
                           <PopoverBody>
-
-
-
                             <NavLink href="/aboutus">Who we are</NavLink>
-
                             <br />
                             <NavLink href="/aboutwork">How we work</NavLink>
                           </PopoverBody>
@@ -180,9 +163,11 @@ function Headerofvalour() {
                       </NavItem>
                     </Nav>
                   </Col>
+
                 </Navbar>
               </Row>
             </>
-            );
-  }
-            export default Headerofvalour;
+            )
+          }
+
+            export default  Headerofvalour;
