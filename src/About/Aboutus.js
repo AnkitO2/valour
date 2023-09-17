@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'reactstrap'
 import "./Aboutus.css"
 const Aboutus = () => {
   return (
-    <Container className="mt-3 p-2">
+    <Container className="mt-3 ">
       <Row>
         <Col lg={6} md={6} sm={12}>
           <h2>About Ou - Valour Infotech</h2>

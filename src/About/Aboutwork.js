@@ -10,7 +10,7 @@ function Aboutwork() {
                     <Row>
                         <Col lg={6} md={12} sm={12}>
                             <h4>Work Process or How we work</h4>
-                            <p className='text-dark-emphasis'>Orbish Infotech is a software company that specialises in developing
+                            <p className='text-dark-emphasis'>valour Infotech is a software company that specialises in developing
                                 custom software solutions for businesses of all sizes. Our software
                                 development process is intended to convey great programming that
                                 meets the remarkable requirements of our clients. We follow a
@@ -19,7 +19,7 @@ function Aboutwork() {
                                 approach in how we work, ensuring that our clients’ needs and
                                 objectives are at the forefront of our software development process.
                             </p>
-                            <p className='text-dark-emphasis'>Orbish Infotech committed to delivering customised software solutions
+                            <p className='text-dark-emphasis'>valour Infotech committed to delivering customised software solutions
                                 that meet our client’s expectations. Our software  development process
                                 is made to be transparent, collaborative, and efficient so that clients
                                 must be confident that software would deliver on time.

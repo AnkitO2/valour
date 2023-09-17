@@ -93,7 +93,7 @@ function Ecommerse() {
                         <Card className="text-center">
                             <CardBody>
                                 <CardTitle tag="h5">E-commerce SEO</CardTitle>
-                                <CardText className="text-light-emphasis">
+                                <CardText className="text-light-emphasis">0
                                     We optimize your e-commerce store for search engines, making it easier for potential customers to find your products and services online.
                                 </CardText>
                             </CardBody>

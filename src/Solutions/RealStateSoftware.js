@@ -13,7 +13,7 @@ function RealStateSoftware() {
 
                         </h3>
                         <p className="text-light-emphasis">
-                            At Orbish Infotech, we take pride in being the best real estate software
+                            At valour Infotech, we take pride in being the best real estate software
                             development company in Lucknow. With our extensive experience and
                             dedication to excellence, we have earned a reputation as a trusted partner
                             for businesses in the real estate industry. Here’s why we stand out as the
@@ -46,8 +46,8 @@ function RealStateSoftware() {
                             Expertise in Real Estate Solutions:
                         </h4>
                         <p className="text-light-emphasis">
-                            With a deep understanding of the real estate sector, our team at Orbish Infotech specializes in developing customized software solutions tailored specifically to meet the unique needs of the
-                            industry. We leverage our expertise to create innovative software that streamlines operations, enhances efficiency, and drives growth for your real estate business.
+                            With a deep understanding of the real estate sector, our team at valour Infotech specializes in developing customized software solutions tailored specifically to meet the unique needs of the
+                            industry. We leverage our expertise to create innovative software that streamlines operations, enhances efficie0ncy, and drives growth for your real estate business.
                         </p>
                         <h4>
                             Comprehensive Software Development Services:
@@ -59,7 +59,7 @@ function RealStateSoftware() {
                         </p>
                         <h4>Cutting-edge Technology:</h4>
                         <p className="text-light-emphasis">
-                            At Orbish Infotech, we stay up-to-date with the latest technological advancements in the software development industry. We leverage cutting-edge tools, frameworks, and programming
+                            At valour Infotech, we stay up-to-date with the latest technological advancements in the software development industry. We leverage cutting-edge tools, frameworks, and programming
                             languages to build robust and scalable software solutions for our clients. By embracing innovation, we ensure that our clients benefit from state-of-the-art technology that drives their success.
                         </p>
                         <h4>User-friendly Interfaces:</h4>
@@ -73,7 +73,7 @@ function RealStateSoftware() {
                         <h4>Data Security and Privacy:</h4>
                         <p className="text-light-emphasis">
                             We prioritize the security and confidentiality of your real estate data. Our team follows industry best practices and implements robust security measures to safeguard your sensitive information
-                            from unauthorized access or breaches. You can trust Orbish Infotech to handle your data with the utmost care and ensure its integrity and privacy.
+                            from unauthorized access or breaches. You can trust valour Infotech to handle your data with the utmost care and ensure its integrity and privacy.
                         </p>
                         <h4>
                             Timely Delivery and Support:
@@ -85,11 +85,11 @@ function RealStateSoftware() {
                         </p>
                         <h4>Client Satisfaction:</h4>
                         <p className="text-light-emphasis">
-                            Our ultimate goal at Orbish Infotech is to exceed client expectations and ensure their satisfaction. We take pride in our successful track record of delivering high-quality software solutions that
+                            Our ultimate goal at valour Infotech is to exceed client expectations and ensure their satisfaction. We take pride in our successful track record of delivering high-quality software solutions that
                             drive tangible results for our clients. Our commitment to transparency, open communication, and delivering exceptional service sets us apart as a reliable and trusted partner.
                         </p>
                         <p className="text-light-emphasis">
-                            In conclusion, when it comes to real estate software development in Lucknow, Orbish Infotech is the best choice. With our expertise, comprehensive services, cutting-edge technology, user-
+                            In conclusion, when it comes to real estate software development in Lucknow, valour Infotech is the best choice. With our expertise, comprehensive services, cutting-edge technology, user-
                             friendly interfaces, data security measures, timely delivery, and unwavering support, we are dedicated to helping your real estate business thrive. Contact us today and experience the Orbish
                             Infotech difference in transforming your real estate operations.
                         </p>

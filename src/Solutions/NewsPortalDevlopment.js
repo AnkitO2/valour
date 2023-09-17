@@ -161,7 +161,7 @@ function NewsPortalDevlopment() {
                             Lucknow, constantly exploring the latest technologies and utilizing the best development practices. Our goal is to develop software that not only meets but
                             exceeds your expectations. We offer software services in Gomti Nagar, Vikas Nagar, Hazratganj, etc. a prime area in Lucknow.
                         </p>
-                        <h2 className="fw-bolder text-center">Why Choose Orbish Infotech as the Best Software Company?</h2>
+                        <h2 className="fw-bolder text-center">Why Choose valour Infotech as the Best Software Company?</h2>
                         <p className="text-light-emphasis">
                             At valour Infotech, client satisfaction is our top priority. We understand that every business has unique requirements, and we tailor our services
                             accordingly. Whether you are a startup or an established enterprise, we have the expertise to cater to your specific needs. Our comprehensive software

@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+/*****Content of Header******/
 import Headerofvalour from './Navbaar/Headerofvalour';
 /*****Content of Home Page*****/
 import { Scrollbaar } from './Home/Scrollbaar';
 /*********Content of About List********* */
 import Aboutus from './About/Aboutus';
 import Aboutwork from './About/Aboutwork';
-
 /*******Content of Service List*******/
 import { WebDevlopment } from './Services/WebDevlopment';
 import SoftwareDevlopment from './Services/SoftwareDevlopment';
@@ -29,48 +29,21 @@ import MicrofinanceSoftware from './Solutions/MicrofinanceSoftware';
 import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
 import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 import RealStateSoftware from './Solutions/RealStateSoftware';
+import Technologies from './Resources/Technologies';
+/*****Content for  footerbar******/
 import { Footerbaar } from './Footer/Footerbaar';
 
 function App() {
 
   return (
+    <>
+<Headerofvalour/>
+    
     <Router>
+     
       <div class='App'>
-        {/* 
-
-              <Scrollbaar />
-
-               <Scrollbaar />
-
-              <Footerbaar/>
-              <Aboutus/>       
-              <Aboutwork/>  
-              <AppDevlopment />
-              <WebDevlopment /> 
-              <SoftwareDevlopment/>
-              <WebsiteDesigning/>
-              <WebsiteRedesign/>    
-              <Webhosting/>               
-              <WebAppDevlopment />           
-              <SoftwareTesting/>    
-              <AppMaintenance/>
-              <Ecommerse/>
-              <DigitalMarketing/>
-              <Seo/>
-              <Smo/>
-              <AccountingAndBilling/>
-              <MlmSoftware/> 
-              <MicrofinanceSoftware/>
-              <EcommerseSoftwareSolution/>
-              <NewsPortalDevlopment/>
-              <RealStateSoftware/> 
-              
-              <Training/>
-               */}
-        <Headerofvalour />
-
+        
         <Routes>
-
           <Route path='/home' element={<Scrollbaar />} />
           <Route path='/footerbaar' element={<Footerbaar />} />
           <Route path="/aboutus" index element={<Aboutus />} />
@@ -94,10 +67,11 @@ function App() {
           <Route path='/EcommerseSoftwareSolution' element={<EcommerseSoftwareSolution />} />
           <Route path='/NewsPortalDevlopment' element={<NewsPortalDevlopment />} />
           <Route path='/RealStateSoftware' element={<RealStateSoftware />} />
+          <Route path='/Technologies' element={<Technologies />} />
         </Routes >
-
       </div >
     </Router >
+    </>
   );
 }
 

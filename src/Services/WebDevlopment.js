@@ -166,7 +166,7 @@ export const WebDevlopment = () => {
                                 (CMS)
                             </CardTitle>
                             <CardText className='text-light-emphasis'>
-                                valour CMS solutions provide clients with an easy way to manage their website's content without requiring any technical expertise. Orbish use the latest technologies and programming languages to ensure that your custom web application is modern, secure, and easy to use.
+                                valour CMS solutions provide clients with an easy way to manage their website's content without requiring any technical expertise. valour use the latest technologies and programming languages to ensure that your custom web application is modern, secure, and easy to use.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -261,8 +261,8 @@ export const WebDevlopment = () => {
                     </h5>
                     <p className='text-light-emphasis'>Look no further than valour Infotech. valour Infotech, as a leading web development
                         company in Lucknow, we offer top-notch web development services to clients in
-                        Lucknow, Noida, and all other areas of Uttar Pradesh. Whether you’re in Lucknow,
-                        Noida, or searching for a “web development company near me,” valour Infotech is your
+                        Lucknow, Uttar Pradesh. Whether you’re in Lucknow,
+                        Lucknow, or searching for a “web development company near me,” valour Infotech is your
                         go-to solution. Our team of experienced professionals who specialize in creating
                         stunning and user-friendly websites that meet your specific needs and requirements at
                         cheapest cost .

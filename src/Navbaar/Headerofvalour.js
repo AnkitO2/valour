@@ -30,144 +30,152 @@ function Headerofvalour() {
   };
   const [SolutionOpen, setSolutionOpen] = useState(false);
   const toggleSolution = () => {
-    setSolutionOpen(!SolutionOpen)
+    setSolutionOpen(!SolutionOpen);
   };
+  const [resourcesOpen, setResourcesOpen] = useState(false);
+  const toggleResources = () => {
+    setResourcesOpen(!resourcesOpen);
+  }
 
   return (
-      <>
+    <>
 
-      <Row>
-        <Navbar color = "light" light expand = "md">
 
-          <Col lg={3} md={4} sm={12} >
+        <Navbar color="light" light expand="md">
+
+          <Col lg={3} md={6} sm={12} >
             <NavbarBrand href="/" >
               <img src="" alt="Error" />
             </NavbarBrand>
           </Col>
-          <Col lg={9} md={8} sm={12}>
-            <Nav className="ml-auto d-flex justify-content-center justify-content-between text-center" navbar >
+          <Col lg={9} md={6} sm={12}>
+            <Nav className="ml-auto d-flex justify-content-center justify-content-evenly text-center" navbar >
               <NavItem className="Navbar-Content">
-
-                {/* <Button onClick={togglehome}>
-                  Home
-                </Button> */}
                 <NavLink href="/home">Home
                 </NavLink>
-                {/* <br />
-                <NavLink href="/footerbaar">
-                </NavLink> */}
-             
-                 </NavItem>  
-                      <NavItem className="Navbar-Content">
-                        <Button id="popoverButton" onClick={togglePopover} color="white">
-                          About
-                        </Button>
-                        <Popover
-                          placement="bottom"
-                          isOpen={popoverOpen}
-                          target="popoverButton"
-                          toggle={togglePopover}
-                        >
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <Button id="popoverButton" onClick={togglePopover} color="white">
+                  About
+                </Button>
+                <Popover
+                  placement="bottom"
+                  isOpen={popoverOpen}
+                  target="popoverButton"
+                  toggle={togglePopover}
+                >
 
-                          <PopoverBody>
-                            <NavLink href="/aboutus">Who we are</NavLink>
-                            <br />
-                            <NavLink href="/aboutwork">How we work</NavLink>
-                          </PopoverBody>
-                        </Popover>
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <Button id="ServiceButton" onClick={taoggleService} color="white">Services</Button>
-                        <Popover placement="bottom"
-                          isOpen={serviceOpen}
-                          target="ServiceButton"
-                          toggle={taoggleService}
-                        >
+                  <PopoverBody>
+                    <NavLink href="/aboutus">Who we are</NavLink>
+                    <br />
+                    <NavLink href="/aboutwork">How we work</NavLink>
+                  </PopoverBody>
+                </Popover>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <Button id="ServiceButton" onClick={taoggleService} color="white">Services</Button>
+                <Popover placement="bottom"
+                  isOpen={serviceOpen}
+                  target="ServiceButton"
+                  toggle={taoggleService}
+                >
 
-                          <PopoverBody>
-                            <NavLink href="/webdevlopment">Web Devlopment</NavLink>
-                            <br />
-                            <NavLink href="/softwareDevlopment">Software Devlopment</NavLink>
-                            <br />
-                            <NavLink href="/WebsiteDesigning"> Website Designing</NavLink>
-                            <br />
-                            <NavLink href="/AppDevlopment">App Devlopment</NavLink>
-                            <br />
-                            <NavLink href="/WebsiteRedesign">Website Redesign</NavLink>
-                            <br />
-                            <NavLink href="/Webhosting"> Web Hosting</NavLink>
-                            <br />
-                            <NavLink href="/WebAppDevlopment">WebAppDevlopment</NavLink>
-                            <br />
-                            <NavLink href="/SoftwareTesting">SoftwareTesting</NavLink>
-                            <br />
-                            <NavLink href="/AppMaintenance">AppMaintenance</NavLink>
-                            <br />
-                            <NavLink href="/Ecommerse">Ecommerse</NavLink>
-                            <br />
-                            <NavLink href="/DigitalMarketing">Digital Marketing</NavLink>
-                            <br />
-                            <NavLink href="/Seo">Seo</NavLink>
-                            <br />
-                            <NavLink href="/Smo">Smo</NavLink>
-                          </PopoverBody>
-                        </Popover>
+                  <PopoverBody>
+                    <NavLink href="/webdevlopment">Web Devlopment</NavLink>
+                    <br />
+                    <NavLink href="/softwareDevlopment">Software Devlopment</NavLink>
+                    <br />
+                    <NavLink href="/WebsiteDesigning"> Website Designing</NavLink>
+                    <br />
+                    <NavLink href="/AppDevlopment">App Devlopment</NavLink>
+                    <br />
+                    <NavLink href="/WebsiteRedesign">Website Redesign</NavLink>
+                    <br />
+                    <NavLink href="/Webhosting"> Web Hosting</NavLink>
+                    <br />
+                    <NavLink href="/WebAppDevlopment">WebAppDevlopment</NavLink>
+                    <br />
+                    <NavLink href="/SoftwareTesting">SoftwareTesting</NavLink>
+                    <br />
+                    <NavLink href="/AppMaintenance">AppMaintenance</NavLink>
+                    <br />
+                    <NavLink href="/Ecommerse">Ecommerse</NavLink>
+                    <br />
+                    <NavLink href="/DigitalMarketing">Digital Marketing</NavLink>
+                    <br />
+                    <NavLink href="/Seo">Seo</NavLink>
+                    <br />
+                    <NavLink href="/Smo">Smo</NavLink>
+                  </PopoverBody>
+                </Popover>
 
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <Button id="SolutionButton" onClick={toggleSolution} color="white">Solution</Button>
-                        <Popover placement="bottom"
-                          isOpen={SolutionOpen}
-                          target="SolutionButton"
-                          toggle={toggleSolution}
-                        >
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <Button id="SolutionButton" onClick={toggleSolution} color="white">Solution</Button>
+                <Popover placement="bottom"
+                  isOpen={SolutionOpen}
+                  target="SolutionButton"
+                  toggle={toggleSolution}
+                >
 
-                          <PopoverBody>
-                            <NavLink href="/AccountingAndBilling">AccountingAndBilling</NavLink>
-                            <br />
-                            <NavLink href="/MlmSoftware">MlmSoftware</NavLink>
-                            <br />
-                            <NavLink href="/MicrofinanceSoftware">MicrofinanceSoftware</NavLink>
-                            <br />
-                            <NavLink href="/EcommerseSoftwareSolution">EcommerseSoftwareSolution</NavLink>
-                            <br />
-                            <NavLink href="/NewsPortalDevlopment">NewsPortalDevlopment</NavLink>
-                            <br />
-                            <NavLink href="/RealStateSoftware">RealStateSoftware</NavLink>
-                            <br />
+                  <PopoverBody>
+                    <NavLink href="/AccountingAndBilling">AccountingAndBilling</NavLink>
+                    <br />
+                    <NavLink href="/MlmSoftware">MlmSoftware</NavLink>
+                    <br />
+                    <NavLink href="/MicrofinanceSoftware">MicrofinanceSoftware</NavLink>
+                    <br />
+                    <NavLink href="/EcommerseSoftwareSolution">EcommerseSoftwareSolution</NavLink>
+                    <br />
+                    <NavLink href="/NewsPortalDevlopment">NewsPortalDevlopment</NavLink>
+                    <br />
+                    <NavLink href="/RealStateSoftware">RealStateSoftware</NavLink>
+                    <br />
+                  </PopoverBody>
+                </Popover>
 
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <Button id="ResourcesButton" onClick={toggleResources} color="white" >Resources
 
-                          </PopoverBody>
-                        </Popover>
+                </Button>
+                <Popover placement="bottom"
+                  isOpen={resourcesOpen}
+                  target="ResourcesButton"
+                  toggle={toggleResources}
 
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/Resources">Technologies</NavLink>
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/Training & Placement">
-                          Training & Placement
-                        </NavLink>
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/career">Careers</NavLink>
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/contact">Contact</NavLink>
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/Blog">Blog</NavLink>
-                      </NavItem>
-                      <NavItem className="Navbar-Content">
-                        <NavLink href="/Pay Now">Pay Now</NavLink>
-                      </NavItem>
-                    </Nav>
-                  </Col>
+                >
+                  <PopoverBody>
+                    <NavLink href="/Technologies">
+                      Technologies
+                    </NavLink>
+                  </PopoverBody>
+                </Popover>
 
-                </Navbar>
-              </Row>
-            </>
-            )
-          }
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Training & Placement">
+                  Training & Placement
+                </NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/career">Careers</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/contact">Contact</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Blog">Blog</NavLink>
+              </NavItem>
+              <NavItem className="Navbar-Content">
+                <NavLink href="/Pay Now">Pay Now</NavLink>
+              </NavItem>
+            </Nav>
+          </Col>
+        </Navbar>
+    
+    </>
+  )
+}
 
-            export default  Headerofvalour;
+export default Headerofvalour;

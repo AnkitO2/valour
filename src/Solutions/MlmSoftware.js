@@ -153,7 +153,7 @@ function MlmSoftware() {
                             solutions to clients in various locations. Whether you’re in Varanasi, Patna,
                             Gorakgpur, Jaipur, Delhi, Punjab, Patiala, Karnal, Thane, Ambala, Patna,
                             Faridabad, Jalandhar, Sirsa, Bathinda, or any other city, we offer Best MLM
-                            software services tailored to your specific requirements. Orbish Infotech is
+                            software services tailored to your specific requirements. valour Infotech is
                             the mlm software company in Lucknow.
                         </p>
                         <p className="text-light-emphasis">
@@ -187,7 +187,7 @@ function MlmSoftware() {
                         <p className="text-light-emphasis">
                             MLM software, we also offer consultancy services to help you design a
                             comprehensive MLM business plan and implement effective marketing
-                            strategies. Orbish Infotech goal is to empower MLM entrepreneurs with the
+                            strategies. valour Infotech goal is to empower MLM entrepreneurs with the
                             right tools and solutions to succeed in the industry.
                         </p>
                         <p className="text-light-emphasis">
@@ -196,18 +196,18 @@ function MlmSoftware() {
                             manage your network efficiently, and drive business growth.
                         </p>
                         <p className="text-light-emphasis">
-                            Contact Orbish Infotech today to discuss your MLM software needs for your
+                            Contact valour Infotech today to discuss your MLM software needs for your
                             future business and take your MLM business to new heights.
                         </p>
                     </Col>
                 </Row>
                 <Row className="mt-5">
                     <Col lg={6} md={6} sm={12}>
-                        <h2>Why Choose Orbish Infotech as a
+                        <h2>Why Choose valour Infotech as a
                             Best MLM Software Company ?
                         </h2>
                         <p className="text-light-emphasis">
-                            Orbish Infotech has over 5 years of experience in creating professional
+                            valour Infotech has over 5 years of experience in creating professional
                             MLM software and has many satisfied clients in Lucknow due to our
                             exceptional services in the MLM field. Our premier MLM software
                             specializes in offering advanced network marketing software for every MLM

@@ -6,13 +6,13 @@ function Technologies() {
         <>
             <Container className="App mt-5">
                 <Row>
-                    <Col lg={12} md={6} sm={6}>
+                    <Col lg={6} md={12} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://ml85xkxbvpuq.i.optimole.com/w:570/h:570/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/web-development-lucknow-1.png" alt="Error" />
                         </div>
 
                     </Col>
-                    <Col lg={12} md={6} sm={6}>
+                    <Col lg={6} md={12} sm={12}>
                         <h4>Latest Technology  & Leading software company</h4>
                         <p className="text-light-emphasis">
                             valour Infotech is a leading software company & custom software development
