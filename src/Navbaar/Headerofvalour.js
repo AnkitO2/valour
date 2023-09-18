@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Headerofvalour.css"
-
+import Logo from '../logo/logoOne.jpg'
 import {
   NavLink,
   Navbar,
@@ -40,15 +40,15 @@ function Headerofvalour() {
   return (
     <>
 
-      <Row>
+      <Row className="">
         <Navbar color="light" light expand="md">
 
-          <Col lg={3} md={6} sm={12} >
-            <div>
-              <img src="" alt="Error" />
+          <Col lg={4} md={6} sm={12} >
+            <div className="d-flex justify-content-center">
+              <img src={Logo} alt="Error" height={50} width={500} />
             </div>
           </Col>
-          <Col lg={9} md={6} sm={12}>
+          <Col lg={8} md={6} sm={12}>
             <Nav className="ml-auto d-flex justify-content-center justify-content-evenly text-center" navbar >
               <NavItem className="Navbar-Content">
                 <NavLink href="/home">Home
@@ -79,7 +79,6 @@ function Headerofvalour() {
                   target="ServiceButton"
                   toggle={taoggleService}
                 >
-
                   <PopoverBody>
                     <NavLink href="/webdevlopment">Web Devlopment</NavLink>
                     <br />
@@ -108,7 +107,6 @@ function Headerofvalour() {
                     <NavLink href="/Smo">Smo</NavLink>
                   </PopoverBody>
                 </Popover>
-
               </NavItem>
               <NavItem className="Navbar-Content">
                 <Button id="SolutionButton" onClick={toggleSolution} color="white">Solution</Button>
@@ -117,7 +115,6 @@ function Headerofvalour() {
                   target="SolutionButton"
                   toggle={toggleSolution}
                 >
-
                   <PopoverBody>
                     <NavLink href="/AccountingAndBilling">AccountingAndBilling</NavLink>
                     <br />
@@ -133,17 +130,14 @@ function Headerofvalour() {
                     <br />
                   </PopoverBody>
                 </Popover>
-
               </NavItem>
               <NavItem className="Navbar-Content">
                 <Button id="ResourcesButton" onClick={toggleResources} color="white" >Resources
-
                 </Button>
                 <Popover placement="bottom"
                   isOpen={resourcesOpen}
                   target="ResourcesButton"
                   toggle={toggleResources}
-
                 >
                   <PopoverBody>
                     <NavLink href="/Technologies">
@@ -151,7 +145,6 @@ function Headerofvalour() {
                     </NavLink>
                   </PopoverBody>
                 </Popover>
-
               </NavItem>
               <NavItem className="Navbar-Content">
                 <NavLink href="/Taining">
@@ -159,16 +152,16 @@ function Headerofvalour() {
                 </NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink href="/career">Careers</NavLink>
+                <NavLink>Careers</NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink href="/contact">Contact</NavLink>
+                <NavLink>Contact</NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink href="/Blog">Blog</NavLink>
+                <NavLink>Blog</NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink href="/Pay Now">Pay Now</NavLink>
+                <NavLink>Pay Now</NavLink>
               </NavItem>
             </Nav>
           </Col>

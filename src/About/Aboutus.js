@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import "./Aboutus.css"
+
 const Aboutus = () => {
   return (
     <>
@@ -163,6 +164,7 @@ const Aboutus = () => {
 
       </Container>
     </>
+
   )
 }
 
