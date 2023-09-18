@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Headerofvalour.css"
+
 import {
   NavLink,
   Navbar,
@@ -10,7 +11,7 @@ import {
   Popover,
   PopoverBody,
   Button,
-} from "reactstrap";
+} from "reactstrap"
 
 function Headerofvalour() {
 
