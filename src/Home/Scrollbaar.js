@@ -88,37 +88,40 @@ export const Scrollbaar = (args) => {
     });
 
     return (
-
-        <Row>
-            <Col lg={12} md={12} sm={12}>
-                <Carousel
-                    activeIndex={activeIndex}
-                    next={next}
-                    previous={previous}
-                    {...args}
-                >
-                    <CarouselIndicators
-                        items={items}
+        <>
+  
+            <Row>
+                <Col lg={12} md={12} sm={12}>
+                    <Carousel
                         activeIndex={activeIndex}
-                        onClickHandler={goToIndex}
-                    />
-                    {slides}
-                    <CarouselControl
+                        next={next}
+                        previous={previous}
+                        {...args}
+                    >
+                        <CarouselIndicators
+                            items={items}
+                            activeIndex={activeIndex}
+                            onClickHandler={goToIndex}
+                        />
+                        {slides}
+                        <CarouselControl
 
-                        direction="prev"
-                        directionText="Previous"
-                        onClickHandler={previous}
+                            direction="prev"
+                            directionText="Previous"
+                            onClickHandler={previous}
 
-                    />
-                    <CarouselControl
-                        direction="next"
-                        directionText="Next"
-                        onClickHandler={next}
+                        />
+                        <CarouselControl
+                            direction="next"
+                            directionText="Next"
+                            onClickHandler={next}
 
-                    />
-                </Carousel>
+                        />
+                    </Carousel>
 
-            </Col>
-        </Row>
+                </Col>
+            </Row>
+      
+        </>
     );
 }

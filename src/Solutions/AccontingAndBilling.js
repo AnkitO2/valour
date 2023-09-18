@@ -8,12 +8,12 @@ function AccountingAndBilling() {
         <>
             <Container className="mt-5">
                 <Row>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://ml85xkxbvpuq.i.optimole.com/w:600/h:600/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/gst-billing-software-company-lucknow-orbish-infotech-1.png" alt="Error" />
                         </div>
                     </Col>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <h2>Top Accounting Billing Software Company in
                             Lucknow | valour Infotech
                         </h2>
@@ -99,7 +99,7 @@ function AccountingAndBilling() {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg={3} md={6} sm={12}>
                         <Card className="text-center">
                             <div className="d-flex justify-content-center mt-2">
                                 <Edit size="50" color="#099ee8" />
@@ -187,80 +187,7 @@ function AccountingAndBilling() {
                 </Row>
 
             </Container>
-            <div className="mt-5 Images">
-                <img src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1600&h=400" alt="Error" />
-            </div>
-            <Container>
-                <h2>Top Accounting Billing Software Company in Lucknow?</h2>
-                <p className="text-light-emphasis">When it comes to accounting billing software in Lucknow, Orbish Infotech is the top choice. Our company offers exceptional services and solutions
-                    tailored to meet the unique needs of businesses in need of accounting and billing software. Here are the reasons why we stand out as the best.
-                </p>
-                <Row>
-                    <Col lg={6} md={6} sm={12}>
-                        <Card className="Card-Color">
-                            <CardBody>
-                                <CardTitle tag="h5">Expertise and Experience:</CardTitle>
-                                <CardText className="text-light-emphasis">
-                                    valour Infotech has extensive expertise in accounting and billing software. Our team of skilled professionals understands the complexities of financial management and billing processes, allowing us to deliver comprehensive solutions that cater to your specific requirements.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg={6} md={6} sm={12}>
-                        <Card className="Card-Color">
-                            <CardTitle tag="h5">Customized Solutions:</CardTitle>
-                            <CardText className="text-light-emphasis">
-                                We believe in providing tailored solutions that perfectly align with your business needs. At  valour Infotech, we take the time to understand your accounting and billing processes, challenges, and goals. This enables us to develop software that streamlines your operations, improves accuracy, and enhances efficiency.
-                            </CardText>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col lg={6} md={6} sm={12}>
-                        <Card className="Card-Color">
-                            <CardBody>
-                                <CardTitle tag="h5">Cutting-edge Technology:</CardTitle>
-                                <CardText className="text-light-emphasis">
-                                    Our team stays up-to-date with the latest technological advancements to ensure that our clients receive the most innovative solutions. We leverage cutting-edge tools, frameworks, and programming languages to build robust and scalable accounting billing software. By embracing the power of technology, we enable your business to stay ahead in the competitive landscape.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg={6} md={6} sm={12}>
-                        <Card className="Card-Color">
-                            <CardBody>
-                                <CardTitle tag="h5">User-friendly Interfaces:</CardTitle>
-                                <CardText className="text-light-emphasis">
-                                    User experience is a top priority in our software development process. We understand the importance of intuitive and user-friendly interfaces that enhance usability and productivity. Our talented designers and developers collaborate to create visually appealing and easy-to-navigate interfaces, ensuring a seamless experience for you and your team.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col lg={6} md={6} sm={12}>
-                        <Card className="Card-Color">
-                            <CardBody>
-                                <CardTitle tag="h5">Data Security and Privacy:
-                                </CardTitle>
-                                <CardText className="text-light-emphasis">
-                                    We prioritize the security and confidentiality of your financial data. Our team follows strict security protocols and implements robust measures to protect your sensitive information from unauthorized access or breaches. You can trust valour Infotech to handle your data with the utmost care, ensuring its integrity and privacy.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg={6} md={6} sm={12}>
-                        <Card className="Card-Color">
-                            <CardBody>
-                                <CardTitle tag="h5">Timely Delivery and Support:</CardTitle>
-                                <CardText className="text-light-emphasis">
-                                    We value your time and understand the importance of meeting deadlines. Our agile development approach allows us to deliver projects on time without compromising quality. We provide regular updates and maintain open communication throughout the development process.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                </Row>
-            </Container>
+
         </>
 
     )

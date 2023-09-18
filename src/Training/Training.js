@@ -8,7 +8,7 @@ function Training() {
         <>
             <Container>
                 <Row className="mt-5">
-                    <Col lg={8} md={12} sm={12}>
+                    <Col lg={8} md={6} sm={12}>
                         <h2 className="text-primary"> Training the way you want </h2>
                         <p className="text-light-emphasis">
                             Valour Infotech Training and certifications offers you the ability to earn credentials to
@@ -20,7 +20,7 @@ function Training() {
                             <Button className="bg-primary">Request for Call</Button>
                         </div>
                     </Col>
-                    <Col lg={4} md={12} sm={12}>
+                    <Col lg={4} md={6} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://sigmasoftwares.org/img/trainingcourses.png" alt="Error" />
                         </div>

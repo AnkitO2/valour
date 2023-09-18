@@ -3,7 +3,6 @@ import "./Headerofvalour.css"
 import {
   NavLink,
   Navbar,
-  NavbarBrand,
   NavItem,
   Nav,
   Row,
@@ -40,13 +39,13 @@ function Headerofvalour() {
   return (
     <>
 
-
+      <Row>
         <Navbar color="light" light expand="md">
 
           <Col lg={3} md={6} sm={12} >
-            <NavbarBrand href="/" >
+            <div>
               <img src="" alt="Error" />
-            </NavbarBrand>
+            </div>
           </Col>
           <Col lg={9} md={6} sm={12}>
             <Nav className="ml-auto d-flex justify-content-center justify-content-evenly text-center" navbar >
@@ -154,7 +153,7 @@ function Headerofvalour() {
 
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink href="/Training & Placement">
+                <NavLink href="/Taining">
                   Training & Placement
                 </NavLink>
               </NavItem>
@@ -173,7 +172,7 @@ function Headerofvalour() {
             </Nav>
           </Col>
         </Navbar>
-    
+      </Row>
     </>
   )
 }

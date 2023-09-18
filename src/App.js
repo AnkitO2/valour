@@ -30,6 +30,7 @@ import EcommerseSoftwareSolution from './Solutions/EcommersSoftwareSolution';
 import NewsPortalDevlopment from './Solutions/NewsPortalDevlopment';
 import RealStateSoftware from './Solutions/RealStateSoftware';
 import Technologies from './Resources/Technologies';
+import Training from './Training/Training';
 /*****Content for  footerbar******/
 import { Footerbaar } from './Footer/Footerbaar';
 
@@ -37,40 +38,43 @@ function App() {
 
   return (
     <>
-<Headerofvalour/>
-    
-    <Router>
-     
+
+      <Headerofvalour />
+
       <div class='App'>
-        
-        <Routes>
-          <Route path='/home' element={<Scrollbaar />} />
-          <Route path='/footerbaar' element={<Footerbaar />} />
-          <Route path="/aboutus" index element={<Aboutus />} />
-          <Route path='/aboutwork' element={<Aboutwork />} />
-          <Route path='/webdevlopment' index element={<WebDevlopment />} />
-          <Route path='/softwareDevlopment' element={<SoftwareDevlopment />} />
-          <Route path='/WebsiteDesigning' element={<WebsiteDesigning />} />
-          <Route path='/AppDevlopment' element={<AppDevlopment />} />
-          <Route path='/WebsiteRedesign' element={<WebsiteRedesign />} />
-          <Route path='/Webhosting' element={<Webhosting />} />
-          <Route path='/WebAppDevlopment' element={<WebAppDevlopment />} />
-          <Route path='/SoftwareTesting' element={<SoftwareTesting />} />
-          <Route path='/AppMaintenance' element={<AppMaintenance />} />
-          <Route path='/Ecommerse' element={<Ecommerse />} />
-          <Route path='/DigitalMarketing' element={<DigitalMarketing />} />
-          <Route path='/Seo' element={<Seo />} />
-          <Route path='/Smo' element={<Smo />} />
-          <Route path='/AccountingAndBilling' index element={<AccountingAndBilling />} />
-          <Route path='/MlmSoftware' element={<MlmSoftware />} />
-          <Route path='/MicrofinanceSoftware' element={<MicrofinanceSoftware />} />
-          <Route path='/EcommerseSoftwareSolution' element={<EcommerseSoftwareSolution />} />
-          <Route path='/NewsPortalDevlopment' element={<NewsPortalDevlopment />} />
-          <Route path='/RealStateSoftware' element={<RealStateSoftware />} />
-          <Route path='/Technologies' element={<Technologies />} />
-        </Routes >
+        <Router>
+          <Routes>
+            <Route path='/home' element={<Scrollbaar />} />
+            <Route path='/footerbaar' element={<Footerbaar />} />
+            <Route path="/aboutus" index element={<Aboutus />} />
+            <Route path='/aboutwork' element={<Aboutwork />} />
+            <Route path='/webdevlopment' index element={<WebDevlopment />} />
+            <Route path='/softwareDevlopment' element={<SoftwareDevlopment />} />
+            <Route path='/WebsiteDesigning' element={<WebsiteDesigning />} />
+            <Route path='/AppDevlopment' element={<AppDevlopment />} />
+            <Route path='/WebsiteRedesign' element={<WebsiteRedesign />} />
+            <Route path='/Webhosting' element={<Webhosting />} />
+            <Route path='/WebAppDevlopment' element={<WebAppDevlopment />} />
+            <Route path='/SoftwareTesting' element={<SoftwareTesting />} />
+            <Route path='/AppMaintenance' element={<AppMaintenance />} />
+            <Route path='/Ecommerse' element={<Ecommerse />} />
+            <Route path='/DigitalMarketing' element={<DigitalMarketing />} />
+            <Route path='/Seo' element={<Seo />} />
+            <Route path='/Smo' element={<Smo />} />
+            <Route path='/AccountingAndBilling' index element={<AccountingAndBilling />} />
+            <Route path='/MlmSoftware' element={<MlmSoftware />} />
+            <Route path='/MicrofinanceSoftware' element={<MicrofinanceSoftware />} />
+            <Route path='/EcommerseSoftwareSolution' element={<EcommerseSoftwareSolution />} />
+            <Route path='/NewsPortalDevlopment' element={<NewsPortalDevlopment />} />
+            <Route path='/RealStateSoftware' element={<RealStateSoftware />} />
+            <Route path='/Technologies' element={<Technologies />} />
+            <Route path='/Taining' element={<Training />} />
+
+          </Routes >
+        </Router >
       </div >
-    </Router >
+
+
     </>
   );
 }

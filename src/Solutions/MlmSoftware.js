@@ -6,27 +6,27 @@ function MlmSoftware() {
         <>
             <Container>
                 <Row className="mt-5">
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <h2 className="fw-bold">Best Multi-Level Marketing (MLM) Software</h2>
                         <p className="text-light-emphasis">
                             Multi-level marketing (MLM) software helps guide sales companies and
                             distributors throughout the sales and marketing process––providing
                             features that help with lead generation, marketing, customer management,
                             inventory, and distribution of the. Multilevel marketing software is designed
-                            for MLM, or specific network marketing businesses. Orbish Infotech is the
+                            for MLM, or specific network marketing businesses. valour Infotech is the
                             best website designing company in Lucknow and offering the best MLM
                             software in Lucknow at reasonable cost.
                         </p>
                         <p className="text-light-emphasis">
                             With the rise of MLM companies in Lucknow, the demand for top-notch
                             MLM software development services has also grown. Among the various
-                            options available, Orbish Infotech stands out as one of the best MLM
+                            options available, valour Infotech stands out as one of the best MLM
                             software company in Lucknow, offering cutting-edge solutions tailored to
                             meet the unique needs of MLM businesses. To qualify for inclusion in the
                             Multi-level Marketing (MLM) category, a product must:
                         </p>
                     </Col>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/mlm-software-lucknow.webp" alt="Error" />
 
@@ -34,16 +34,16 @@ function MlmSoftware() {
                     </Col>
                 </Row>
                 <Row className="mt-5">
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/top-10-mlm-software-company-lucknow.png" alt="" />
                         </div>
                     </Col>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <h2 className="fw-bold">valour Infotech : MLM Software
                             Company Lucknow
                         </h2>
-                        <p className="text-light-emphasis">At Orbish Infotech, we understand the importance of customization and
+                        <p className="text-light-emphasis">At valour Infotech, we understand the importance of customization and
                             flexibility. Our team of experts works closely with you to understand your
                             business model and provide the most suitable software solutions.
                         </p>
@@ -65,32 +65,32 @@ function MlmSoftware() {
 
                 </Row>
                 <Row className="mt-5">
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={6} md={12} sm={12}>
                         <h2 className="fw-bold">Network Marketing Software</h2>
                         <p className="text-light-emphasis">
-                            Orbish Infotech is the leading provider of advanced network marketing software
+                            valour Infotech is the leading provider of advanced network marketing software
                             solutions in Lucknow.
                         </p>
                         <p className="text-light-emphasis">
                             Our team of experts has extensive experience in providing customized software
-                            solutions for direct selling, MLM, and other network marketing business models. Orbish
+                            solutions for direct selling, MLM, and other network marketing business models. valour
                             Infotech work closely with our clients to understand their specific needs and provide
                             the most suitable software solutions.
                         </p>
                         <p className="text-light-emphasis">
-                            Orbish Infotech network marketing software solutions come with a range of features,
+                            valour Infotech network marketing software solutions come with a range of features,
                             including real-time reporting, analytics, multi-level marketing, and much more. Our
                             software solutions streamline processes and boost efficiency, enabling you to manage
                             your business operations with ease.
                         </p>
                         <p className="text-light-emphasis">
-                            At Orbish Infotech, we understand the importance of flexibility and customization.
+                            At valour Infotech, we understand the importance of flexibility and customization.
                             That’s why our software solutions are tailored to meet your specific requirements. We
                             provide end-to-end software solutions that cover all aspects of your business
                             operations.
                         </p>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={12} sm={12}>
                         <div className="d-flex justify-content-center">
                             <img src="https://ml85xkxbvpuq.i.optimole.com/w:500/h:500/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/04/MLM-Integration-company-lucknow.png" alt="Error" />
                         </div>
@@ -228,74 +228,7 @@ function MlmSoftware() {
                     </Col>
                 </Row>
             </Container>
-            <Row className="mt-5">
-                <Col lg={4} md={6} sm={12}>
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h5" className="fw-bold">Binary MLM Software</CardTitle>
-                            <CardText className="text-light-emphasis">
-                                This type of software supports the binary compensation plan, where distributors have two frontline positions and can build two legs in their downline.
-
-
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col lg={4} md={6} sm={12}>
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h5" className="fw-bold">Matrix MLM Software</CardTitle>
-                            <CardText className="text-light-emphasis">
-                                Matrix MLM software facilitates the matrix compensation plan, where distributors have a limited number of positions in their downline, typically organized in a grid-like structure.
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col lg={4} md={6} sm={12}>
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h5" className="fw-bold">Uni-Level MLM Software</CardTitle>
-                            <CardText className="text-light-emphasis">
-                                Uni-level MLM software is designed for uni-level compensation plans, where distributors can recruit an unlimited number of frontline members, and commissions are paid based on levels.
-
-
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </Col>
-            </Row>
-            <Row className="mt-5">
-                <Col lg={4} md={12} sm={12}>
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h5" className="fw-bold">Stair-Step MLM Software </CardTitle>
-                            <CardText className="text-light-emphasis">
-                                Stair-step MLM software is used for stair-step breakaway compensation plans, where distributors can progress through various ranks and earn higher commissions.
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col lg={4} md={12} sm={12}>
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h5" className="fw-bold">Forced Matrix Plan Software</CardTitle>
-                            <CardText className="text-light-emphasis">
-                                Forced matrix MLM software supports the forced matrix compensation plan, where distributors have a fixed number of positions in their downline
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col lg={4} md={12} sm={12}>
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h5" className="fw-bold">Board Plan Software</CardTitle>
-                            <CardText className="text-light-emphasis">
-                                Board plan MLM software is designed for board or revolving matrix compensation plans, where distributors work to fill a specific number of positions
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </Col>
-            </Row>
+           
         </>
     );
 }
