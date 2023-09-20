@@ -152,10 +152,10 @@ function Headerofvalour() {
                 </NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink>Careers</NavLink>
+                <NavLink href="/Career">Careers</NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
-                <NavLink>Contact</NavLink>
+                <NavLink href="/Contactus">Contact</NavLink>
               </NavItem>
               <NavItem className="Navbar-Content">
                 <NavLink>Blog</NavLink>

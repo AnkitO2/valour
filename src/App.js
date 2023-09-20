@@ -33,7 +33,8 @@ import Technologies from './Resources/Technologies';
 import Training from './Training/Training';
 /*****Content for  footerbar******/
 import { Footerbaar } from './Footer/Footerbaar';
-
+import Career from './Career/Career';
+import Contactus from './Contact/Contactus';
 function App() {
 
   return (
@@ -69,7 +70,8 @@ function App() {
             <Route path='/RealStateSoftware' element={<RealStateSoftware />} />
             <Route path='/Technologies' element={<Technologies />} />
             <Route path='/Taining' element={<Training />} />
-
+            <Route path='/Career' element={<Career />} />
+            <Route path='/Contactus' element ={<Contactus/>}/>
           </Routes >
         </Router >
       </div >
