@@ -1,9 +1,9 @@
 import React from "react";
 import "./Contactus.css"
-function Contactus(){
+function Contactus() {
     return (
         <>
-hxcvbvhcxbvbcx
+  hxcvbvhcxbvbcx
         </>
     );
 }

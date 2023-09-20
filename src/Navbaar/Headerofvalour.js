@@ -43,12 +43,12 @@ function Headerofvalour() {
       <Row className="">
         <Navbar color="light" light expand="md">
 
-          <Col lg={4} md={6} sm={12} >
+          <Col lg={2} md={6} sm={12} >
             <div className="d-flex justify-content-center">
-              <img src={Logo} alt="Error" height={50} width={500} />
+              <img src={Logo} alt="Error" height={50} width={250} />
             </div>
           </Col>
-          <Col lg={8} md={6} sm={12}>
+          <Col lg={10} md={6} sm={12}>
             <Nav className="ml-auto d-flex justify-content-center justify-content-evenly text-center" navbar >
               <NavItem className="Navbar-Content">
                 <NavLink href="/home">Home
