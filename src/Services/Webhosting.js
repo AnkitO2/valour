@@ -1,6 +1,7 @@
 import { FileText, Globe, Monitor, PlusCircle, RefreshCw, Tool } from "feather-icons-react/build/IconComponents";
 import React from "react";
 import "./Webhosting.css";
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Button, Card, CardBody, CardText, CardTitle, Container, Row, Col } from "reactstrap";
 function Webhosting() {
     return (
@@ -127,6 +128,7 @@ function Webhosting() {
                     </Card>
                 </Col>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

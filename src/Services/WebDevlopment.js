@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row, Button, Card, CardBody, CardTitle, CardText, Container } from 'reactstrap'
 import "./AppDevlopment.css"
+import { Footerbaar } from '../Footer/Footerbaar';
 import { ArrowDownCircle, Book, BookOpen, Code, CreditCard, Layout, Users } from 'feather-icons-react/build/IconComponents';
 export const WebDevlopment = () => {
     return (
@@ -344,6 +345,7 @@ export const WebDevlopment = () => {
                     </div>
                 </Col>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

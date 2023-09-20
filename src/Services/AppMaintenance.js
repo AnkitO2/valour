@@ -5,6 +5,7 @@ import RefreshCw from "feather-icons-react/build/IconComponents/RefreshCw";
 import Tool from "feather-icons-react/build/IconComponents/Tool";
 import React from "react"
 import "./AppMaintenance.css";
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Container, Row, Col, Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function AppMaintenance() {
@@ -150,6 +151,7 @@ function AppMaintenance() {
                     </Card>
                 </Col>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

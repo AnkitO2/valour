@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import "./Aboutus.css"
-
+import { Footerbaar } from '../Footer/Footerbaar'
 const Aboutus = () => {
   return (
     <>
@@ -161,7 +161,7 @@ const Aboutus = () => {
             </div>
           </Col>
         </Row>
-
+<Footerbaar/>
       </Container>
     </>
 

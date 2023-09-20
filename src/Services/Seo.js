@@ -5,6 +5,7 @@ import Search from "feather-icons-react/build/IconComponents/Search";
 import React from "react";
 import { Button, Card, CardBody, CardText, CardTitle, Container, Row, Col } from "reactstrap";
 import "./Seo.css";
+import { Footerbaar } from "../Footer/Footerbaar";
 function Seo() {
     return (
         <>
@@ -134,6 +135,7 @@ function Seo() {
                     </Col>
 
                 </Row>
+                <Footerbaar/>
             </Container>
 
         </>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./RealStateSoftware.css"
+import { Footerbaar } from "../Footer/Footerbaar";
 function RealStateSoftware() {
     return (
         <>
@@ -95,6 +96,7 @@ function RealStateSoftware() {
                         </p>
                     </Col>
                 </Row>
+   <Footerbaar/>
             </Container>
         </>
     )

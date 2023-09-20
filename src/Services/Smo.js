@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
-
+import { Footerbaar } from "../Footer/Footerbaar";
 function Smo() {
     return (
         <>
@@ -88,6 +88,7 @@ function Smo() {
                         </Card>
                     </Col>
                 </Row>
+                <Footerbaar/>
             </Container>
         </>
     )

@@ -1,7 +1,8 @@
 import { Cloud, Copy, CreditCard, Edit, Globe } from "feather-icons-react/build/IconComponents";
 import React from "react";
 import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from "reactstrap";
-import "./WebAppDevlopment";
+import "./WebAppDevlopment.css";
+import { Footerbaar } from "../Footer/Footerbaar";
 function WebAppDevlopment() {
     return (
         <Container>
@@ -127,6 +128,7 @@ function WebAppDevlopment() {
                     </Card>
                 </Col>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

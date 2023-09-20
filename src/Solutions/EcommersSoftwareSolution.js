@@ -1,4 +1,5 @@
 import React from "react";
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
 function EcommerseSoftwareSolution() {
     return (
@@ -199,6 +200,7 @@ function EcommerseSoftwareSolution() {
                         </Card>
                     </Col>
                 </Row>
+                <Footerbaar/>
             </Container>
         </>
     );

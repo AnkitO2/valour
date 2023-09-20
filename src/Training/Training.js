@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Footerbaar } from "../Footer/Footerbaar";
 import "./Training.css"
 import { Container, Row, Col, Button } from "reactstrap";
 
@@ -125,8 +125,14 @@ function Training() {
                         </div>
                     </Col>
                 </Row>
+
+                <Footerbaar />
+
+
             </Container>
+
         </>
+
     );
 }
 export default Training;

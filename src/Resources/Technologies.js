@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./Technologies.css";
+import { Footerbaar } from "../Footer/Footerbaar";
 function Technologies() {
     return (
-        <>
+   <div>
             <Container className="App mt-5">
                 <Row>
                     <Col lg={6} md={12} sm={12}>
@@ -39,8 +40,10 @@ function Technologies() {
                         </p>
                     </Col>
                 </Row>
+                
             </Container>
-        </>
-    );
+            <Footerbaar/>
+            </div> 
+       );
 }
 export default Technologies;

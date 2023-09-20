@@ -1,4 +1,5 @@
 import React from "react";
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
 import "./MlmSoftware.css"
 function MlmSoftware() {
@@ -227,6 +228,7 @@ function MlmSoftware() {
                         </div>
                     </Col>
                 </Row>
+                <Footerbaar/>
             </Container>
            
         </>

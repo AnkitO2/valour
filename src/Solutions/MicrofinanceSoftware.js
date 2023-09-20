@@ -1,4 +1,5 @@
 import React from "react";
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Card, CardBody, CardText, CardTitle, Container, Row, Col } from "reactstrap";
 import "./MicrofinanceSoftware.css"
 function MicrofinanceSoftware() {
@@ -143,6 +144,7 @@ function MicrofinanceSoftware() {
                         </Card>
                     </Col>
                 </Row>
+                <Footerbaar/>
             </Container>
         </>
     )

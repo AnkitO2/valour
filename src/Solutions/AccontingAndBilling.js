@@ -1,6 +1,6 @@
 import { PieChart, BarChart, Edit, Globe, Grid, Repeat } from "feather-icons-react/build/IconComponents";
 import React from "react";
-
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 function AccountingAndBilling() {
@@ -185,7 +185,7 @@ function AccountingAndBilling() {
                     </Col>
 
                 </Row>
-
+                <Footerbaar />
             </Container>
 
         </>

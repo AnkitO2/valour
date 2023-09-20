@@ -6,6 +6,7 @@ import User from "feather-icons-react/build/IconComponents/User";
 import UserCheck from "feather-icons-react/build/IconComponents/UserCheck";
 import React from "react";
 import "./DigitalMarketing.css"
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 function DigitalMarketing() {
@@ -208,6 +209,7 @@ function DigitalMarketing() {
                     From search engine optimization to social media marketing, and content creation to website development, Orbish Infotech has the expertise to elevate your online presence and drive
                     meaningful results. Partner with Orbish Infotech and take your business to new heights in the digital world.
                 </p>
+                <Footerbaar/>
             </Container>
         </>
     )

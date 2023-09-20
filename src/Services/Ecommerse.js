@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
 import "./Ecommerse.css"
+import { Footerbaar } from "../Footer/Footerbaar";
 function Ecommerse() {
     return (
         <>
@@ -103,6 +104,7 @@ function Ecommerse() {
 
                     </Col>
                 </Row>
+                <Footerbaar/>
             </Container>
         </>
     )

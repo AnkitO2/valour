@@ -1,6 +1,7 @@
 import { Aperture, BarChart2, Check, Command, Smartphone } from 'feather-icons-react/build/IconComponents';
 import Globe from 'feather-icons-react/build/IconComponents/Globe';
 import React from 'react'
+import { Footerbaar } from '../Footer/Footerbaar';
 import { Row, Col, CardText, CardBody, Card, Container } from 'reactstrap';
 import "./SoftwareDevlopment.css"
 
@@ -213,6 +214,7 @@ function SoftwareDevlopment() {
                     </p>
                 </Col>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

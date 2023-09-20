@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button, Card, CardBody, CardTitle, CardText } from "reactstrap";
 import "./WebsiteRedesign.css";
+import { Footerbaar } from "../Footer/Footerbaar";
 function WebsiteRedesign() {
     return (
         <Container>
@@ -90,6 +91,7 @@ function WebsiteRedesign() {
                     </Card>
                 </Col>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

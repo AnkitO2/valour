@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contactus.css"
+import { Footerbaar } from "../Footer/Footerbaar";
 import { Container, Form, FormGroup, Input, Label, Row, Col } from "reactstrap";
 function Contactus() {
     return (
@@ -111,6 +112,7 @@ function Contactus() {
                     </div>
                 </Col>
             </Row>
+            <Footerbaar />
         </Container>
     );
 }

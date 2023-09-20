@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import "./SoftwareTesting.css";
-
+import { Footerbaar } from "../Footer/Footerbaar";
 function SoftwareTesting() {
     return (
         <Container>
@@ -48,6 +48,7 @@ function SoftwareTesting() {
 
                 </div>
             </Row>
+            <Footerbaar/>
         </Container>
     );
 }

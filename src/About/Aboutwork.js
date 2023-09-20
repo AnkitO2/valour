@@ -2,6 +2,7 @@ import { Grid, Monitor, Search, Smartphone } from 'feather-icons-react/build/Ico
 import React from 'react'
 import { Row, Col, Card, CardBody, CardTitle, CardText, Container, } from 'reactstrap'
 import "./Aboutwork.css"
+import { Footerbaar } from '../Footer/Footerbaar';
 function Aboutwork() {
     return (
         <>
@@ -112,6 +113,7 @@ function Aboutwork() {
                         </Card>
                     </Col>
                 </Row>
+                <Footerbaar/>
             </Container>
 
         </>

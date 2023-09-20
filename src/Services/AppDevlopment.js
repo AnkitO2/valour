@@ -7,6 +7,7 @@ import UserCheck from "feather-icons-react/build/IconComponents/UserCheck";
 import React from "react";
 import { Container, Row, Col, Card, CardBody, CardText } from "reactstrap";
 import './AppDevlopment.css';
+import { Footerbaar } from "../Footer/Footerbaar";
 function AppDevlopment() {
     return (
         <>
@@ -152,6 +153,7 @@ function AppDevlopment() {
                     </Col>
 
                 </Row>
+                <Footerbaar/>
             </Container>
         </>
     );

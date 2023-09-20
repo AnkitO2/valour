@@ -1,6 +1,7 @@
-import React from 'react'
+
 import { useState } from 'react';
-import { Carousel, CarouselControl, CarouselIndicators, CarouselCaption, CarouselItem, Col, Row } from 'reactstrap';
+import { Footerbaar } from '../Footer/Footerbaar';
+import { Carousel, CarouselControl, CarouselIndicators, CarouselCaption, CarouselItem, Col, Row, Container } from 'reactstrap';
 import './Scrollbaar.css';
 const items = [
     {
@@ -88,8 +89,9 @@ export const Scrollbaar = (args) => {
     });
 
     return (
-        <>
-  
+
+        <Container fluid>
+
             <Row>
                 <Col lg={12} md={12} sm={12}>
                     <Carousel
@@ -121,7 +123,8 @@ export const Scrollbaar = (args) => {
 
                 </Col>
             </Row>
-      
-        </>
+            <Footerbaar />
+        </Container>
+
     );
 }

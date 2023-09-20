@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Form, FormGroup, Label, Row, Col, Input } from 'reactstrap';
-
+import { Footerbaar } from '../Footer/Footerbaar';
 function Career() {
     return (
 
@@ -97,6 +97,7 @@ function Career() {
                     </div>
                 </Col>
             </Row>
+            <Footerbaar />
         </Container>
 
     )
