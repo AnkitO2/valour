@@ -6,9 +6,9 @@ import { ArrowRight, Mail } from "feather-icons-react/build/IconComponents";
 export const Footerbaar = () => {
   return (
 
-    <Container fluid className=" bg-dark">
+    <Container fluid className="bg-dark">
 
-      <Row className="mt-3 p-5">
+      <Row className="mt-3 p-5 rounded">
         <Col lg={3} md={6} sm={12}>
           <h4 className="text-white  d-flex justify-content-start mt-5">
             Services

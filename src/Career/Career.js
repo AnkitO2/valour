@@ -8,7 +8,7 @@ function Career() {
             <Row>
 
                 <Col lg={4} md={6} sm={12}>
-                    <h4>Join valour and you’ll enjoy…</h4>
+                    <h4 className='mt-5'>Join valour and you’ll enjoy…</h4>
                     <p className='text-dark-emphasis'>
                         valur Infotech not only offers a great culture to
                         work in, but unique management style that
