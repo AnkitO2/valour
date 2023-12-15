@@ -8,7 +8,7 @@ const Aboutus = () => {
       <Container className="mt-3 ">
         <Row>
           <Col lg={6} md={6} sm={12}>
-            <h2>About Ou - Valour Infotech</h2>
+            <h2 className=''>About Ou - Valour Infotech</h2>
             <p className='text-dark-emphasis
 
 '>
