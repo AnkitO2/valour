@@ -1,5 +1,12 @@
-.Aboutus1{
-    text-align: center;
-    background-color: blue;
-     color: aliceblue;
+.AboutUsText{
+  font-weight: bolder;
+  color: black;
+  font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: calc();
+  
+}
+.Img1{
+    width: 500px;
+    height: 500px;
 }
