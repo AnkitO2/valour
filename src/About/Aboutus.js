@@ -113,7 +113,7 @@ const Aboutus = () => {
           </Col>
           <Col lg={6} md={6} sm={12}>
             <div className="d-flex justify-content-center">
-
+             <img src={Photo3}alt="Error"className="Img3"/>
             </div>
           </Col>
         </Row>
@@ -121,8 +121,8 @@ const Aboutus = () => {
           <Col lg={6} md={6} sm={12}>
             <div className="d-flex justify-content-center">
               <img
-                src={}
-                alt="Error"
+                src={Photo3}
+                alt="Error" className="Img4"
               />
             </div>
           </Col>
@@ -187,8 +187,8 @@ const Aboutus = () => {
           <Col lg={6} md={6} sm={12}>
             <div className="d-flex justify-content-center">
               <img
-                src="https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:569/h:331/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/orbish-infotech-values.png"
-                alt="Error"
+                src={Photo4}
+                alt="Error" className="Img4"
               />
             </div>
           </Col>
