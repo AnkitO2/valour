@@ -7,7 +7,7 @@ function Career() {
         <Container>
             <Row>
 
-                <Col lg={4} md={6} sm={12}>
+                <Col l0g={4} md={6} sm={12}>
                     <h4 className='mt-5'>Join valour and you’ll enjoy…</h4>
                     <p className='text-dark-emphasis'>
                         valur Infotech not only offers a great culture to
