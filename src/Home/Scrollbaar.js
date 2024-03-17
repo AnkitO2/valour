@@ -98,9 +98,9 @@ export const Scrollbaar = (args) => {
                 <Col lg={12} md={12} sm={12}>
                 <style>
            {`.custom-tag {
-              max-width: 50%;
-              height: 50%;
-              background: black;
+              width: 200px;
+              height: 500px;
+              background: red;
             }`}
       </style>
                     <Carousel

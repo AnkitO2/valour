@@ -5,7 +5,6 @@ import { Footerbaar } from "../Footer/Footerbaar";
 //import logo1 from "../logo/logoOne.jpg";
 import Photo1 from "../logo/coding1.jpg";
 import Photo2 from "../logo/Coding2.jpg";
-
 import Photo3 from "../logo/Coding3.jpg";
 import Photo4 from "../logo/Coding4.jpg";
 import Photo5 from "../logo/Coding5.jpg";
@@ -25,7 +24,7 @@ const Aboutus = () => {
           <Col lg={6} md={6} sm={12}>
             <h2 className="">About Ou - Valour Infotech</h2>
             <p
-              className="AboutUsText
+              className="AboutUsText text-body-emphasis
 "
             >
               Valour Infotech is a software company founded in 2023 in Lucknow,
@@ -37,7 +36,7 @@ const Aboutus = () => {
               mobile application development, software testing, software
               maintenance and support.
             </p>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               Valour Infotech’s team may be comprised of experienced
               professionals proficient in various technical and programming
               languages. They work closely with customers to understand their
@@ -66,7 +65,7 @@ const Aboutus = () => {
           </Col>
           <Col lg={6} md={6} sm={12}>
             <h2>#About Valour Infotech </h2>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               valour Infotech is a software company based in Lucknow, Uttar
               Pradesh, specializing in providing a wide range of software
               solutions to cater to diverse business needs. With a focus on
@@ -75,7 +74,7 @@ const Aboutus = () => {
               designing, Web Development, App Development, Graphic Designing &
               Digital Marketing.
             </p>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               valour Infotech is a comprehensive software solutions provider
               that aims to cater to a wide range of business requirements. With
               their expertise and experience in the software industry, they
@@ -88,14 +87,14 @@ const Aboutus = () => {
         <Row>
           <Col lg={6} md={6} sm={12}>
             <h2>Our Mission</h2>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               At valour Infotech, our mission is to empower businesses with
               innovative and reliable software solutions that enable them to
               achieve their goals. valour Infotech team is committed to
               providing exceptional customer service and building strong
               relationships with our clients.
             </p>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               #1 valour team experts are passionate about technology and strive
               to stay at the forefront of the industry. We accept that
               innovation ought to be utilised to drive business development, and
@@ -103,7 +102,7 @@ const Aboutus = () => {
               extraordinary necessities and make customised arrangements that
               assist them with accomplishing their targets.
             </p>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               valour Infotech are dedicated to delivering quality customised
               services that exceed our clients’ expectations. We esteem
               genuineness, respectability, and straightforwardness, and we
@@ -128,18 +127,18 @@ const Aboutus = () => {
           </Col>
           <Col lg={6} md={6} sm={12}>
             <h2>Our Vission</h2>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               At valour Infotech, our vision is to become a global leader in
               software development, known for our exceptional quality of work,
               commitment to our clients, and innovative solutions that help
               businesses thrive.
             </p>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               valour Infotech believes in utilising the latest technologies and
               tools to create customised software solutions that are reliable,
               secure, and scalable.
             </p>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               Our fundamental objective is to be a trusted accomplice to our
               clients, assisting them with accomplishing their business targets
               through programming arrangements that are custom-made to their
@@ -150,34 +149,34 @@ const Aboutus = () => {
         <Row>
           <Col lg={6} md={6} sm={12}>
             <h2>Our Values</h2>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               Valour Infotech Lucknow believes that our core values guide our
               behaviour, decisions, and interactions with our clients and team
               members. Our core values are as follow :
             </p>
             <h5>Customer Satisfaction:</h5>
 
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               Our main aim is to understand their client needs and create
               customised software solutions that meet their specific
               requirements.
             </p>
             <h5>Excellence:</h5>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               We make progress toward greatness in all that we do. We are
               passionate about the new technology and our engagement models are
               flexible, secure and custom defined based on specific business
               needs of our customers.
             </p>
             <h5>Integrity:</h5>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               valour Infotech values honesty, integrity, and transparency in all
               our interactions with our clients and team members. We believe
               that building trust is crucial to establishing long-lasting
               relationships.
             </p>
             <h5>Innovation:</h5>
-            <p className="AboutUsText">
+            <p className="AboutUsText text-body-emphasis">
               valour Infotech works with small businesses and startups,
               government agencies and large private sectors to build
               people-centred tech solutions that use the full capabilities of

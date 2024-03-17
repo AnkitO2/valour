@@ -2,9 +2,7 @@
   font-weight: bolder;
   color: black;
   font-size: medium;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-style: calc();
-  
+  overflow: hidden;
 }
 .Img1{
     width: 500px;
