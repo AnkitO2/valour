@@ -6,51 +6,51 @@ import './Scrollbaar.css';
 const items = [
     {
         
-        src:"/images/coding1.jpg",
+        src:"/images/DevlopmentAndCode.jpg",
         key: 1,
 
     },
     {
-        src: '',
+        src: '/images/DigitalMarketing.jpg',
         key: 2,
 
     },
     {
-        src: "",
+        src: "/images/Ecommerce1.jpg",
         key: 3,
     },
     {
-        src: '',
+        src: '/images/Finance.jpg',
         key: 4,
     },
     {
-        src: '',
+        src: '/images/SEO1.jpg',
         key: 5,
     },
     {
-        src: '',
+        src: '/images/HtmlAndCss.jpg',
         key: 6,
     },
     {
-        src: '',
+        src: '/images/MLM2.jpg',
         key: 7,
     },
     {
-        src: '',
+        src: '/images/FrontEndWeb.png',
         key: 8,
 
     },
     {
-        src: '',
+        src: '/images/Coding22.jpg',
         key: 9,
     },
     {
-        src: '',
+        src: '/images/Billing.jpg',
         key: 10,
 
     },
     {
-        src: '',
+        src: '/images/ApiAndCode.jpg',
         key: 11,
     },
 ];
@@ -98,8 +98,8 @@ export const Scrollbaar = (args) => {
                 <Col lg={12} md={12} sm={12}>
                 <style>
            {`.custom-tag {
-              max-width: 100%;
-              height: 500px;
+              max-width: 50%;
+              height: 50%;
               background: black;
             }`}
       </style>
