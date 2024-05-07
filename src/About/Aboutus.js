@@ -3,18 +3,12 @@ import { Col, Container, Row } from "reactstrap";
 import "./Aboutus.css";
 import { Footerbaar } from "../Footer/Footerbaar";
 //import logo1 from "../logo/logoOne.jpg";
-import Photo1 from "../logo/coding1.jpg";
-import Photo2 from "../logo/Coding2.jpg";
-import Photo3 from "../logo/Coding3.jpg";
-import Photo4 from "../logo/Coding4.jpg";
-import Photo5 from "../logo/Coding5.jpg";
-import Photo6 from "../logo/Coding6.jpg";
-import Photo7 from "../logo/Coding7.jpg";
-import Photo8 from "../logo/Coding8.jpg";
-import Photo9 from "../logo/Coding9.jpg";
-import Photo10 from "../logo/Coding10.jpg";
-import Photo11 from "../logo/Coding11.jpg";
-import Photo12 from "../logo/Coding12.jpg";
+import Photo1 from "../logo/AboutUsPng.png";
+import Photo2 from "../logo/AboutValourPng.png";
+import Photo3 from "../logo/OurMissionPng.png";
+import Photo4 from "../logo/OurVissionPng.png";
+import Photo5 from "../logo/OurValues.png";
+
 
 const Aboutus = () => {
   return (
@@ -120,7 +114,7 @@ const Aboutus = () => {
           <Col lg={6} md={6} sm={12}>
             <div className="d-flex justify-content-center">
               <img
-                src={Photo3}
+                src={Photo4}
                 alt="Error" className="Img4"
               />
             </div>
@@ -186,7 +180,7 @@ const Aboutus = () => {
           <Col lg={6} md={6} sm={12}>
             <div className="d-flex justify-content-center">
               <img
-                src={Photo4}
+                src={Photo5}
                 alt="Error" className="Img4"
               />
             </div>

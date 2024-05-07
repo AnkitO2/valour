@@ -3,6 +3,7 @@ import React from 'react'
 import { Row, Col, Card, CardBody, CardTitle, CardText, Container, } from 'reactstrap'
 import "./Aboutwork.css"
 import { Footerbaar } from '../Footer/Footerbaar';
+import Work from '../logo/AboutWorkPng.png'
 function Aboutwork() {
     return (
         <>
@@ -29,7 +30,7 @@ function Aboutwork() {
                     </Col>
                     <Col lg={6} md={12} sm={12}>
                         <div className='d-flex justify-content-center'>
-                            <img src='https://ml85xkxbvpuq.i.optimole.com/cb:pIqd.8ad3/w:600/h:600/q:mauto/f:avif/https://orbishinfotech.com/wp-content/uploads/2023/06/work-process.webp' alt='Error' />
+                            <img src= {Work} alt='Error' className="Img1" />
                         </div>
                     </Col>
                 </Row>
