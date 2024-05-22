@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Footerbaar } from '../Footer/Footerbaar';
 import { Carousel, CarouselControl, CarouselIndicators, CarouselCaption, CarouselItem, Col, Row, Container } from 'reactstrap';
 import './Scrollbaar.css';
+
 const items = [
     {
         
