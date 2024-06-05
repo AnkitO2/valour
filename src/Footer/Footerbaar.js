@@ -1,13 +1,19 @@
 import React from "react";
 import "./Footerbaar.css";
-import { Row, Col, Container, Card, CardBody, CardTitle, CardText } from "reactstrap";
+import {
+  Row,
+  Col,
+  Container,
+  Card,
+  CardBody,
+  CardTitle,
+  CardText
+} from "reactstrap";
 import { ArrowRight, Mail } from "feather-icons-react/build/IconComponents";
 
 export const Footerbaar = () => {
   return (
-
     <Container fluid className="bg-dark">
-
       <Row className="mt-3 p-5 rounded">
         <Col lg={3} md={6} sm={12}>
           <h4 className="text-white  d-flex justify-content-start mt-5">
@@ -158,9 +164,7 @@ export const Footerbaar = () => {
           </h4>
           <Card className="bg-dark text-white mt-5">
             <CardBody>
-              <CardTitle>
-                Get in touch with us
-              </CardTitle>
+              <CardTitle>Get in touch with us</CardTitle>
               <CardText>
                 <h3>+91-6307362799</h3>
                 <h3>+91-9305963599</h3>
@@ -169,17 +173,13 @@ export const Footerbaar = () => {
                   <Mail />
                   emailvalour@rediffmail.com
                 </div>
-                <pre>
-                  Free Consultation
-                </pre>
+                <pre>Free Consultation</pre>
                 <pre>Customers Rating</pre>
               </CardText>
             </CardBody>
           </Card>
         </Col>
       </Row>
-
     </Container>
-
   );
 };
