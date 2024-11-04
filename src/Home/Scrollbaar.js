@@ -98,7 +98,7 @@ export const Scrollbaar = args => {
         <Col lg={12} md={12} sm={12}>
           <style>
             {`.custom-tag {
-              width: 200px;
+              width:300px;
               height: 500px;
               background: red;
             }`}
